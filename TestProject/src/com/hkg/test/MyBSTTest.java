@@ -11,6 +11,8 @@ public class MyBSTTest {
 		root = put(root, 6);
 		printTreeInorder(root);
 		System.out.println(" Size of tree is: "+ size(root));
+		root = delete(root, 4);
+		printTreeInorder(root);
 		
 	}
 	
@@ -22,6 +24,35 @@ public class MyBSTTest {
 	        root.N = 1 + size(root.left) + size(root.right);
 	        return root;
 	}
+	
+	public static Node delete(Node root, Integer value){
+		 if (root == null) return null;
+	        if      (value < root.value) root.left  = delete(root.left,  value);
+	        else if (value > root.value) root.right = delete(root.right, value);
+	        else { 
+	            if (root.right == null) return root.left;
+	            if (root.left  == null) return root.right;
+	            Node t = root;
+	            root = min(t.right);
+	            root.right = deleteMin(t.right);
+	            root.left = t.left;
+	        } 
+	        root.N = size(root.left) + size(root.right) + 1;
+	        return root;
+	}
+	
+	public static Node deleteMin(Node x) {
+        if (x.left == null) return x.right;
+        x.left = deleteMin(x.left);
+        x.N = size(x.left) + size(x.right) + 1;
+        return x;
+    }
+
+	
+	 public static Node min(Node x) { 
+	        if (x.left == null) return x; 
+	        else                return min(x.left); 
+	    } 
 	
 	public static int size(Node x) {
         if (x == null) return 0;

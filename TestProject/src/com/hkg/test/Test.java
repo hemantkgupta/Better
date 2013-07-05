@@ -1,6 +1,8 @@
 package com.hkg.test;
 
-import java.io.File;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.ListIterator;
 
 public class Test {
 	public static boolean isUniqueChars(String str) {
@@ -22,6 +24,18 @@ public class Test {
 		String[] words = {"abcae", "hello", "apple", "kite", "padle"};
 		for (String word : words) {
 			System.out.println(word + ": " + isUniqueChars(word));
+		}	
+		List<Integer> l  = new LinkedList<Integer>();
+		l.add(4);
+		l.add(5);
+		l.add(6);
+		l.add(7);
+		l.add(8);
+		
+		ListIterator<Integer> reverse = l.listIterator(l.size());
+		
+		while(reverse.hasPrevious()){
+		System.out.println(reverse.previous());
 		}
 	}
 
