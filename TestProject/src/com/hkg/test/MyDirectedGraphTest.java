@@ -30,7 +30,7 @@ class Digraph{
 	public Digraph() {
 		
 		try {
-			Scanner s = new Scanner(new File("D:/MyGitRepo/Job/TestProject/src/com/hkg/test/tinyDG.txt"));
+			Scanner s = new Scanner(new File("D:/MyGitRepo/Job/TestProject/src/com/hkg/test/tinyDGNoCycle.txt"));
         	this.v = new Integer(s.nextLine());
         	this.e = new Integer(s.nextLine());
         	adj = (LinkedList<Integer>[]) new LinkedList[v];

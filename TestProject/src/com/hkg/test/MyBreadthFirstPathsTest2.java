@@ -4,14 +4,14 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
 
-public class MyBreadFirstPathsTest {
+public class MyBreadthFirstPathsTest2 {
     private static final int INFINITY = Integer.MAX_VALUE;
     private boolean[] marked;  // marked[v] = is there an s-v path
     private int[] edgeTo;      // edgeTo[v] = previous edge on shortest s-v path
     private int[] distTo;      // distTo[v] = number of edges shortest s-v path
 
     // single source
-    public MyBreadFirstPathsTest(Graph G, int s) {
+    public MyBreadthFirstPathsTest2(Graph G, int s) {
         marked = new boolean[G.v];
         distTo = new int[G.v];
         edgeTo = new int[G.v];
@@ -21,7 +21,7 @@ public class MyBreadFirstPathsTest {
     }
 
     // multiple sources
-    public MyBreadFirstPathsTest(Graph G, Iterable<Integer> sources) {
+    public MyBreadthFirstPathsTest2(Graph G, Iterable<Integer> sources) {
         marked = new boolean[G.v];
         distTo = new int[G.v];
         edgeTo = new int[G.v];
@@ -142,10 +142,11 @@ public class MyBreadFirstPathsTest {
 
     // test client
     public static void main(String[] args) {
-        Graph G = new Graph(10,15);
+        //Graph G = new Graph(10,15);
+        Graph G = new Graph();
         // System.out.println(G);
 
-        MyBreadFirstPathsTest bfs = new MyBreadFirstPathsTest(G, 0);
+        MyBreadthFirstPathsTest2 bfs = new MyBreadthFirstPathsTest2(G, 0);
         
         for (int i = 0; i < G.v; i++) {
             if (bfs.hasPathTo(i)) {

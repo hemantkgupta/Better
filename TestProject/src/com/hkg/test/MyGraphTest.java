@@ -1,12 +1,17 @@
 package com.hkg.test;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.Scanner;
 import java.util.Set;
 
 public class MyGraphTest {
 
 	public static void main(String[] args) {
-		Graph g = new Graph(5, 11);
+		//Graph g = new Graph(5, 11);
+		Graph g = new Graph();
 		System.out.println(g.toString());
 	}
 }
@@ -71,5 +76,29 @@ class Graph{
 	            s.append(NEWLINE);
 	        }
 	        return s.toString();
+	    }
+	 
+	 public Graph() {
+			
+			try {
+				Scanner s = new Scanner(new File("D:/MyGitRepo/Job/TestProject/src/com/hkg/test/tinyG.txt"));
+	        	this.v = new Integer(s.nextLine());
+	        	this.e = new Integer(s.nextLine());
+	        	adj = (Set<Integer>[]) new Set[v];
+	 	        for (int i = 0; i < v; i++) {
+	 	            adj[i] = new HashSet<Integer>();
+	 	        }
+	            while (s.hasNextLine()) {
+	            	String line = s.nextLine();
+	            	line = line.trim();
+	            	String[] vers = line.split("\\p{javaWhitespace}+");
+	                int ver1 = new Integer(vers[0]);
+	                int ver2 = new Integer(vers[1]);
+	                addEdge(ver1, ver2);
+	            }
+	        } catch (IOException e) {
+	            System.err.println(e);
+	            System.exit(1);
+	        }       
 	    }
 }

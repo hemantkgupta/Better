@@ -45,15 +45,15 @@ public class MyDepthFirstPathsTest {
     }
 
     // depth first search from v
-    private void dfs(Graph G, int v) {
-        marked[v] = true;
-        for (int w : G.adj(v)) {
-            if (!marked[w]) {
-                edgeTo[w] = v;
-                dfs(G, w);
-            }
-        }
-    }
+	    private void dfs(Graph G, int v) {
+	        marked[v] = true;
+	        for (int w : G.adj(v)) {
+	            if (!marked[w]) {
+	                edgeTo[w] = v;
+	                dfs(G, w);
+	            }
+	        }
+	    }
 
     // is there a path between s and v?
     public boolean hasPathTo(int v) {
