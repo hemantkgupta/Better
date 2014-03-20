@@ -1,0 +1,44 @@
+public class SimpleOperations {
+
+	public static void main(String[] args) {
+
+		Node root = new Node(5);
+		Node n1 = new Node(4);
+		root.next = n1;
+		Node n2 = new Node(3);
+		n1.next = n2;
+		Node n3 = new Node(2);
+		n2.next = n3;
+		Node n4 = new Node(1);
+		n3.next = n4;
+
+		System.out.println(getNthNode(root, 4).data);
+	}
+
+	public static Node getNthNode(Node root, int n) {
+		if (n <= 0 | root == null)
+			return null; // Not exist the node
+		if (n == 1)
+			return root;
+		Node tmp = root;
+		for (int i = 1; i < n; i++) {
+			if (tmp.next == null)
+				return null;
+			tmp = tmp.next;
+		}
+		return tmp;
+	}
+
+}
+
+class Node {
+	int data;
+	Node next;
+
+	public Node(int data) {
+		super();
+		this.data = data;
+		this.next = null;
+	}
+
+}
