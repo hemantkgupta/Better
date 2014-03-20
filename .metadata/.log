@@ -1,0 +1,104 @@
+!SESSION 2014-03-19 12:35:07.669 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product -data /media/Hemant/GitRepos/Job -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-03-19 12:36:33.849
+!MESSAGE Could not transfer metadata org.codehaus.mojo:tomcat-maven-plugin/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): null to http://repo.maven.apache.org/maven2/org/codehaus/mojo/tomcat-maven-plugin/maven-metadata.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-03-19 12:36:33.862
+!MESSAGE Failure to transfer org.codehaus.mojo:tomcat-maven-plugin/maven-metadata.xml from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer metadata org.codehaus.mojo:tomcat-maven-plugin/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): null to http://repo.maven.apache.org/maven2/org/codehaus/mojo/tomcat-maven-plugin/maven-metadata.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-03-19 12:36:33.864
+!MESSAGE Failure to transfer org.codehaus.mojo:tomcat-maven-plugin/maven-metadata.xml from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer metadata org.codehaus.mojo:tomcat-maven-plugin/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): null to http://repo.maven.apache.org/maven2/org/codehaus/mojo/tomcat-maven-plugin/maven-metadata.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-03-19 12:36:34.720
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-03-19 12:36:34.894
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-03-19 12:36:49.856
+!MESSAGE Failure to transfer org.codehaus.mojo:tomcat-maven-plugin/maven-metadata.xml from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer metadata org.codehaus.mojo:tomcat-maven-plugin/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): null to http://repo.maven.apache.org/maven2/org/codehaus/mojo/tomcat-maven-plugin/maven-metadata.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-03-19 12:36:49.857
+!MESSAGE Failure to transfer org.codehaus.mojo:tomcat-maven-plugin/maven-metadata.xml from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer metadata org.codehaus.mojo:tomcat-maven-plugin/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): null to http://repo.maven.apache.org/maven2/org/codehaus/mojo/tomcat-maven-plugin/maven-metadata.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-03-19 12:36:49.858
+!MESSAGE Failure to transfer org.codehaus.mojo:tomcat-maven-plugin/maven-metadata.xml from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer metadata org.codehaus.mojo:tomcat-maven-plugin/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): null to http://repo.maven.apache.org/maven2/org/codehaus/mojo/tomcat-maven-plugin/maven-metadata.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-03-19 12:36:50.110
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-03-19 12:36:50.116
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-03-19 12:36:50.456
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-03-19 12:36:50.460
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-03-19 12:36:50.500
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-03-19 12:36:50.503
+!MESSAGE Failed to retrieve plugin descriptor for org.apache.maven.plugins:maven-compiler-plugin:3.0: Plugin org.apache.maven.plugins:maven-compiler-plugin:3.0 or one of its dependencies could not be resolved: Failed to read artifact descriptor for org.apache.maven.plugins:maven-compiler-plugin:jar:3.0
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-03-19 12:36:53.885
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-03-19 12:36:53.891
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jface 2 0 2014-03-19 17:57:33.732
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-03-19 17:57:33.732
+!MESSAGE A conflict occurred for CTRL+D:
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.debug.ui.commands.eof,EOF,
+		Send end of file,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@199c353,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.console,,,system)
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.delete.line,Delete Line,
+		Delete a line of text,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@16b90fa,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+!SESSION 2014-03-20 13:34:04.507 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2014-03-20 13:55:59.391
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-03-20 13:55:59.391
+!MESSAGE A conflict occurred for CTRL+D:
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.debug.ui.commands.eof,EOF,
+		Send end of file,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1d99fc6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.console,,,system)
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.delete.line,Delete Line,
+		Delete a line of text,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1ac7e38,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
