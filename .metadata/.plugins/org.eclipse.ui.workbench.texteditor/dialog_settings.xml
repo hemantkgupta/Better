@@ -13,11 +13,19 @@
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="System.out.println" key="selection"/>
+		<item value="Set" key="selection"/>
 		<list key="findhistory">
+			<item value="List"/>
+			<item value="Set"/>
+			<item value="Bag"/>
+			<item value="-&gt;"/>
 			<item value="printf"/>
 		</list>
 		<list key="replacehistory">
+			<item value="Set"/>
+			<item value=""/>
+			<item value="List"/>
+			<item value="."/>
 			<item value="System.out.println"/>
 		</list>
 	</section>

@@ -1,0 +1,124 @@
+public class BSTSimpleOperations {
+
+	public static void main(String[] args) {
+		BNode root = new BNode(5);
+		root.left = new BNode(3);
+		root.right = new BNode(9);
+		root.left.left = new BNode(1);
+		root.left.right = new BNode(4);
+		root.right.left = new BNode(6);
+
+		// System.out.println("The tree is BST: "+ isBST(root));
+		// System.out.println("The minimum value in BST is: "+ minvalue(root));
+		// System.out.println("The maximum value in BST is: "+ maxvalue(root));
+		// System.out.println("The BST is: ");
+		printInorder((root));
+	}
+
+	/*
+	 * Returns true if the given tree is a binary search tree (efficient
+	 * version).
+	 */
+	public static boolean isBST(BNode node) {
+		return (isBSTUtil(node, Integer.MIN_VALUE, Integer.MAX_VALUE));
+	}
+
+	/*
+	 * Returns true if the given tree is a BST and its values are >= min and <=
+	 * max.
+	 */
+	public static boolean isBSTUtil(BNode node, int min, int max) {
+
+		/* an empty tree is BST */
+		if (node == null)
+			return true;
+
+		/* false if this node violates the min/max constraint */
+		if (node.data < min || node.data > max)
+			return false;
+
+		/*
+		 * otherwise check the subtrees recursively, tightening the min or max
+		 * constraint
+		 */
+		return isBSTUtil(node.left, min, node.data - 1)
+				&& isBSTUtil(node.right, node.data + 1, max); // Allow only
+																// distinct
+																// values
+	}
+
+	/*
+	 * Given a non-empty binary search tree, return the minimum data value found
+	 * in that tree. Note that the entire tree does not need to be searched.
+	 */
+	public static int minvalue(BNode node) {
+		BNode current = node;
+		while (current.left != null) {
+			current = current.left;
+		}
+		return current.data;
+	}
+
+	/*
+	 * Given a non-empty binary search tree, return the maximum data value found
+	 * in that tree. Note that the entire tree does not need to be searched.
+	 */
+	public static int maxvalue(BNode node) {
+		BNode current = node;
+		while (current.right != null) {
+			current = current.right;
+		}
+		return current.data;
+	}
+
+	/*
+	 * Given a binary search tree, print out its data elements in increasing
+	 * sorted order.
+	 */
+	public static void printInorder(BNode node) {
+		if (node == null)
+			return;
+
+		printInorder(node.left);
+		System.out.format("%d ", node.data);
+		printInorder(node.right);
+	}
+
+	/*
+	 * Given a tree and a sum, return true if there is a path from the root down
+	 * to a leaf, such that adding up all the values along the path equals the
+	 * given sum. Strategy: subtract the node value from the sum when recurring
+	 * down, and check to see if the sum is 0 when you run out of tree.
+	 */
+	public static boolean paths(int sumupTo, BNode root, int sum) {
+
+		if (root.left == null && root.right == null && sumupTo == sum) {
+			return true;
+		}
+		if (root.left != null && sumupTo + root.left.data <= sum) {
+			if (paths(sumupTo + root.left.data, root.left, sum))
+				return true;
+		}
+		if (root.right != null && sumupTo + root.right.data <= sum) {
+			if (paths(sumupTo + root.right.data, root.right, sum))
+				return true;
+		}
+		return false;
+
+	}
+
+	public static boolean hasPathSum(BNode node, int sum) {
+
+		// return true if we run out of tree and sum==0
+		if (node == null) {
+			return (sum == 0);
+		} else {
+			// otherwise check both subtrees
+			int subSum = sum - node.data;
+			return (hasPathSum(node.left, subSum) || hasPathSum(node.right,
+					subSum));
+		}
+
+	}
+
+}
