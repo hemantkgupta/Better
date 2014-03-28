@@ -5,8 +5,8 @@ public class MajorityElement {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		int a[] = {1, 3, 3, 3, 2};
-		printMajority(a, 5);
+		int a[] = {1, 3, 3, 3, 2, 4, 1};
+		printMajority(a, a.length);
 	}
 	
 	public static void printMajority(int[] a, int size)
@@ -25,10 +25,12 @@ public class MajorityElement {
 	    int i;
 	    for(i = 1; i < size; i++)
 	    {
-	        if(a[maj_index] == a[i])
+	        if(a[maj_index] == a[i]){
 	            count++;
-	        else
+	        } 
+	        else{
 	            count--;
+	        }
 	        if(count == 0)
 	        {
 	            maj_index = i;

@@ -1,0 +1,33 @@
+
+public class FindRotation {
+
+	public static void main(String[] args) {
+
+	}
+	
+	public static int FindRotation(int[] rotates){
+		
+		int start = 0;
+		int end =  rotates.length-1;
+		while(start<end)
+		{				
+			if(rotates[start] < rotates[end])
+				return end+1;
+			else
+			{
+				
+				int mid = (start+end)/2;
+				
+				if(rotates[start]<=rotates[mid] && rotates[mid+1]<=rotates[end])
+					return mid+1;
+				else if(rotates[start]<=rotates[mid])
+					start = mid+1;
+				else
+					end = mid - 1;
+			}
+		}
+		
+		return -1;
+	}
+
+}

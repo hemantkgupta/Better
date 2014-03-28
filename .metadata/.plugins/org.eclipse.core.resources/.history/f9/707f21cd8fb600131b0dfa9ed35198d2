@@ -1,0 +1,20 @@
+
+public class PathSumTest {
+
+	public static void main(String[] args) {
+
+	}
+	
+	public static boolean hasPathSum(BNode node, int sum) {
+		
+		if (node == null) {
+			return (sum == 0);
+		} else {
+			int subSum = sum - node.data;
+			return (hasPathSum(node.left, subSum) || hasPathSum(node.right,
+					subSum));
+		}
+
+	}
+
+}

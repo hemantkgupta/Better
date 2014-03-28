@@ -32,7 +32,7 @@ public class Question {
 			if (letters[c] == 0) {
 				++num_completed_t;
 				if (num_completed_t == num_unique_chars) {
-					// it’s a match if t has been processed completely
+					// its a match if t has been processed completely
 					return true;
 					//return i == t.length() - 1;
 				}

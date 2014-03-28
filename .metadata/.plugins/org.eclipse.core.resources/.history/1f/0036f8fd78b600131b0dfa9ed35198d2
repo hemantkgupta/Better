@@ -1,0 +1,26 @@
+
+public class GetMiddleOfList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static Node middleNode(Node root) {
+
+		Node tmp = root;
+		Node tmp2 = root;
+
+		while (tmp2 != null) {
+			if (tmp2.next == null || tmp2.next.next == null)
+				break;
+			tmp2 = tmp2.next.next;
+			tmp = tmp.next;
+		}
+
+		return tmp;
+
+	}
+
+
+}
