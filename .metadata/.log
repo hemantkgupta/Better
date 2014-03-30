@@ -756,3 +756,31 @@ Binding(CTRL+D,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.textEditorScope,,,system)
+!SESSION 2014-03-30 14:21:18.793 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-03-30 14:22:19.578
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-03-30 14:22:19.609
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-03-30 14:22:19.833
+!MESSAGE Failure to transfer org.codehaus.mojo:tomcat-maven-plugin/maven-metadata.xml from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer metadata org.codehaus.mojo:tomcat-maven-plugin/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): null to http://repo.maven.apache.org/maven2/org/codehaus/mojo/tomcat-maven-plugin/maven-metadata.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-03-30 14:22:19.838
+!MESSAGE Failure to transfer org.codehaus.mojo:tomcat-maven-plugin/maven-metadata.xml from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer metadata org.codehaus.mojo:tomcat-maven-plugin/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): null to http://repo.maven.apache.org/maven2/org/codehaus/mojo/tomcat-maven-plugin/maven-metadata.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-03-30 14:22:19.841
+!MESSAGE Failure to transfer org.codehaus.mojo:tomcat-maven-plugin/maven-metadata.xml from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer metadata org.codehaus.mojo:tomcat-maven-plugin/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): null to http://repo.maven.apache.org/maven2/org/codehaus/mojo/tomcat-maven-plugin/maven-metadata.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-03-30 14:22:20.000
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-03-30 14:22:20.003
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!

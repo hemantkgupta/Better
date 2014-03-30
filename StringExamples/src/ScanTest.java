@@ -1,3 +1,4 @@
+import java.util.Comparator;
 import java.util.Scanner;
 
 public class ScanTest {
@@ -41,14 +42,4 @@ class Moof {
 	}
 }
 
-class DVDInfo implements Comparable<DVDInfo> {
-	public int compareTo(DVDInfo d) {
-		return title.compareTo(d.getTitle());
-	}
-}
 
-class GenreSort implements Comparator<DVDInfo> {
-	public int compare(DVDInfo one, DVDInfo two) {
-		return one.getGenre().compareTo(two.getGenre());
-	}
-}
