@@ -1,0 +1,65 @@
+public class ConvertToChildrenSum {
+
+	public static void main(String[] args) {
+BNode root = new BNode(10);
+		
+		root.left = new BNode(8);
+		root.right = new BNode(3);
+		
+		root.left.left = new BNode(3);
+		root.left.right = new BNode(5);
+		root.right.left = new BNode(2);
+	}
+
+	public static void convertTree(BNode BNode) {
+		int left_data = 0, right_data = 0, diff;
+
+		if (BNode == null || (BNode.left == null && BNode.right == null))
+			return;
+		else {
+
+			convertTree(BNode.left);
+			convertTree(BNode.right);
+
+			/*
+			 * If left child is not present then 0 is used as data of left child
+			 */
+			if (BNode.left != null)
+				left_data = BNode.left.data;
+
+			/*
+			 * If right child is not present then 0 is used as data of right
+			 * child
+			 */
+			if (BNode.right != null)
+				right_data = BNode.right.data;
+
+			/* get the diff of BNode's data and children sum */
+			diff = left_data + right_data - BNode.data;
+
+			/* If BNode's children sum is greater than the BNode's data */
+			if (diff > 0)
+				BNode.data = BNode.data + diff;
+
+			/*
+			 * THIS IS TRICKY -. If BNode's data is greater than children sum,
+			 * then increment subtree by diff
+			 */
+			if (diff < 0)
+				increment(BNode, -diff); // -diff is used to make diff positive
+		}
+	}
+
+	/* This function is used to increment subtree by diff */
+	public static void increment(BNode BNode, int diff) {
+	
+		if (BNode.left != null) {
+			BNode.left.data = BNode.left.data + diff;
+			increment(BNode.left, diff);
+		} else if (BNode.right != null) {
+			BNode.right.data = BNode.right.data + diff;
+			increment(BNode.right, diff);
+		}
+	}
+
+}

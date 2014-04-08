@@ -55,10 +55,6 @@ public class BSTSimpleOperations {
 																// values
 	}
 
-	/*
-	 * Given a non-empty binary search tree, return the minimum data value found
-	 * in that tree. Note that the entire tree does not need to be searched.
-	 */
 	public static int minvalue(BNode node) {
 		BNode current = node;
 		while (current.left != null) {
@@ -67,10 +63,6 @@ public class BSTSimpleOperations {
 		return current.data;
 	}
 
-	/*
-	 * Given a non-empty binary search tree, return the maximum data value found
-	 * in that tree. Note that the entire tree does not need to be searched.
-	 */
 	public static int maxvalue(BNode node) {
 		BNode current = node;
 		while (current.right != null) {
@@ -79,10 +71,7 @@ public class BSTSimpleOperations {
 		return current.data;
 	}
 
-	/*
-	 * Given a binary search tree, print out its data elements in increasing
-	 * sorted order.
-	 */
+	
 	public static void printInorder(BNode node) {
 		if (node == null)
 			return;

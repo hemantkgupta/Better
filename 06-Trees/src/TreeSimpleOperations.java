@@ -59,17 +59,14 @@ public class TreeSimpleOperations {
 	}
 
 	public static boolean identicalTrees(BNode a, BNode b) {
-		/* 1. both empty */
 		if (a == null && b == null)
 			return true;
 
-		/* 2. both non-empty . compare them */
 		if (a != null && b != null) {
-			return (a.data == b.data && identicalTrees(a.left, b.left) && identicalTrees(
-					a.right, b.right));
+			return (a.data == b.data &&
+					identicalTrees(a.left, b.left) &&
+					identicalTrees(a.right, b.right));
 		}
-
-		/* 3. one empty, one not . false */
 		return false;
 	}
 
@@ -127,26 +124,7 @@ public class TreeSimpleOperations {
 			return rheight + 1;
 	}
 
-	/* Function to print level order traversal a tree */
-	public static void printLevelOrder(BNode root) {
-		/*
-		 * int h = height(root); for (int i = 1; i <= h; i++)
-		 * printGivenLevel(root, i);
-		 */
-	}
-
-	/* Print nodes at a given level */
-	public static void printGivenLevel(BNode root, int level) {
-		if (root == null)
-			return;
-		if (level == 1)
-			System.out.format("%d ", root.data);
-		else if (level > 1) {
-			printGivenLevel(root.left, level - 1);
-			printGivenLevel(root.right, level - 1);
-		}
-	}
-
+	
 	/* Function to count leaf nodes in a tree */
 	public static int countLeafNodes(BNode root) {
 		if (root == null)

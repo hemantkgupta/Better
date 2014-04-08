@@ -1,8 +1,15 @@
 public class ChildrenSumPropertyTest {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		BNode root = new BNode(10);
+		
+		root.left = new BNode(8);
+		root.right = new BNode(2);
+		
+		root.left.left = new BNode(3);
+		root.left.right = new BNode(5);
+		root.right.left = new BNode(2);
+		System.out.println(childrenSumProperty(root));
 	}
 
 	public static boolean childrenSumProperty(BNode root) {
