@@ -81,17 +81,10 @@ public class BSTSimpleOperations {
 		printInorder(node.right);
 	}
 
-	/*
-	 * Given a tree and a sum, return true if there is a path from the root down
-	 * to a leaf, such that adding up all the values along the path equals the
-	 * given sum. Strategy: subtract the node value from the sum when recurring
-	 * down, and check to see if the sum is 0 when you run out of tree.
-	 */
 	public static boolean hasPathSum(BNode node, int sum) {
 		if (node == null) {
 			return (sum == 0);
 		} else {
-			// otherwise check both subtrees
 			int subSum = sum - node.data;
 			return (hasPathSum(node.left, subSum) || hasPathSum(node.right,
 					subSum));
@@ -166,20 +159,39 @@ public class BSTSimpleOperations {
 	 then use. 
 	*/ 
 	public static BNode insert(BNode node, int data) { 
-	  // 1. If the tree is empty, return a new, single node 
 	  if (node == null) { 
 	    return(new BNode(data)); 
 	  } 
 	  else { 
-	    // 2. Otherwise, recur down the tree 
 	    if (data <= node.data) 
 	    	node.left = insert(node.left, data); 
 	    else 
 	    	node.right = insert(node.right, data);
 
-	    return node; // return the (unchanged) node pointer 
+	    return node;
 	  } 
 	} 
+	
+	public static void insertIter(BNode node, int data) { 
+		  BNode parent = null;
+		  BNode current = node;
+		  while(current!= null){
+			  parent = current;
+			 if(data < current.data){				 
+				 current =current.left;
+			 }else {				 
+				 current =current.right;
+			 }
+		  }		  
+		  if (parent == null){
+			  node = new BNode(data);
+		  } else if (data < parent.data){
+			  parent.left = current;
+		  } else {
+			  parent.right = current;
+		  }
+	
+		} 
 	
 	/*private BNode delete(BNode x, int key) {
 		if (x == null)

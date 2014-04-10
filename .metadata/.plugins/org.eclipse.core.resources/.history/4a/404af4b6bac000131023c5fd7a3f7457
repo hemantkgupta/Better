@@ -1,0 +1,20 @@
+
+public class InorderSuccessorAllNodes {
+
+	public static void main(String[] args) {
+
+	}
+	
+	public static void addInorderLink(TBNode tree){
+		TBNode temp = null;
+		if (tree =! null){
+			addInorderLink(tree.right);
+			tree.next = temp;
+			temp = tree;
+			addInorderLink(tree.left);
+		}
+		
+		
+	}
+
+}

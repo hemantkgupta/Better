@@ -1,0 +1,34 @@
+
+public class TrieTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public  static void insert(TrieNode root, String word) {
+        int val = word.charAt(0) - 64;
+
+        //if the value of the child node at val is null, make a new node
+                //there to represent the letter
+        if (root.c[val] == null) {
+            c[val] = new TrieNode();
+        }
+
+        //if word length > 1, then word is not finished being added.
+        //otherwise, set the flag to true so we know a word ends there.
+        if (word.length() > 1) {
+            c[val].insert(word.substring(1));
+        } else {
+            c[val].flag = true;
+        }
+    }
+
+}
+
+class TrieNode{
+	//make child nodes
+    public TrieNode[] c;
+    //flag for end of word
+    public boolean flag = false;
+}

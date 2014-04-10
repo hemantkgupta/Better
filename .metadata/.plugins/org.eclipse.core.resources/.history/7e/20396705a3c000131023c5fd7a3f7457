@@ -1,0 +1,37 @@
+
+public class SubTreeTest {
+
+	public static void main(String[] args) {
+
+	}
+	
+	public static boolean subtree(BNode tree1, BNode tree2) {
+		if (tree1 == null && tree2 == null)
+			return true;
+		
+		if (tree1 == null || tree2 == null)
+			return false;
+
+		boolean result =  identicalTrees(tree1, tree2);
+		if (!result)
+			result = subtree(tree1.left, tree2);
+		if (!result)
+			result =  subtree(tree1.right, tree2);
+		return result;
+	}
+
+	
+	public static boolean identicalTrees(BNode a, BNode b) {
+		if (a == null && b == null)
+			return true;
+
+		if (a != null && b != null) {
+			return (a.data == b.data &&
+					identicalTrees(a.left, b.left) &&
+					identicalTrees(a.right, b.right));
+		}
+		return false;
+	}
+
+
+}

@@ -1,0 +1,34 @@
+
+public class BuildTreeInPre {
+
+	public static void main(String[] args) {
+		int[] in = {4,2,5,1,6,3};
+		int[] pre = {1,2,4,5,3,6};
+		BNode root = buildTree(in, pre);
+	}
+	
+	public static BNode buildTree(int[] in, int[] pre){
+		BNode root = null;
+		return build(root, in, 0, in.length-1, pre, 0, pre.length-1);
+	}
+	
+	public static BNode build (BNode root, int[] in, int inStart, int inEnd, int[] pre, int preStart, int preEnd){
+		int rootData = pre[preStart];
+		root = new BNode(rootData);
+		
+		int rootIndexIn=-1;
+		for (int i = 0; i< in.length;i++){
+			if (in[i] == rootData){
+				rootIndexIn=i;
+				break;
+			}
+		}
+		
+		root.left = build(root.left,in, inStart, rootIndexIn-1, pre, preStart+1,preStart+rootIndexIn);
+		root.right = build(root.right,in, rootIndexIn, inEnd, pre, preStart+rootIndexIn+1,preEnd );
+		
+		
+		return null;
+	}
+
+}

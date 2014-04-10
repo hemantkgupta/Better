@@ -1,0 +1,29 @@
+
+public class BuildSpecialTreeFromInorder {
+
+	public static void main(String[] args) {
+		int[] in = {1, 5, 10, 40, 30, 15, 28, 20};
+		BNode root = null;
+		root = build(root, in, 0, in.length-1);
+		
+	}
+	
+	public static BNode build(BNode root, int[] in, int start, int end){
+		
+		int maxIndex = indexOfMax(in, start, end);
+		root = new BNode(in[maxIndex]);
+		
+		return root;
+	}
+	
+	public static int indexOfMax(int[] in, int start, int end){
+		int max = start;
+		for (int i = start+1; i <= end; i++) {
+			if (in[i] > in[max]){
+				max = i;
+			}
+		}
+		return max;	
+	}
+
+}
