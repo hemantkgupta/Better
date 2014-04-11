@@ -1,0 +1,27 @@
+
+public class MinAvgTwoSlice {
+
+	public static void main(String[] args) {
+
+	}
+	
+	public static void test(){
+		int[] ar = {3,4,-6,2,-1,3,4,2,3};
+		int start = 0;
+		int oldStart = 0;
+		float oldAvg = (3+4)/2;
+		float currentAvg = (3+4)/2;
+		int currentSum = 3+4;
+		for (int i=2; i < ar.length;i++){
+			if (ar[i] < currentAvg){				
+				currentSum = currentSum + ar[i];
+			} else {
+				oldStart = start;
+				start = i;
+			}
+			
+		}
+		
+	}
+
+}

@@ -1,0 +1,25 @@
+import java.util.NavigableMap;
+import java.util.SortedMap;
+import java.util.TreeMap;
+
+
+public class Solution {
+     public static void main(String[] args) {
+    	 int[] A = {2,4,6,3,4,2};
+		System.out.println(solution(A));
+	}
+	
+	public static int solution(int[] A) {
+        // write your code in Java SE 7
+         NavigableMap<Integer, Integer> map = new TreeMap<Integer, Integer>();
+         map.put(A[0], 0);
+        for (int i = 1; i< A.length; i++){
+            int value = A[i];
+            SortedMap<Integer, Integer>lower = map.tailMap(value);
+            System.out.println(lower);
+            
+        }
+        
+        return 1;
+    }
+}

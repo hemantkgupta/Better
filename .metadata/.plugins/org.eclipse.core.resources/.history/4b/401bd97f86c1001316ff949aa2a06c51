@@ -1,0 +1,37 @@
+
+public class PassingCars {
+
+	public static void main(String[] args) {
+		int[] A = {0,1,0,1,1};
+	}
+	
+	public static int solution(int[] A) {
+		int n = A.length;
+		int result = 0;
+		int zeros = 0;
+		int ones = 0;
+		if(A[0]== 0){
+			zeros++;
+		}else{
+			ones++;
+		}
+		for (int i = 1; i < n ; i++) {
+			int current = A[i];
+			
+				if(current == 0){
+					result = result + ones;
+					zeros++;
+				}else {
+					result = result + zeros;
+					ones++;
+				}
+				
+				if (A[i-1] != current){
+					result++;
+				}	
+			}		
+		
+		return result;
+    }
+
+}

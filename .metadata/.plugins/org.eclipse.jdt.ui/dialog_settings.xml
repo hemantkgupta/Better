@@ -41,11 +41,25 @@
 	</section>
 	<section name="RenameInformationPopup">
 	</section>
+	<section name="SourceActionDialog.methods">
+		<item value="false" key="Comments"/>
+		<item value="false" key="InstanceOf"/>
+		<item value="false" key="SynchronizedModifier"/>
+		<item value="false" key="Blocks"/>
+		<item value="false" key="FinalModifier"/>
+	</section>
 	<section name="DialogBounds_GenerateConstructorUsingFieldsSelectionDialog">
 		<item value="632" key="DIALOG_WIDTH"/>
 		<item value="0" key="DIALOG_Y_ORIGIN"/>
 		<item value="744" key="DIALOG_HEIGHT"/>
 		<item value="335" key="DIALOG_X_ORIGIN"/>
+		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="DialogBounds_GenerateHashCodeEqualsDialog">
+		<item value="565" key="DIALOG_WIDTH"/>
+		<item value="0" key="DIALOG_Y_ORIGIN"/>
+		<item value="634" key="DIALOG_HEIGHT"/>
+		<item value="369" key="DIALOG_X_ORIGIN"/>
 		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 	</section>
 </section>

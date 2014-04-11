@@ -1,0 +1,19 @@
+
+public class GenomicRangeQuery {
+
+	public static void main(String[] args) {
+
+	}
+	
+	public int[] solution(String S, int[] P, int[] Q) {
+		int N = S.length();
+		int M = P.length;
+		int[] result= new int[M];
+		for ( int i=0; i< M; i++ ){
+			
+		}
+		return result;
+        
+    }
+
+}

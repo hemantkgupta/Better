@@ -1,0 +1,39 @@
+
+public class GenomicRangeQuery {
+
+	public static void main(String[] args) {
+
+	}
+	
+	public int[] solution(String S, int[] P, int[] Q) {
+		int M = P.length;
+		int[] result= new int[M];
+		for ( int i=0; i< M; i++ ){
+				result[i] = findMinInString(S,P[i],Q[i]);
+		}
+		return result;
+        
+    }
+
+	private static int findMinInString(String s, int i, int j) {
+		char[] dst = new char[j-i];
+		s.getChars(i, j, dst, 0);
+		char min = dst[0];
+		for (char c : dst) {
+			if(min > c){
+				min = c;
+			}
+			
+		}
+		int result = 0;
+		switch(min){
+		case 'A': result = 1; break;
+		case 'C': result = 2; break;
+		case 'T': result = 3; break;
+		case 'G': result = 4; break;
+		}
+		System.out.println(result);
+		return result;
+	}
+
+}

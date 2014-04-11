@@ -1,0 +1,27 @@
+
+public class PartitionTest {
+
+	public static void main(String[] args) {
+		int[] A = {3,1,2,4,3};
+		System.out.println(solution(A));
+	}
+	
+	public static int solution(int A[]) {
+		int sum = 0;
+		for (int i = 0; i < A.length; i++) {
+			sum +=A[i];
+		}
+		System.out.println(sum);
+		minDiff = Integer.MAX_VALUE;
+		currentSum = 0;
+		for (int i = 0; i < A.length-1; i++) {
+			currentSum += A[i];
+			if (minDiff < sum -currentSum){
+				minDiff =sum -currentSum;
+			}
+		}
+		return minDiff;
+	   
+	}
+
+}

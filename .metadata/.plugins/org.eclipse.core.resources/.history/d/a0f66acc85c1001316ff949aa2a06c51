@@ -1,0 +1,19 @@
+
+public class PassingCars {
+
+	public static void main(String[] args) {
+		int[] A = {0,1,0,1,1};
+	}
+	
+	public static int solution(int[] A) {
+		int n = A.length;
+		int result = 0;
+		for (int i = 1; i < n ; i++) {
+			
+			
+			
+		}
+		return result;
+    }
+
+}
