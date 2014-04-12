@@ -11,9 +11,32 @@ public class FindTwoElementsWithFixedSum {
 		int[] A = { 1, 4, 45, 6, 10, -8 };
 		int n = 16;
 		// System.out.println(hasArrayTwoCandidates(A,16));
-		printPairs(A, 16);
+		//printPairs(A, 16);
+		System.out.println(Arrays.toString(twoSum(A,16)));
 
 	}
+	
+	public static int[] twoSum(int[] numbers, int target) {
+        int[] result = new int[2];
+        Map<Integer, Integer> map = new HashMap<Integer, Integer>();
+        for (int i = 0; i < numbers.length; i++) {
+            int temp = target - numbers[i];
+            if (map.containsKey(temp)) {
+            	int index1 = i+1;
+                int index2 =  map.get(temp)+1;
+                if(index1 < index2){
+                	result[0] = index1;
+                	result[1] = index2;
+                }else{
+                	result[1] = index1;
+                	result[0] = index2;
+                }
+                
+            }
+            map.put(numbers[i], i);
+        }  
+        return result;
+    }
 
 	public static boolean hasArrayTwoCandidates(int[] A, int sum) {
 

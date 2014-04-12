@@ -25,8 +25,7 @@ public class PermCheck {
 			 }else if (count[A[i]-1] != 0){
 				 return 0;
 			 }
-		 }
-		 
+		 }		 
 		 for (int i=0;i<count.length;i++){
 			 if(count[i] == 1)
 				 return 1;

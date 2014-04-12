@@ -1,0 +1,27 @@
+import java.util.Arrays;
+
+
+public class Beta2010 {
+
+	public static void main(String[] args) {
+		int[] A = {1,5,2,1,4,0};
+		System.out.println(solution(A));
+	}
+	
+	public  static int solution(int[] A) {
+		int len = A.length;
+		int[] lowerBound = new int[len];
+		int[] upperBound = new int[len];
+		for (int i = 0; i < upperBound.length; i++) {
+			lowerBound[i]= i-A[i];
+			upperBound[i] = i+A[i];
+		}
+		Arrays.sort(lowerBound);
+		Arrays.sort(upperBound);
+		System.out.println(Arrays.toString(lowerBound));
+		System.out.println(Arrays.toString(upperBound));
+        
+		return 0;
+    }
+
+}

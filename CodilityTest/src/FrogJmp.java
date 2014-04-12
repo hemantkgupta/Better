@@ -7,13 +7,12 @@ public class FrogJmp {
 	
 	public static int solution(int X, int Y, int D) {
 		if(X==Y){
-			return 1;
+			return 0;
 		}
-		int noOfJumps = 0;
-		for (int i=X; i<=Y;i=i+D ){
-			noOfJumps++;
-		}
-		return noOfJumps;
+		double range = Y-X;
+		double d = D;
+		return (int) Math.ceil(range/d);
+		
 	       
     }
 

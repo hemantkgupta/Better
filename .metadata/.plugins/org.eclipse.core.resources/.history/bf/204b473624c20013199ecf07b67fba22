@@ -1,0 +1,38 @@
+import java.util.Arrays;
+
+
+public class GenomicRangeQuery3 {
+
+	public static void main(String[] args) {
+		String S = "GACACCATA";
+		int[] P = {0, 0, 4, 7 };
+		int[] Q = {8, 2, 5, 7 };
+		System.out.println(Arrays.toString(solution(S, P, Q)));
+	}
+	
+	public static int[] solution(String S, int[] P, int[] Q) {
+		int n = S.length();
+		int[][] count = new int[n][4];
+		
+		for (int i = 0; i < n; i++) {
+			char val = S.charAt(i);
+			switch (val) {	
+				case 'A':
+					count[i][0] = count[i][0]+ 1;
+					break;
+				case 'C':
+					count[i][1] = count[i][1]+ 1;
+					break;
+				case 'G':
+					count[i][2] = count[i][2]+ 1;
+					break;
+				case 'T':
+					count[i][3] = count[i][3]+ 1;
+					break;
+		    }
+		
+		
+		return new int[0];
+	}
+
+}

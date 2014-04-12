@@ -1,0 +1,27 @@
+import java.util.Arrays;
+
+
+public class Triangle {
+
+	public static void main(String[] args) {
+
+	}
+	
+	 public static int solution(int[] A) {
+		 Arrays.sort(A);
+		 int len = A.length;
+		 int first = A[0];
+		 int second = A[len/2];
+		 int third = A[len-1];
+		 int sum = first+second+third;
+		 if (sum > 2 * first && sum > 2* second && sum > 2* third){
+				  return 1;
+			  }
+		
+		 
+		 
+	        return 1;
+	        
+	 }
+
+}
