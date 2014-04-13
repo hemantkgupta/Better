@@ -11,13 +11,17 @@ public class MaxSliceExample {
 	
 	public static int maxSlice(int[] A){
 		
-		int max_ending = 0;
-		int max_slice = 0;
+		int len = A.length;
+		if (len == 1){
+			return A[0];
+		}
+		int maxEndingHere = 0;
+		int maxSlice = Integer.MIN_VALUE;
 		for (int val : A) {
-			max_ending = Math.max(0, max_ending + val);
-			max_slice = Math.max(max_slice, max_ending);
+			maxEndingHere = Math.max(0, maxEndingHere + val);
+			maxSlice = Math.max(maxSlice, maxEndingHere);
 		}	
-		return max_slice;
+		return maxSlice;
 
 	}
 	

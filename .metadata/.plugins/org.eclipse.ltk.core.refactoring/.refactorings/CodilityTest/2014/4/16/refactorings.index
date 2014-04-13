@@ -3,3 +3,5 @@
 1397379041585	Rename local variable 'count'
 1397384408368	Rename local variable 'K1'
 1397384464034	Rename local variable 'K2'
+1397394331978	Rename local variable 'max_ending'
+1397394351562	Rename local variable 'max_slice'
