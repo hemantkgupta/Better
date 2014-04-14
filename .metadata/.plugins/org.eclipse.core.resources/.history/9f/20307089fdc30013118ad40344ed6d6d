@@ -1,0 +1,75 @@
+
+public class SwapWrongNodeBST {
+
+	public static void main(String[] args) {
+		BNode root = new BNode(6);
+	    root.left        = new BNode(10);
+	    root.right       = new BNode(2);
+	    root.left.left  = new BNode(1);
+	    root.left.right = new BNode(3);
+	    root.right.right = new BNode(12);
+	    root.right.left = new BNode(7);
+	}
+	void correctBSTUtil( BNode root, BNode first,
+            BNode middle, BNode last,
+            BNode prev )
+{
+if( root != null )
+{
+// Recur for the left subtree
+correctBSTUtil( root.left, first, middle, last, prev );
+
+// If this node is smaller than the previous node, it's violating
+// the BST rule.
+if (prev && root.data < (prev).data)
+{
+   // If this is first violation, mark these two nodes as
+   // 'first' and 'middle'
+   if ( first == null )
+   {
+       first = prev;
+       middle = root;
+   }
+
+   // If this is second violation, mark this node as last
+   else
+       last = root;
+}
+
+// Mark this node as previous
+prev = root;
+
+// Recur for the right subtree
+correctBSTUtil( root.right, first, middle, last, prev );
+}
+}
+
+//A function to fix a given BST where two nodes are swapped.  This
+//function uses correctBSTUtil() to find out two nodes and swaps the
+//nodes to fix the BST
+void correctBST( BNode root )
+{
+// Initialize pointers needed for correctBSTUtil()
+BNode first, middle, last, prev;
+first = middle = last = prev = null;
+
+// Set the poiters to find out two nodes
+correctBSTUtil( root, first, middle, last, prev );
+
+// Fix (or correct) the tree
+if( first != null && last !=null )
+swap( (first.data), (last.data) );
+else if( first!= null && middle!= null ) // Adjacent nodes swapped
+swap( (first.data), (middle.data) );
+
+// else nodes have not been swapped, passed tree is really BST.
+}
+
+void swap( int a, int b )
+{
+    int t = a;
+    a = b;
+    b = t;
+}
+
+}

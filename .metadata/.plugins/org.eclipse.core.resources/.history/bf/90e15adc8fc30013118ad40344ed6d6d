@@ -1,0 +1,24 @@
+import java.util.Arrays;
+
+
+public class ChocolatesByNumbers {
+
+	public static void main(String[] args) {
+		System.out.println(solution(10,4));
+	}
+	public static int solution(int N, int M){
+		int chocolatesEaten = 0;
+		boolean[] chocolates = new boolean[N];
+		Arrays.fill(chocolates, true);
+		int i=0;
+		while(true){
+			chocolates[i] = false;
+			chocolatesEaten++;
+			int nextToEat = (i+M) % N;
+			if(chocolates[nextToEat]==false)
+				break;
+		}
+		return chocolatesEaten;
+	}
+
+}

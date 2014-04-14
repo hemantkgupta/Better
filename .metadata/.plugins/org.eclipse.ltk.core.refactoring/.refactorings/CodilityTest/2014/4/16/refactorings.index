@@ -5,3 +5,6 @@
 1397384464034	Rename local variable 'K2'
 1397394331978	Rename local variable 'max_ending'
 1397394351562	Rename local variable 'max_slice'
+1397449579176	Rename method 'fibonacci2'
+1397487035799	Rename local variable 'sum_left'
+1397487047970	Rename local variable 'sum_right'
