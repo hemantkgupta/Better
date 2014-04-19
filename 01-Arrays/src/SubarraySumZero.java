@@ -16,10 +16,12 @@ public class SubarraySumZero {
 			if (h.containsValue(-ar[i])) {
 				return true;
 			} else {
+				// update existing sums
 				for (Entry<Integer, Integer> entry : h.entrySet()) {
 					entry.setValue(entry.getValue() + ar[i]);
 
 				}
+				// add new element
 				h.put(i, ar[i]);
 			}
 

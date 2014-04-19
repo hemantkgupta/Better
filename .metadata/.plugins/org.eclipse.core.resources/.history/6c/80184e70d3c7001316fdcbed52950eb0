@@ -1,0 +1,10 @@
+package maxsum.contiguous.subarray;
+
+public class DivideAndConquerTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

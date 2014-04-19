@@ -10,7 +10,6 @@ public class MyCountSort {
 	
 	public static char[] countSort(char[] str)
 	{
-	    // The output character array that will have sorted str
 	    char[] output = new char[str.length];
 	 
 	    // Create a count array to store count of inidividul characters and

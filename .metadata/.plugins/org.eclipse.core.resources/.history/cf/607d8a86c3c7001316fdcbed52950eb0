@@ -1,0 +1,11 @@
+package longest.increasing.subsequence;
+
+public class BetterLIS2 {
+
+	public static void main(String[] args) {
+
+	}
+	
+	
+
+}

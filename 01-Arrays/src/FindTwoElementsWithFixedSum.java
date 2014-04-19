@@ -54,18 +54,6 @@ public class FindTwoElementsWithFixedSum {
 		return false;
 	}
 
-	public static void printPairs(int[] arr, int sum) {
-		int temp;
-		Map<Integer, Integer> map = new HashMap<Integer, Integer>();
-
-		for (int i = 0; i < arr.length; i++) {
-			temp = sum - arr[i];
-			if (map.containsKey(temp)) {
-				System.out.println("The value at index: " + map.get(temp)+ " is: " + temp );
-				System.out.println(" and the value at index: " + i+ " is: " + arr[i]);
-			}
-			map.put(arr[i], i);
-		}
-	}
+	
 
 }

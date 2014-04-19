@@ -1,0 +1,66 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Scanner;
+import java.util.Set;
+
+
+public class LuckyNumber {
+
+	public static void main(String[] args) throws IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        String line = br.readLine();
+        int N = Integer.parseInt(line);
+        List<Integer> src = new ArrayList<Integer>();
+        Scanner s = null;
+        List<HashSet<Integer>> luckdigits = new ArrayList<HashSet<Integer>>();
+        
+        for (int i = 0; i < N; i++) {
+        	 line = br.readLine();
+        	 HashSet<Integer> digits = new HashSet<Integer>();
+        	 s = new Scanner(line);
+             while(s.hasNext()){
+            	 digits.add(s.nextInt());
+             }
+             luckdigits.add(digits);
+             line = br.readLine();
+             src.add(Integer.parseInt(line));
+		}
+        s.close();
+
+	}
+	
+	public static List<String> getResults(List<ArrayList<Integer>> luckdigits, List<Integer> src ){
+		List<String> results = new ArrayList<String>();
+		for (int i = 0; i < src.size(); i++) {
+			List<Integer> digits = luckdigits.get(i);
+			int start = src.get(i);
+			if(digits.size() == 1 && digits.get(0)==0){
+				results.add(i, "Impossible");
+				break;
+			}	
+			if (start% 10 == 5 && digits.indexOf(5)== -1){
+				results.add(i, "Impossible");
+				break;
+			}
+			results.add(testLucky(digits,start));
+			
+			
+		}
+	}	
+		public static String testLucky(List<Integer> digits, int start){
+			Set<Integer> check = 
+			
+		}
+		
+		public static Set<Integer> uniqueDigits (int)
+			
+
+		
+		return results;
+	}
+
+}

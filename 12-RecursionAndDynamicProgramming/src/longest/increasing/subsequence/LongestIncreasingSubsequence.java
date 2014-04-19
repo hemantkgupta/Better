@@ -6,7 +6,7 @@ public class LongestIncreasingSubsequence {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		int[] arr = { 10, 22, 9, 33, 21, 50, 41, 60 };
+		int[] arr = { 100, 220, 9, 33, 21, 50, 41, 60 };
 		System.out.println(lisDynamic(arr));
 	}
 	public static int lis(int arr[], int n)

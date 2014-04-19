@@ -2,7 +2,7 @@ public class ArrayRotation {
 
 	public static void main(String[] args) {
 		int[] ar = { 1, 2, 3, 4, 5, 6, 7,8,9,10,11,12,13,14,15,16,17,18,19,20,21 };
-		leftRotate(ar, 6, ar.length);
+		leftRotate(ar, 6);
 		printArray(ar);
 		/*rotateByThreeReverese(ar,2, ar.length);
 		printArray(ar);
@@ -11,19 +11,16 @@ public class ArrayRotation {
 		 
 	}
 
-	/* Fuction to get gcd of a and b */
-	public static int gcd(int a, int b) {
-		if (b == 0)
-			return a;
-		else
-			return gcd(b, a % b);
-	}
-
-	/* Function to left rotate arr[] of size n by d */
-	public static void leftRotate(int arr[], int d, int n) {
+	
+	public static int gcd(int a, int b) {		
+		if (a%b==0)
+			return b;
+		return gcd(b, a%b);
+	}	
+	public static void leftRotate(int arr[], int d) {
 		int i, j, k, temp;
+		int n = arr.length;
 		for (i = 0; i < gcd(d, n); i++) {
-			/* move i-th values of blocks */
 			temp = arr[i];
 			j = i;
 			while (true) {
@@ -39,7 +36,7 @@ public class ArrayRotation {
 		}
 	}
 
-	/* Function to reverse arr[] from index start to end */
+	
 	public static void rotateByThreeReverese(int arr[], int d, int n) {
 		revereseArray(arr, 0, d - 1);
 		revereseArray(arr, d, n - 1);
@@ -47,7 +44,6 @@ public class ArrayRotation {
 	}
 
 	public static void revereseArray(int arr[], int start, int end) {
-		int i;
 		int temp;
 		while (start < end) {
 			temp = arr[start];
@@ -59,8 +55,7 @@ public class ArrayRotation {
 	}
 
 	public static void leftRotateBlockRecur(int arr[], int d, int n) {
-		if (d == 0 || d == n)
-			return;
+		if (d == 0 || d == n)		return;
 
 		if (n - d == d) {
 			swap(arr, 0, n - d, d);
@@ -71,7 +66,7 @@ public class ArrayRotation {
 		if (d < n - d) {
 			swap(arr, 0, n - d, d);
 			leftRotateBlockRecur(arr, d, n - d);
-		} else /* If B is shorter */
+		} else 
 		{
 			swap(arr, 0, d, n - d);
 			leftRotateBlockRecur(arr, 2 * d - n, d); /* This is tricky */

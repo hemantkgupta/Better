@@ -3,9 +3,6 @@ package partition.problem;
 public class PartionProblem {
 	private static boolean[][] table;
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 
 		int arr[] = { 3, 1, 1, 2, 2, 1 };
@@ -20,20 +17,18 @@ public class PartionProblem {
 
 	public static boolean partition(int[] arr, int n) {
 
-		// Calculate sum of the elements in array
 		int sum = 0;
 		for (int i = 0; i < n; i++)
 			sum += arr[i];
 
-		// If sum is odd, there cannot be two subsets with equal sum
 		if (sum % 2 != 0)
 			return false;
 
-		// Find if there is subset with sum equal to half of total sum
 		return fixedSumDP(arr, n, sum / 2);
 
 	}
-
+	
+	//sum of the elements is not too big.
 	public static boolean fixedSumDP(int[] arr, int len, int sum) {
 
 		// table[i][j] is true if a subset of {arr[0], arr[1], ..arr[j-1]} has

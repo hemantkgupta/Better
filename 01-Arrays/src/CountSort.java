@@ -9,44 +9,32 @@ public class CountSort {
 	}
 
 	public static int[] countSort(int[] arrs) {
-		
 		int n = arrs.length;
 		int[] output = new int[n];
 		int[] count = new int[n];
-		
+
 		int i;
-		for (i = 0; i < n; i++) {
+		for (i = 0; i < n; i++) 
 			++count[arrs[i]];
-		}
 
 		for (i = 1; i < n; i++)
 			count[i] += count[i - 1];
 
-		/*int j = 0;
-		for (i = 0; i < n; i++)
-			while (j < count[i])
-				output[j++] = i;*/
-		
-		for (i = 0; i< n; ++i)
-	    {
+		for (i = 0; i < n; ++i) {
 			int element = arrs[i];
-	        int locationInOutput = count[element]-1;
-	       
-	        
-			output[locationInOutput] = element;
 			
-	        --count[element];
-	    }
+			int locationInOutput = count[element] - 1;
 
-		for (i = 0; i < n; ++i)
-			arrs[i] = output[i];
+			output[locationInOutput] = element;
 
+			--count[element];
+		}
 		return output;
 	}
 
 	public static void printArray(int[] arr) {
 		for (int i = 0; i < arr.length; i++) {
-			System.out.print(arr[i]+" ");
+			System.out.print(arr[i] + " ");
 		}
 		System.out.println();
 	}
