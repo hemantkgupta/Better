@@ -1,0 +1,25 @@
+
+public class GeneralTest {
+
+	public static void main(String[] args) {
+		BNode root1 = new BNode(100);
+		root1.left         = new BNode(50);
+	    root1.right        = new BNode(300);
+	    root1.left.left   = new BNode(20);
+	    root1.left.right  = new BNode(70);
+	}
+	
+	public static void storeInorder(BNode node, int inorder[], int index_ptr)
+	{
+	    if (node == null)
+	        return;
+	 
+	    storeInorder(node.left, inorder, index_ptr);
+	 
+	    inorder[index_ptr] = node.data;
+	    index_ptr++;  
+	 
+	    storeInorder(node.right, inorder, index_ptr);
+	}
+
+}

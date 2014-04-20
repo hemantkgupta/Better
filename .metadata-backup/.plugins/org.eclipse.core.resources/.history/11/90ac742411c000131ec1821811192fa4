@@ -1,0 +1,24 @@
+
+public class LevelOfNode {
+
+	public static void main(String[] args) {
+
+	}
+	
+	public static int levelOfNode (BNode root, BNode node, int level){
+		
+		if (root == null)
+			return 0;
+		
+		if (root.data == node.data)
+			return level;
+		
+		int leftLevel = levelOfNode(root.left, node, level+1);
+		if(leftLevel != 0)
+			return leftLevel;
+		
+		return levelOfNode(root.right, node, level+1);
+
+}
+	
+}	

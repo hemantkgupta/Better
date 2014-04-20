@@ -1,0 +1,23 @@
+
+public class DoubleTree {
+
+	public static void main(String[] args) {
+
+	}
+	
+	public static BNode doubleTree(BNode root){
+		
+		if (root == null)
+			return null ;
+		if(root.left != null)
+			root.left = doubleTree(root.left);
+		if(root.right != null)
+			root.right = doubleTree(root.right);
+		if (root.left != null){
+			BNode temp = new BNode(root.left.data);
+			temp.left = root.left;
+			root.left =temp;			
+		}
+	}
+
+}

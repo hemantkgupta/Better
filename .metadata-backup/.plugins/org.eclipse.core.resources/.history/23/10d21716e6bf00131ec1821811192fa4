@@ -1,0 +1,51 @@
+
+public class DoubleTree {
+
+	public static void main(String[] args) {
+		BNode root = new BNode(2);
+		root.left = new BNode(1);
+		root.right = new BNode(3);
+		doubleTree2(root);
+		printInorder(root);
+		
+
+	}
+	
+	public static void doubleTree(BNode root){
+		
+		if (root == null)
+			return  ;
+		
+		BNode temp = null;
+		doubleTree(root.left);
+		doubleTree(root.right);
+		
+		temp = root.left;
+		root.left = new BNode(root.data) ;
+		root.left.left = temp;
+	}
+	
+public static void doubleTree2(BNode root){
+		
+		if (root == null)
+			return  ;
+		if(root!= null){
+			BNode temp = new BNode(root.data);
+			temp.left = root.left;
+			root.left = temp;
+			doubleTree(temp.left);
+		}		
+		doubleTree(root.right);
+		
+	}
+	
+	public static void printInorder(BNode node) {
+		if (node == null)
+			return;
+
+		printInorder(node.left);
+		System.out.format("%d ", node.data);
+		printInorder(node.right);
+	}
+
+}

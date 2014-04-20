@@ -1,0 +1,16 @@
+
+public class RootToNodeKdist {
+
+	public static void main(String[] args) {
+
+	} 
+	
+	public static int NodesAtKdistFromRoot(BNode root,int k){
+		if (root == null)
+			return 0;
+		if(root!= null && k == 0)
+			return 1;
+		return NodesAtKdistFromRoot(root.left, k-1)+ NodesAtKdistFromRoot(root.right,k-1);
+	}
+
+}

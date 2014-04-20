@@ -1,0 +1,25 @@
+
+public class TheGreatTreeListProblem {
+	
+	// Demonstrate tree->list with the list 1..5
+    public static void main(String[] args) {
+    
+        // first build the tree shown in the problem document
+        // http://cslibrary.stanford.edu/109/
+        Node root = new Node(4);
+        treeInsert(root, 2);
+        treeInsert(root, 1);
+        treeInsert(root, 3);
+        treeInsert(root, 5);
+        
+        System.out.println("tree:");
+        printTree(root);   // 1 2 3 4 5
+        System.out.println();
+        
+        System.out.println("list:");
+        Node head = treeToList(root);
+        printList(head);   // 1 2 3 4 5   yay!
+    }
+    
+    
+}

@@ -1,0 +1,17 @@
+class A {
+    public String getName() {
+        return "Name-A";
+    }
+}
+class C extends A {
+    public String getName() throws ArrayIndexOutOfBoundsException {
+        return "Name-C";
+    }
+}
+public class Test {
+    public static void main(String[] args) {
+        A a = new C();
+        System.out.println(a.getName());
+    }
+   
+}

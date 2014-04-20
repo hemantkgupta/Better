@@ -1,0 +1,19 @@
+import java.util.Arrays;
+
+
+public class Test {
+    public static void main(String[] args) {
+    	
+    	int[][] coord = 	 { {1,1},{1,4}, {2,2}, {5,3}};
+    	int[] xcord = coord[0];
+    	int[] ycord = coord[1];
+    	 int len = ycord.length;
+    	Arrays.sort(xcord);
+    	System.out.println(xcord[0]);
+    	Arrays.sort(ycord);
+        return (xcord[len-1]-xcord[0])*(ycord[len-1]-ycord[0]);
+    }
+    
+   
+   
+}

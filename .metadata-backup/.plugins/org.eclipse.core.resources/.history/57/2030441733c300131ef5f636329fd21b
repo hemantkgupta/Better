@@ -1,0 +1,23 @@
+
+public class SieveExample {
+
+	public static void main(String[] args) {
+
+	}
+	
+	public static void seive(int N){
+		boolean[] seive = new boolean[N+1];
+		seive[0]=seive[1]=false;
+		int i=2;
+		while (i*i<N){
+			if (seive[i]== false){
+				int k = i*i;
+				while(k*i < N){
+					seive[k*i]=false;
+					k++;
+				}
+			}
+		}
+	}
+
+} 

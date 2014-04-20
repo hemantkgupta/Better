@@ -1,0 +1,26 @@
+
+public class RootToNodeKdist {
+
+	public static void main(String[] args) {
+		BNode root = new BNode(20);
+		root.left = new BNode(8);
+		root.right = new BNode(22);
+
+		root.left.left = new BNode(4);
+		root.left.right = new BNode(12);
+		root.left.right.left = new BNode(10);
+		root.left.right.right = new BNode(14);
+		root.left.left.left = new BNode(80);
+		root.left.left.right = new BNode(88);
+		System.out.println(NodesAtKdistFromRoot(root, 2));
+	} 
+	
+	public static int NodesAtKdistFromRoot(BNode root,int k){
+		if (root == null)
+			return 0;
+		if(root!= null && k == 0)
+			return 1;
+		return NodesAtKdistFromRoot(root.left, k-1)+ NodesAtKdistFromRoot(root.right,k-1);
+	}
+
+}

@@ -1,0 +1,10 @@
+package maxsum.rectangle.matrix;
+
+public class MaxsumRectangle {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

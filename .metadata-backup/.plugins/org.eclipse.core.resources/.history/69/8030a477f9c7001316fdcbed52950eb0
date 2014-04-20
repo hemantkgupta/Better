@@ -1,0 +1,14 @@
+
+public class AbsTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	/* This function will return absoulte value of n*/
+	public static int getAbs(int n)
+	{
+	  int  mask = n >> 31;
+	  return ((n + mask) ^ mask);
+	}
+}

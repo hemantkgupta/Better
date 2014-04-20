@@ -1,0 +1,15 @@
+import java.util.Arrays;
+
+
+public class ChocolatesByNumbers {
+
+	public static void main(String[] args) {
+		
+	}
+	public static int solution(int N, int M){
+		int chocolatesEaten = 0;
+		boolean[] chocolates = new int[N];
+		Arrays.fill(chocolates, true);
+	}
+
+}

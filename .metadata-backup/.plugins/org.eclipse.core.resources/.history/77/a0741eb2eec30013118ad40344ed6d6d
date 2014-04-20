@@ -1,0 +1,82 @@
+import java.util.Arrays;
+
+public class MergeTwoBST {
+
+	public static void main(String[] args) {
+		BNode root1 = 
+
+	}
+
+	public static BNode mergeTrees(BNode root1, BNode root2, int m, int n) {
+		int[] arr1 = new int[m];
+		int i = 0;
+		storeInorder(root1, arr1, i);
+		System.out.println(Arrays.toString(arr1));
+
+		int[] arr2 = new int[n];
+		int j = 0;
+		storeInorder(root2, arr2, j);
+
+		int[] mergedArr = merge(arr1, arr2, m, n);
+		return sortedArrayToBST(mergedArr, 0, m + n - 1);
+	}
+
+	public static BNode sortedArrayToBST(int arr[], int start, int end) {
+		if (start > end)
+			return null;
+		int mid = (start + end) / 2;
+		BNode root = new BNode(arr[mid]);
+		root.left = sortedArrayToBST(arr, start, mid - 1);
+		root.right = sortedArrayToBST(arr, mid + 1, end);
+		return root;
+	}
+	
+	public static void storeInorder(BNode node, int inorder[], int index_ptr)
+	{
+	    if (node == null)
+	        return;
+	 
+	    storeInorder(node.left, inorder, index_ptr);
+	 
+	    inorder[index_ptr] = node.data;
+	    index_ptr++;  
+	 
+	    storeInorder(node.right, inorder, index_ptr);
+	}
+
+	public static int[] merge(int arr1[], int arr2[], int m, int n) {
+		int[] mergedArr = new int[m + n];
+		int i = 0, j = 0, k = 0;
+		while (i < m && j < n) {
+			if (arr1[i] < arr2[j]) {
+				mergedArr[k] = arr1[i];
+				i++;
+			} else {
+				mergedArr[k] = arr2[j];
+				j++;
+			}
+			k++;
+		}
+		while (i < m) {
+			mergedArr[k] = arr1[i];
+			i++;
+			k++;
+		}
+		while (j < n) {
+			mergedArr[k] = arr2[j];
+			j++;
+			k++;
+		}
+		return mergedArr;
+	}
+
+	public static void printInorder(BNode node) {
+		if (node == null)
+			return;
+
+		printInorder(node.left);
+		System.out.format("%d ", node.data);
+		printInorder(node.right);
+	}
+
+}

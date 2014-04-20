@@ -1,0 +1,28 @@
+import java.util.Arrays;
+
+
+public class BuildTreeInPost {
+
+	public static void main(String[] args) {
+		
+
+	}
+	public static int[] buildTreeFromInPost(int[] in, int[] post){
+		int inLength = in.length;
+		int postLength = post.length;
+		int rootData = post[post.length-1];
+		BNode root = new BNode(rootData);
+		int rootIndexIn = Arrays.binarySearch(in, rootData);
+		buildtree(root, in, inStart, inEnd, postStart,postEnd);
+		
+	}
+	
+	public static buildTree(){
+		if(postEnd>postStart){
+			BNode root = new BNode(rootData);
+		}
+		buildtree(root.left, in, inStart, inEnd, postStart,postEnd);
+		buildtree(root.right, in, inStart, inEnd, postStart,postEnd);
+	}
+
+}
