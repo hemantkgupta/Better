@@ -1,0 +1,60 @@
+
+public class StackOperationOnMiddle {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+class DLLStack {
+	
+	DLLStack next;
+	DLLStack prev;
+	int data;
+	
+	public DLLStack(int data){
+		this.data = data;
+		this.next = null;
+		this.prev = null;
+		
+	}
+	
+	/* Function to push an element to the stack */
+	void push(int new_data)
+	{
+	    
+		DLLStack node = new DLLStack(new_data);
+	 
+	    /* Since we are adding at the begining,
+	      prev is always NULL */
+		node.prev = null;;
+	 
+	    /* link the old list off the new DLLNode */
+	    new_DLLNode->next = ms->head;
+	 
+	    /* Increment count of items in stack */
+	    ms->count += 1;
+	 
+	    /* Change mid pointer in two cases
+	       1) Linked List is empty
+	       2) Number of nodes in linked list is odd */
+	    if (ms->count == 1)
+	    {
+	         ms->mid = new_DLLNode;
+	    }
+	    else
+	    {
+	        ms->head->prev = new_DLLNode;
+	 
+	        if (ms->count & 1) // Update mid if ms->count is odd
+	           ms->mid = ms->mid->prev;
+	    }
+	 
+	    /* move head to point to the new DLLNode */
+	    ms->head  = new_DLLNode;
+	}
+	
+	
+}
