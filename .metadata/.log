@@ -283,3 +283,61 @@ java.lang.NullPointerException
 
 !ENTRY org.eclipse.ui 2 2 2014-04-21 00:03:49.517
 !MESSAGE Invalid property category path: org.eclipse.cdt.managedbuilder.ui.properties.Page_head_build (bundle: org.eclipse.cdt.ui, propertyPage: org.eclipse.cdt.managedbuilder.ui.properties.BuildLogPreferencePage)
+!SESSION 2014-04-21 11:55:21.601 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.emf.ecore 2 0 2014-04-21 11:55:30.988
+!MESSAGE Both 'org.eclipse.papyrus.eastadl' and 'org.eclipse.papyrus.sysml' register an extension parser for 'Requirements'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-04-21 11:56:20.959
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-04-21 11:56:20.971
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-04-21 11:56:21.264
+!MESSAGE Failure to transfer org.codehaus.mojo:tomcat-maven-plugin/maven-metadata.xml from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer metadata org.codehaus.mojo:tomcat-maven-plugin/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): null to http://repo.maven.apache.org/maven2/org/codehaus/mojo/tomcat-maven-plugin/maven-metadata.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-04-21 11:56:21.268
+!MESSAGE Failure to transfer org.codehaus.mojo:tomcat-maven-plugin/maven-metadata.xml from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer metadata org.codehaus.mojo:tomcat-maven-plugin/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): null to http://repo.maven.apache.org/maven2/org/codehaus/mojo/tomcat-maven-plugin/maven-metadata.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-04-21 11:56:21.269
+!MESSAGE Failure to transfer org.codehaus.mojo:tomcat-maven-plugin/maven-metadata.xml from http://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer metadata org.codehaus.mojo:tomcat-maven-plugin/maven-metadata.xml from/to central (http://repo.maven.apache.org/maven2): null to http://repo.maven.apache.org/maven2/org/codehaus/mojo/tomcat-maven-plugin/maven-metadata.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-04-21 11:56:22.173
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-04-21 11:56:22.182
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-04-21 11:56:24.789
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2014-04-21 11:56:24.793
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.ui 2 2 2014-04-21 14:17:03.165
+!MESSAGE Invalid property category path: org.eclipse.cdt.managedbuilder.ui.properties.Page_head_build (bundle: org.eclipse.cdt.ui, propertyPage: org.eclipse.cdt.managedbuilder.ui.properties.BuildLogPreferencePage)
+
+!ENTRY org.eclipse.ui 4 4 2014-04-21 14:17:06.323
+!MESSAGE Plug-in 'org.eclipse.emf.facet.infra.common.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.emf.facet.infra.common.ui.convertToEmfFacetProject
+
+!ENTRY org.eclipse.ui 4 4 2014-04-21 14:17:06.323
+!MESSAGE Plug-in 'org.eclipse.gmt.modisco.infra.common.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.gmt.modisco.infra.common.ui.convertToMoDiscoProject
+
+!ENTRY org.eclipse.ui 4 4 2014-04-21 14:17:06.324
+!MESSAGE Plug-in 'org.eclipse.m2e.core.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.m2e.enableNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2014-04-21 14:17:06.341
+!MESSAGE Plug-in 'org.eclipse.pde.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.pde.ui.ConvertedProjectWizard
+
+!ENTRY org.eclipse.ui 4 4 2014-04-21 14:17:06.342
+!MESSAGE Plug-in 'org.eclipse.wst.jsdt.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.wst.jsdt.internal.web.ui.convertProjects
+
+!ENTRY org.eclipse.ui 4 4 2014-04-21 14:17:06.343
+!MESSAGE Plug-in 'org.eclipse.xtext.ui.shared' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.xtext.builder.action.AddXtextNatureAction
