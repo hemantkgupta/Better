@@ -1,4 +1,3 @@
-
 public class LinkedListStack {
 
 	StackNode top;
@@ -37,6 +36,11 @@ public class LinkedListStack {
 			return Integer.MIN_VALUE;
 
 		return this.top.key;
+	}
+
+	// Stack is empty when top is equal to null
+	public boolean isEmpty() {
+		return this.top == null;
 	}
 
 	class StackNode {

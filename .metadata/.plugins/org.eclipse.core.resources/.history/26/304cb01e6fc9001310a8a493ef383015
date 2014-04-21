@@ -1,0 +1,12 @@
+
+public class QueueUsingStack {
+	ArrayStackInt stack1 = new ArrayStackInt(10);
+	ArrayStackInt stack2 = new ArrayStackInt(10);
+	
+	
+	/* Function to enqueue an item to queue */
+	public void enQueue(int x)
+	{
+		this.stack1.push(x);
+	}
+}

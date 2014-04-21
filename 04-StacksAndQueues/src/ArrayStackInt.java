@@ -5,7 +5,7 @@ class ArrayStackInt
     int[] array;
 	public ArrayStackInt(int capacity) {
 		this.capacity = capacity;
-		this.top = 0;
+		this.top = -1;
 		this.array =  new int[capacity];
 		
 	}
@@ -24,7 +24,7 @@ class ArrayStackInt
 		    if (isFull())
 		        return;
 		    this.array[++this.top] = item;
-		    System.out.printf("%d pushed to stack\n", item);
+		    //System.out.printf("%d pushed to stack\n", item);
 		}
 		 
 		// Function to remove an item from stack.  It decreases top by 1
