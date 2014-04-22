@@ -6,9 +6,12 @@ public class ClosetIntWithSameSetBits {
 	}
 
 	public static int closest_int_same_bits(int x) {
-		for (int i = 0; i < 63; ++i) {
+		for (int i = 0; i < 32; ++i) {
+			
 			boolean lsb = ((x >> i) & 1) == 1 ? true : false;
+			
 			boolean afterlsb = ((x >> (i + 1)) & 1) == 1 ? true : false;
+			
 			if (lsb ^ afterlsb) {
 				x ^= (1 << i) | (1 << (i + 1)); // swaps bit-i and bit-(i + 1)
 				return x;
