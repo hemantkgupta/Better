@@ -1,0 +1,37 @@
+
+public class TwoNonRepeating {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	/* This finction sets the values of *x and *y to nonr-epeating
+	 elements in an array arr[] of size n*/
+	public static int[] get2NonRepeatingNos(int arr[], int n)
+	{
+	  int xor = arr[0]; 
+	  int set_bit_no;  /* Will have only single set bit of xor */
+	  int i;
+	  *x = 0;
+	  *y = 0;
+	 
+	  /* Get the xor of all elements */
+	  for(i = 1; i < n; i++)
+	   xor ^= arr[i];
+	 
+	  /* Get the rightmost set bit in set_bit_no */
+	  set_bit_no = xor & ~(xor-1);
+	 
+	  /* Now divide elements in two sets by comparing rightmost set
+	   bit of xor with bit at same position in each element. */
+	  for(i = 0; i < n; i++)
+	  {
+	    if(arr[i] & set_bit_no)
+	     *x = *x ^ arr[i]; /*XOR of first set */
+	    else
+	     *y = *y ^ arr[i]; /*XOR of second set*/
+	  }
+	}
+
+}

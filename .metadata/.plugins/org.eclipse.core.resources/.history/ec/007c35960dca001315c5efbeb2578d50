@@ -1,0 +1,64 @@
+public class TwoNonRepeating {
+
+	public static void main(String[] args) {
+		int arr[] = { 2, 3, 7, 9, 11, 2, 3, 11 };
+		int[] results = get2NonRepeatingNos(arr);
+		System.out.println("Numbers are: " + results[0] + " and : "
+				+ results[1]);
+
+	}
+
+	/*
+	 * This finction sets the values of *x and *y to non-repeating elements in
+	 * an array arr[] of size n
+	 */
+	public static int[] get2NonRepeatingNos(int arr[]) {
+		int xor = arr[0];
+		int setBitNum;
+		int n = arr.length;
+		int[] result = new int[2];
+
+		/* Get the xor of all elements */
+		for (int i = 1; i < n; i++)
+			xor ^= arr[i];
+
+		/* Get the rightmost set bit in set_bit_no */
+		setBitNum = xor & ~(xor - 1);
+
+		System.out.println(setBitNum);
+
+		/*
+		 * Now divide elements in two sets by comparing rightmost set bit of xor
+		 * with bit at same position in each element.
+		 */
+		for (int i = 0; i < n; i++) {
+			System.out.println("for i : "+i+" arr[i] is :" + arr[i]);
+			if ((arr[i] & setBitNum) == true ) {
+				System.out.println(" in if for i : " + i);
+				result[0] = result[0] ^ arr[i];
+
+			} else {
+				result[1] = result[1] ^ arr[i];
+				System.out.println(" in else for i : " + i);
+			}
+			
+		}
+		return result;
+	}
+	
+	// return position of rightmost set bit (0-32)
+		// return 0 for no 0
+		public static int getRightMostSetBit(int n){
+			if (n==0) return 0;
+			int position  = 1;
+			for (int i = 0; i< 32; i++){
+				if ( (n & 1) == 1){
+					break;
+				}else{
+					n = n>>1;
+				}
+				position++;
+			}
+			return position;
+		}
+}

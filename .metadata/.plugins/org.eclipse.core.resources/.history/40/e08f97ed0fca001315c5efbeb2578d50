@@ -1,0 +1,23 @@
+
+public class RotateBits {
+
+	public static void main(String[] args) {
+		System.out.println(leftRotate(8, 2));
+		System.out.println(leftRotate(32, 2));
+
+	}
+	/*Function to left rotate n by d bits*/
+	public static int leftRotate(int n, int d)
+	{
+	  
+	   return (n << d)|(n >> (32 - d));
+	}
+	 
+	/*Function to right rotate n by d bits*/
+	public static int rightRotate(int n,  int d)
+	{
+	   
+	   return (n >> d)|(n << (32 - d));
+	}
+
+}

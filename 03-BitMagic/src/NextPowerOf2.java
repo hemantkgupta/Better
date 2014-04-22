@@ -14,9 +14,11 @@ public class NextPowerOf2 {
 	}
 	
 	public static int nextPowerOf2ByBit2(int n) {
+		// To check if n is a power of 2
 		int num = n & (n - 1);
 		if (num == 0)
 			return n;
+		// iteratively check with a power of 2
 		int p = 1;
 		while (p < n) {
 			p <<=1;
