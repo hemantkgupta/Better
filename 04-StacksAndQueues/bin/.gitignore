@@ -1,7 +1,6 @@
 /ArrayQueue.class
 /ArrayStackChar.class
 /ArrayStackInt.class
-/DLLStack.class
 /InfixToPostfixTest.class
 /LinkedListQueue$QNode.class
 /LinkedListQueue.class
@@ -13,9 +12,9 @@
 /MyLinkedListQueueTest.class
 /MyLinkedListStackTest.class
 /NextGreaterElement.class
+/QueueUsing1Stack.class
 /QueueUsingStack.class
 /ReverseStackRecursion.class
 /StackOperationOnMiddle.class
 /StackSpanProblem.class
-/QueueUsing1Stack.class
 /StackUsingQueue.class

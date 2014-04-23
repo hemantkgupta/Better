@@ -1,0 +1,26 @@
+package longest.nonrepeating.subsequence;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class LongestNonrepeatingSubString {
+
+	public static void main(String[] args) {
+
+	}
+	public static int getNonrepeatingSubstring(String str){
+		char[] string = str.toCharArray();
+		Map<Character, Integer> charIndexMap = new HashMap<Character, Integer>();
+		int maxLen = 1;
+		int currLen = 1;
+		int currIndex = 0;
+		charIndexMap.put(str.charAt(0), 0);
+		for (int i = 1; i < string.length; i++) {
+			if()
+			
+		}
+		
+		
+	}
+
+}

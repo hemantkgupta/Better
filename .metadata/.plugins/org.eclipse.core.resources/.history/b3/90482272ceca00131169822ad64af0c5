@@ -1,0 +1,47 @@
+import java.util.Arrays;
+
+
+public class Interleavings {
+
+	public static void main(String[] args) {
+		String str1 =  "AC";
+		int m = str1.length();
+		
+		String str2 =  "BD";
+		int n = str2.length();
+		char [] results = new char[m+n];
+		printIlsRecur(str1, str2, results,m, n, 0);
+
+	}
+	
+	// The main function that recursively prints all interleavings.  The variable
+	// iStr is used to store all interleavings (or output strings) one by one.  
+	// i is used to pass next available place in iStr
+	public static void printIlsRecur (String str1, String str2, char[] iStr, int m, int n, int i)
+	{
+	    // Base case: If all characters of str1 and str2 have been included in
+	    // output string, then print the output string
+	    if ( m==0 && n ==0 )
+	    {
+	        System.out.printf(Arrays.toString(iStr)) ;
+	    }
+	 
+	    // If some characters of str1 are left to be included, then include the 
+	    // first character from the remaining characters and recur for rest
+	    if ( m != 0 )
+	    {
+	        iStr[i] = str1.charAt(0);
+	        printIlsRecur (str1.substring(1) , str2, iStr, m-1, n, i+1);
+	    }
+	 
+	    // If some characters of str2 are left to be included, then include the 
+	    // first character from the remaining characters and recur for rest
+	    if ( n != 0 )
+	    {
+	    	iStr[i] = str2.charAt(0);
+	        printIlsRecur (str1, str2.substring(1), iStr, m, n-1, i+1);
+	    }
+	}
+	 
+
+}
