@@ -1,0 +1,33 @@
+
+public class PrintAllPerms {
+
+	public static void main(String[] args) {
+		printAllpermutations("ABC");
+	}
+	
+	public static void printAllpermutations(String str){
+		char[] chars = str.toCharArray();
+		printPerms(chars, 0, str.length()-1);
+		
+	}
+	
+	private static void printPerms(char[] ar, int startIndex, int endIndex){
+		if(startIndex == endIndex ){
+			System.out.println(ar.toString());
+		}else {
+		
+			for(int j=startIndex; j< endIndex; j++){
+				swap(ar, startIndex, j);
+				printPerms(ar, j+1, endIndex);
+				swap(ar, j, startIndex);
+			}
+		}
+	}
+	
+	private static void swap(char[] ar, int i, int j){
+		char c = ar[i];
+		ar[i]= ar[j];
+		ar[j]=c;
+	}
+
+}

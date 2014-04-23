@@ -1,0 +1,44 @@
+public class LinkedListQueue {
+
+	QNode front, rear;
+
+	public LinkedListQueue() {
+		this.front = null;
+		this.rear = null;
+	}
+
+	public void enQueue(int k) {
+		QNode node = new QNode(k);
+
+		if (this.rear == null) {
+			this.front = this.rear = node;
+			return;
+		}
+
+		this.rear.next = node;
+		this.rear = node;
+	}
+
+	public int deQueue() {
+		if (this.front == null)
+			return Integer.MIN_VALUE;
+
+		QNode node = this.front;
+		this.front = this.front.next;
+
+		if (this.front == null)
+			this.rear = null;
+		return node.key;
+	}
+
+	class QNode {
+		int key;
+		QNode next;
+
+		public QNode(int key) {
+			this.key = key;
+			this.next = null;
+		}
+	}
+
+}

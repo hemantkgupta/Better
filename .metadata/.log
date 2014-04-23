@@ -302,3 +302,235 @@ Binding(CTRL+D,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.textEditorScope,,,system)
+!SESSION 2014-04-23 10:39:49.835 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.emf.ecore 2 0 2014-04-23 10:40:00.094
+!MESSAGE Both 'org.eclipse.papyrus.eastadl' and 'org.eclipse.papyrus.sysml' register an extension parser for 'Requirements'
+
+!ENTRY org.eclipse.ui 2 2 2014-04-23 10:43:22.611
+!MESSAGE Invalid property category path: org.eclipse.cdt.managedbuilder.ui.properties.Page_head_build (bundle: org.eclipse.cdt.ui, propertyPage: org.eclipse.cdt.managedbuilder.ui.properties.BuildLogPreferencePage)
+
+!ENTRY org.eclipse.jface 2 0 2014-04-23 10:51:12.261
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-04-23 10:51:12.261
+!MESSAGE A conflict occurred for CTRL+D:
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.debug.ui.commands.eof,EOF,
+		Send end of file,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@18f06b0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.console,,,system)
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.delete.line,Delete Line,
+		Delete a line of text,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1002013,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:13:38.105
+!MESSAGE Plug-in 'org.eclipse.emf.facet.infra.common.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.emf.facet.infra.common.ui.convertToEmfFacetProject
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:13:38.106
+!MESSAGE Plug-in 'org.eclipse.gmt.modisco.infra.common.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.gmt.modisco.infra.common.ui.convertToMoDiscoProject
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:13:38.107
+!MESSAGE Plug-in 'org.eclipse.m2e.core.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.m2e.enableNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:13:38.108
+!MESSAGE Plug-in 'org.eclipse.pde.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.pde.ui.ConvertedProjectWizard
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:13:38.109
+!MESSAGE Plug-in 'org.eclipse.wst.jsdt.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.wst.jsdt.internal.web.ui.convertProjects
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:13:38.110
+!MESSAGE Plug-in 'org.eclipse.xtext.ui.shared' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.xtext.builder.action.AddXtextNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:21:15.330
+!MESSAGE Plug-in 'org.eclipse.emf.facet.infra.common.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.emf.facet.infra.common.ui.convertToEmfFacetProject
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:21:15.331
+!MESSAGE Plug-in 'org.eclipse.gmt.modisco.infra.common.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.gmt.modisco.infra.common.ui.convertToMoDiscoProject
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:21:15.332
+!MESSAGE Plug-in 'org.eclipse.m2e.core.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.m2e.enableNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:21:15.332
+!MESSAGE Plug-in 'org.eclipse.pde.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.pde.ui.ConvertedProjectWizard
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:21:15.333
+!MESSAGE Plug-in 'org.eclipse.wst.jsdt.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.wst.jsdt.internal.web.ui.convertProjects
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:21:15.334
+!MESSAGE Plug-in 'org.eclipse.xtext.ui.shared' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.xtext.builder.action.AddXtextNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:21:48.942
+!MESSAGE Plug-in 'org.eclipse.emf.facet.infra.common.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.emf.facet.infra.common.ui.convertToEmfFacetProject
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:21:48.943
+!MESSAGE Plug-in 'org.eclipse.gmt.modisco.infra.common.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.gmt.modisco.infra.common.ui.convertToMoDiscoProject
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:21:48.943
+!MESSAGE Plug-in 'org.eclipse.m2e.core.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.m2e.enableNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:21:48.944
+!MESSAGE Plug-in 'org.eclipse.pde.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.pde.ui.ConvertedProjectWizard
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:21:48.944
+!MESSAGE Plug-in 'org.eclipse.wst.jsdt.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.wst.jsdt.internal.web.ui.convertProjects
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:21:48.945
+!MESSAGE Plug-in 'org.eclipse.xtext.ui.shared' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.xtext.builder.action.AddXtextNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:23:10.451
+!MESSAGE Plug-in 'org.eclipse.emf.facet.infra.common.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.emf.facet.infra.common.ui.convertToEmfFacetProject
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:23:10.452
+!MESSAGE Plug-in 'org.eclipse.gmt.modisco.infra.common.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.gmt.modisco.infra.common.ui.convertToMoDiscoProject
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:23:10.453
+!MESSAGE Plug-in 'org.eclipse.m2e.core.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.m2e.enableNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:23:10.453
+!MESSAGE Plug-in 'org.eclipse.pde.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.pde.ui.ConvertedProjectWizard
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:23:10.454
+!MESSAGE Plug-in 'org.eclipse.wst.jsdt.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.wst.jsdt.internal.web.ui.convertProjects
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:23:10.454
+!MESSAGE Plug-in 'org.eclipse.xtext.ui.shared' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.xtext.builder.action.AddXtextNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:23:31.898
+!MESSAGE Plug-in 'org.eclipse.emf.facet.infra.common.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.emf.facet.infra.common.ui.convertToEmfFacetProject
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:23:31.899
+!MESSAGE Plug-in 'org.eclipse.gmt.modisco.infra.common.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.gmt.modisco.infra.common.ui.convertToMoDiscoProject
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:23:31.899
+!MESSAGE Plug-in 'org.eclipse.m2e.core.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.m2e.enableNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:23:31.901
+!MESSAGE Plug-in 'org.eclipse.pde.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.pde.ui.ConvertedProjectWizard
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:23:31.902
+!MESSAGE Plug-in 'org.eclipse.wst.jsdt.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.wst.jsdt.internal.web.ui.convertProjects
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:23:31.902
+!MESSAGE Plug-in 'org.eclipse.xtext.ui.shared' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.xtext.builder.action.AddXtextNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:23:47.017
+!MESSAGE Plug-in 'org.eclipse.emf.facet.infra.common.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.emf.facet.infra.common.ui.convertToEmfFacetProject
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:23:47.018
+!MESSAGE Plug-in 'org.eclipse.gmt.modisco.infra.common.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.gmt.modisco.infra.common.ui.convertToMoDiscoProject
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:23:47.018
+!MESSAGE Plug-in 'org.eclipse.m2e.core.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.m2e.enableNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:23:47.018
+!MESSAGE Plug-in 'org.eclipse.pde.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.pde.ui.ConvertedProjectWizard
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:23:47.019
+!MESSAGE Plug-in 'org.eclipse.wst.jsdt.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.wst.jsdt.internal.web.ui.convertProjects
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:23:47.020
+!MESSAGE Plug-in 'org.eclipse.xtext.ui.shared' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.xtext.builder.action.AddXtextNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:24:03.157
+!MESSAGE Plug-in 'org.eclipse.emf.facet.infra.common.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.emf.facet.infra.common.ui.convertToEmfFacetProject
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:24:03.158
+!MESSAGE Plug-in 'org.eclipse.gmt.modisco.infra.common.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.gmt.modisco.infra.common.ui.convertToMoDiscoProject
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:24:03.158
+!MESSAGE Plug-in 'org.eclipse.m2e.core.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.m2e.enableNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:24:03.159
+!MESSAGE Plug-in 'org.eclipse.pde.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.pde.ui.ConvertedProjectWizard
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:24:03.159
+!MESSAGE Plug-in 'org.eclipse.wst.jsdt.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.wst.jsdt.internal.web.ui.convertProjects
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:24:03.160
+!MESSAGE Plug-in 'org.eclipse.xtext.ui.shared' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.xtext.builder.action.AddXtextNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:24:08.635
+!MESSAGE Plug-in 'org.eclipse.emf.facet.infra.common.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.emf.facet.infra.common.ui.convertToEmfFacetProject
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:24:08.636
+!MESSAGE Plug-in 'org.eclipse.gmt.modisco.infra.common.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.gmt.modisco.infra.common.ui.convertToMoDiscoProject
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:24:08.637
+!MESSAGE Plug-in 'org.eclipse.m2e.core.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.m2e.enableNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:24:08.637
+!MESSAGE Plug-in 'org.eclipse.pde.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.pde.ui.ConvertedProjectWizard
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:24:08.638
+!MESSAGE Plug-in 'org.eclipse.wst.jsdt.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.wst.jsdt.internal.web.ui.convertProjects
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:24:08.638
+!MESSAGE Plug-in 'org.eclipse.xtext.ui.shared' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.xtext.builder.action.AddXtextNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:25:05.549
+!MESSAGE Plug-in 'org.eclipse.emf.facet.infra.common.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.emf.facet.infra.common.ui.convertToEmfFacetProject
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:25:05.550
+!MESSAGE Plug-in 'org.eclipse.gmt.modisco.infra.common.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.gmt.modisco.infra.common.ui.convertToMoDiscoProject
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:25:05.550
+!MESSAGE Plug-in 'org.eclipse.m2e.core.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.m2e.enableNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:25:05.551
+!MESSAGE Plug-in 'org.eclipse.pde.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.pde.ui.ConvertedProjectWizard
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:25:05.551
+!MESSAGE Plug-in 'org.eclipse.wst.jsdt.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.wst.jsdt.internal.web.ui.convertProjects
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:25:05.552
+!MESSAGE Plug-in 'org.eclipse.xtext.ui.shared' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.xtext.builder.action.AddXtextNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:25:31.227
+!MESSAGE Plug-in 'org.eclipse.emf.facet.infra.common.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.emf.facet.infra.common.ui.convertToEmfFacetProject
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:25:31.228
+!MESSAGE Plug-in 'org.eclipse.gmt.modisco.infra.common.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.gmt.modisco.infra.common.ui.convertToMoDiscoProject
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:25:31.228
+!MESSAGE Plug-in 'org.eclipse.m2e.core.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.m2e.enableNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:25:31.229
+!MESSAGE Plug-in 'org.eclipse.pde.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.pde.ui.ConvertedProjectWizard
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:25:31.229
+!MESSAGE Plug-in 'org.eclipse.wst.jsdt.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.wst.jsdt.internal.web.ui.convertProjects
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:25:31.230
+!MESSAGE Plug-in 'org.eclipse.xtext.ui.shared' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.xtext.builder.action.AddXtextNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:25:48.987
+!MESSAGE Plug-in 'org.eclipse.emf.facet.infra.common.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.emf.facet.infra.common.ui.convertToEmfFacetProject
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:25:48.988
+!MESSAGE Plug-in 'org.eclipse.gmt.modisco.infra.common.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.gmt.modisco.infra.common.ui.convertToMoDiscoProject
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:25:48.988
+!MESSAGE Plug-in 'org.eclipse.m2e.core.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.m2e.enableNatureAction
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:25:48.989
+!MESSAGE Plug-in 'org.eclipse.pde.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.pde.ui.ConvertedProjectWizard
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:25:48.989
+!MESSAGE Plug-in 'org.eclipse.wst.jsdt.ui' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.wst.jsdt.internal.web.ui.convertProjects
+
+!ENTRY org.eclipse.ui 4 4 2014-04-23 13:25:48.990
+!MESSAGE Plug-in 'org.eclipse.xtext.ui.shared' contributed an invalid Menu Extension (Path: 'org.eclipse.ui.projectConfigure' is invalid): org.eclipse.xtext.builder.action.AddXtextNatureAction

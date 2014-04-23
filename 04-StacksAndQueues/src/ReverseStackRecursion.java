@@ -20,10 +20,8 @@ public class ReverseStackRecursion {
 	public static void reverse(Deque<Integer> stack) {
 		int temp;
 		if (!stack.isEmpty()) {
-
 			temp = stack.pop();
 			reverse(stack);
-
 			stack.push(temp);
 		}
 	}

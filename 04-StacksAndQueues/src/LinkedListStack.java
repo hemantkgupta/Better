@@ -6,10 +6,8 @@ public class LinkedListStack {
 		top = null;
 	}
 
-	// Function to add an item to stack.
 	public void push(int item) {
 		StackNode node = new StackNode(item);
-		// If stack is empty, then new node added is top
 		if (top == null) {
 			top = node;
 			return;
@@ -18,9 +16,7 @@ public class LinkedListStack {
 		top = node;
 	}
 
-	// Function to remove an item from stack. It decreases top by 1
 	public int pop() {
-		// If stack is empty, return MIN.
 		if (top == null)
 			return Integer.MIN_VALUE;
 
@@ -29,16 +25,13 @@ public class LinkedListStack {
 		return temp;
 	}
 
-	// Function to get top item from stack
 	public int peek() {
-		// If stack is empty, return MIN.
 		if (top == null)
 			return Integer.MIN_VALUE;
 
 		return this.top.key;
 	}
 
-	// Stack is empty when top is equal to null
 	public boolean isEmpty() {
 		return this.top == null;
 	}
@@ -51,7 +44,5 @@ public class LinkedListStack {
 			this.key = data;
 			this.next = null;
 		}
-
 	}
-
 }
