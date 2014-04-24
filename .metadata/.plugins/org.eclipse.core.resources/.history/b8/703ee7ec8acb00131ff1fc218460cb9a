@@ -1,0 +1,85 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class MaxHeap {
+
+	public List<Integer> heap ;
+	public int heapsize ;
+
+	public static void main(String[] args) {
+		MaxHeap maxheap = new MaxHeap();
+		maxheap.insert(10);
+		maxheap.insert(30);
+		maxheap.insert(20);
+		System.out.println(maxheap.top());
+		maxheap.delete();
+		System.out.println(maxheap.top());
+		maxheap.delete();
+		System.out.println(maxheap.top());
+		
+	}
+	
+	public MaxHeap(){
+		heap = new ArrayList<Integer>();
+		heapsize = -1;
+	}
+
+	public int left(int i) {
+		return 2 * i + 1;
+	}
+
+	public int right(int i) {
+		return 2 * i + 2;
+	}
+
+	public int parent(int i) {
+
+		if (i <= 0) {
+			return -1;
+		}
+		return (i - 1) / 2;
+	}
+
+	public int top() {
+		int max = -1;
+		if (heapsize > -1) {
+			max = heap.get(0);
+		}
+		return max;
+	}
+
+	public void insert(int i) {
+		heapsize++;
+		heap.set(heapsize, i);
+		heapify(i);
+
+	}
+
+	public int delete() {
+		int result = -1;
+		if (heapsize > -1) {
+			result = heap.get(0);
+			exchange(0, heapsize);
+			heapsize--;
+			heapify(parent(heapsize + 1));
+		}
+		return result;
+
+	}
+
+	public void heapify(int i) {
+		int parent = parent(i);
+		while (parent >= 0 && heap.get(parent) < heap.get(i)) {
+			exchange(parent, i);
+			heapify(parent);
+		}
+
+	}
+
+	public void exchange(int i, int j) {
+		int temp = heap.get(i);
+		heap.set(i, heap.get(j));
+		heap.set(j, temp);
+	}
+
+}

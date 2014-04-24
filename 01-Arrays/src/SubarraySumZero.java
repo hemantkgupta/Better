@@ -19,12 +19,10 @@ public class SubarraySumZero {
 				// update existing sums
 				for (Entry<Integer, Integer> entry : h.entrySet()) {
 					entry.setValue(entry.getValue() + ar[i]);
-
 				}
 				// add new element
 				h.put(i, ar[i]);
 			}
-
 		}
 		return false;
 	}

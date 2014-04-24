@@ -1,0 +1,20 @@
+package com.hkg.test;
+
+public class Main {
+
+	public static void main(String[] args) {
+		substringFunc("ABC");
+	}
+	public static String substringFunc(String inputStri) {
+
+		try{
+			return inputStr.subString(1);
+			
+		}
+		finally{
+			return inputStr.subString(2); ;
+		}
+	}
+
+
+}

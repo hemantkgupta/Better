@@ -1,0 +1,41 @@
+
+public class KthSmallest {
+
+	public static void main(String[] args) {
+
+	}
+	public static void minHeapify(int[] arr, int i, int heapSize)
+	{
+	    int l = i*2 + 1;
+	    int r = i*2 + 2;
+	    int smallest = i;
+	    if (l < heapSize && arr[l] < arr[i])
+	        smallest = l;
+	    if (r < heapSize && arr[r] < arr[smallest])
+	        smallest = r;
+	    if (smallest != i)
+	    {
+	        swap(arr[i], arr[smallest]);
+	        minHeapify(arr, smallest, heapSize);
+	    }
+	}
+	 
+	// A utility function to convert harr[] to a max heap
+	public static void buildHeap(HeapNode harr[], int n)
+	{
+	    int i = (n - 1)/2;
+	    while (i >= 0)
+	    {
+	        minHeapify(harr, i, n);
+	        i--;
+	    }
+	}
+	
+	public static void swap(int one, int other){
+		int temp = one;
+		one = other;
+		other = temp; 
+	}
+	
+
+}

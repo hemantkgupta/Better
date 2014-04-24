@@ -2,13 +2,10 @@ package longest.palindromic.subsequence;
 
 public class LongestPalindromicSubsequence {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		System.out.println(lps("BBABCBCAB".toCharArray(), 0, 8));
 		System.out.println(lpsDP("BBABCBCAB".toCharArray()));
-		System.out.println(longestPalindromeDP("ABCBA"));
+		
 	}
 
 	// Returns the length of the longest palindromic subsequence
@@ -58,39 +55,6 @@ public class LongestPalindromicSubsequence {
 		return L[0][n - 1];
 	}
 	
-	public static String longestPalindromeDP(String s) {
-		  int n = s.length();
-		  int longestBegin = 0;
-		 
-		  // table[i][j] will be false if substring str[i..j] is not palindrome.
-		  // Else table[i][j] will be true
-		  boolean[][] table = new boolean[n][n];
-		  
-		  // All substrings of length 1 are palindromes
-		  int maxLen = 1;
-		  for (int i = 0; i < n; i++) {
-		    table[i][i] = true;
-		  }
-		  
-		 // check for sub-string of length 2.
-		  for (int i = 0; i < n-1; i++) {
-		    if (s.charAt(i) == s.charAt(i+1)) {
-		      table[i][i+1] = true;
-		      longestBegin = i;
-		      maxLen = 2;
-		    }
-		  }
-		  for (int len = 3; len <= n; len++) {
-		    for (int i = 0; i < n-len+1; i++) {
-		      int j = i+len-1;
-		      if (s.charAt(i) == s.charAt(j) && table[i+1][j-1]) {
-		        table[i][j] = true;
-		        longestBegin = i;
-		        maxLen = len;
-		      }
-		    }
-		  }
-		  return s.substring(longestBegin, longestBegin+maxLen);
-		}
+	
 
 }

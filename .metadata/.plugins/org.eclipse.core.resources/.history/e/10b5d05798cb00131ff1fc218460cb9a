@@ -1,0 +1,20 @@
+
+public class KthSmallestinSorted2D {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	public static swap(HeapNode one, HeapNode other){
+		HeapNode temp = one;
+		one = other;
+		other = temp; 
+	}
+
+}
+
+class HeapNode {
+    int val;  // value to be stored
+    int r;    // Row number of value in 2D array
+    int c;    // Column number of value in 2D array
+}

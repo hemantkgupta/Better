@@ -1,0 +1,55 @@
+import java.util.Arrays;
+
+
+public class MyHeapSort {
+
+	public static void main(String[] args) {
+		int[] ar = { 1, 2, 4, 8, 5, 6, 9 };
+		sort(ar);
+
+	}
+	
+	public static void sort(int[] arr){
+		int heapsize = arr.length;
+		
+        for (int k = heapsize/2; k >= 0; k--)
+            sink(arr, k, heapsize);
+        
+        System.out.println(Arrays.toString(arr));
+        
+        /*int index = heapsize;
+        while (index >= 0) {
+            swap(arr, 0, index);
+            index--;
+            sink(arr, 0, index);
+        }
+        System.out.println(Arrays.toString(arr));*/
+	}
+	
+	public static void sink(int[] arr, int i, int heapsize){
+		System.out.println("Running sink for i: "+i+" with value "+arr[i]);
+		int left = 2*i+1;
+		int right = 2*i+2;
+		int largest = i;
+		if(left < heapsize && arr[left] > arr[i])
+			largest = left;
+		
+		if(right < heapsize && arr[right] > largest)
+			largest = right;
+		System.out.println("largest was "+ largest+" for i "+ i);
+		if(largest!=i){
+			swap(arr, i, largest);
+			sink(arr, largest, heapsize);
+		}
+		
+		
+	}
+	
+	public static void swap(int[] arr, int i, int j){
+		int temp = arr[i];
+		arr[i] = arr[j];
+		arr[j] = temp; 
+	}
+	
+
+}

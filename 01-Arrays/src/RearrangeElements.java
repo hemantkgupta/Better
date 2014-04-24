@@ -18,7 +18,6 @@ public class RearrangeElements {
 	    for (int i=0; i < n; i++)
 	        arr[i] += (arr[arr[i]]%n)*n;
 	 
-	    System.out.println(Arrays.toString(arr));
 	    // Second Step: Divide all values by n
 	    for (int i=0; i<n; i++)
 	        arr[i] /= n;

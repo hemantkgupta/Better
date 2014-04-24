@@ -1,0 +1,37 @@
+
+public class HeapRS {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+
+	 public static void sort(Comparable[] pq) {
+	        int N = pq.length;
+	        for (int k = N/2; k >= 1; k--)
+	            sink(pq, k, N);
+	        while (N > 1) {
+	            exch(pq, 1, N--);
+	            sink(pq, 1, N);
+	        }
+	    }
+	 	
+	    // sink for maxheap, For k child at 2k and 2K+1 
+	    private static void sink(int[] arr, int k, int N) {
+	        while (2*k <= N) {
+	            int j = 2*k;
+	            if (j < N && arr[j]< arr[j+1])) j++;
+	            if ((arr[k] > arr[j])) break;
+	            exch(arr, k, j);
+	            k = j;
+	        }
+	    }
+	    
+	    private static void exch(int[] arr, int i, int j) {
+	        int swap = arr[i];
+	        arr[i] = arr[j];
+	        arr[j] = swap;
+	    }
+
+}
