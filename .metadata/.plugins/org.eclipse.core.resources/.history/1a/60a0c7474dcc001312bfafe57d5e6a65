@@ -1,0 +1,68 @@
+public class UniqueRowInBooleanMatrix {
+
+	public static void main(String[] args) {
+		int[][] m = { { 0, 1, 0, 0, 1 }, { 1, 0, 1, 1, 0 }, { 0, 1, 0, 0, 1 },
+				{ 1, 0, 1, 0, 0 } };
+		findUniqueRows(m);
+	}
+
+	// The main function that prints all unique rows in a
+	// given matrix.
+	public static void findUniqueRows(int[][] m) {
+		TrieNode root = new TrieNode(); 
+
+		// Iterate through all rows
+		for (int i = 0; i < m.length; ++i){
+			
+			if (insert(root, m, i, 0))
+			
+				printRow(m, i);
+		}	
+	}
+
+	// Inserts a new matrix row to Trie. If row is already
+	// present, then returns 0, otherwise insets the row and
+	// return 1
+	public static boolean insert(TrieNode root, int[][] m, int row, int col) {
+				
+
+		// Recur if there are more entries in this row
+		if (col < m[0].length) {
+			 if(root.child[m[row][col]] == null){
+				 root.child[m[row][col]] = new TrieNode();
+				 insert(root.child[m[row][col]], m, row, col + 1);
+			 }
+			
+
+		} 
+			
+			if (!root.isEnd) {
+				root.isEnd = true;
+				return true;
+			} else {
+				return false;
+			}
+
+	
+	}
+
+	// A utility function to print a row
+	public static void printRow(int[][] m, int row) {
+
+		for (int i = 0; i < m[0].length; ++i)
+			System.out.printf("%d ", m[row][i]);
+		System.out.println();
+	}
+
+}
+
+class TrieNode {
+
+	boolean isEnd = false;
+	TrieNode[] child = new TrieNode[2];
+
+	public void setChild(int bit) {
+		this.child[bit] = new TrieNode();
+	}
+
+}

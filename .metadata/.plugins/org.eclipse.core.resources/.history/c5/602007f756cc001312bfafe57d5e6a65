@@ -1,0 +1,23 @@
+
+public class BiggestNoFormation {
+
+	public static void main(String[] args) {
+		
+	}
+	
+	
+
+}
+
+class MyInteger implements Comparable<MyInteger>{
+	int data;
+
+	@Override
+	public int compareTo(MyInteger o) {
+		String first = Integer.toString(this.data)+ Integer.toString(o.data);
+		String second = Integer.toString(o.data)+Integer.toString(this.data);
+		 
+		return Integer.parseInt(first)-Integer.parseInt(second);
+	}
+	
+}

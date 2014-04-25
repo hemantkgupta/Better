@@ -1,0 +1,48 @@
+
+public class UniqueRowInBooleanMatrix {
+
+	public static void main(String[] args) {
+
+	}
+	
+	// Inserts a new matrix row to Trie.  If row is already
+	// present, then returns 0, otherwise insets the row and
+	// return 1
+	public boolean insert( TrieNode root, int[][] m, int row, int col )
+	{
+	    // base case
+	    if ( root == null )
+	        root = new TrieNode();
+	 
+	    // Recur if there are more entries in this row
+	    if ( col < m[0].length )
+	        return insert ( &( (*root)->child[ M[row][col] ] ), M, row, col+1 );
+	 
+	    else // If all entries of this row are processed
+	    {
+	        // unique row found, return 1
+	        if ( !( (*root)->isEndOfCol ) )
+	            return (*root)->isEndOfCol = 1;
+	 
+	        // duplicate row found, return 0
+	        return 0;
+	    }
+	}
+	
+	
+
+}
+
+class TrieNode{
+	boolean isEnd;
+	TrieNode[] child;
+	
+	
+	
+	public TrieNode() {		
+		this.isEnd =  false;
+		this.child = new TrieNode[2];
+	}
+	
+	
+}

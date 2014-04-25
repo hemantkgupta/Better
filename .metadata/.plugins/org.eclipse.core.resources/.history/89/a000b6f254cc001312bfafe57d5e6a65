@@ -1,0 +1,22 @@
+
+public class ShuffleArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	// A function to generate a random permutation of arr[]
+	public static void randomize ( int arr[], int n )
+	{
+	   
+	    for (int i = n-1; i > 0; i--)
+	    {
+	        // Pick a random index from 0 to i
+	        int j = Math.random() ;
+	 
+	        // Swap arr[i] with the element at random index
+	        swap(&arr[i], &arr[j]);
+	    }
+	}
+
+}
