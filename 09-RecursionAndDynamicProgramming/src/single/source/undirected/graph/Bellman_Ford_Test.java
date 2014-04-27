@@ -2,33 +2,26 @@ package single.source.undirected.graph;
 
 public class Bellman_Ford_Test {
 
-	/**
-	 * @param args
-	 */
+	
 	public static void main(String[] args) {
 
 		BellmanFord(createGraph(), 0);
 
 	}
 
-	// The main function that finds shortest distances from src to all other
-	// vertices using Bellman-Ford algorithm. The function also detects negative
-	// weight cycle
+	// Bellman-Ford algorithm also detects negative weight cycle
 	public static void BellmanFord(Graph graph, int src) {
 		int V = graph.V;
 		int E = graph.E;
 		int[] dist = new int[V];
 
-		// Step 1: Initialize distances from src to all other vertices as
-		// INFINITE
+		
 		for (int i = 0; i < V; i++)
 			dist[i] = Integer.MAX_VALUE;
 
 		dist[src] = 0;
 
-		// Step 2: Relax all edges |V| - 1 times. A simple shortest path from
-		// src
-		// to any other vertex can have at-most |V| - 1 edges
+		//Relax all edges |V| - 1 times. 
 		for (int i = 1; i <= V - 1; i++) {
 			for (int j = 0; j < E; j++) {
 				int u = graph.edge[j].src;
@@ -39,8 +32,6 @@ public class Bellman_Ford_Test {
 			}
 		}
 
-		// Step 3: check for negative-weight cycles. The above step guarantees
-		// shortest distances if graph doesn't contain negative weight cycle.
 		// If we get a shorter path, then there is a cycle.
 		for (int i = 0; i < E; i++) {
 			int u = graph.edge[i].src;
@@ -50,9 +41,6 @@ public class Bellman_Ford_Test {
 				System.out.println("Graph contains negative weight cycle");
 		}
 
-		printArr(dist, V);
-
-		return;
 	}
 
 	// A utility function used to print the solution

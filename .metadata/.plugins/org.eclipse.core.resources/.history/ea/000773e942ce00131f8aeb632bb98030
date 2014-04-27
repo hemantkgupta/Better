@@ -1,0 +1,5 @@
+package largest.independent.set;
+
+public class BLNode {
+
+}

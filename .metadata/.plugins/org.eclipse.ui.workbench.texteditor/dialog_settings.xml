@@ -16,23 +16,11 @@
 		<item value="." key="selection"/>
 		<list key="findhistory">
 			<item value="-&gt;"/>
-			<item value="struct node*"/>
-			<item value=" printf"/>
-			<item value="NULL"/>
-			<item value="struct node *"/>
-			<item value="BNode"/>
-			<item value="TreeNode"/>
-			<item value="Node"/>
+			<item value="printf"/>
 		</list>
 		<list key="replacehistory">
 			<item value="."/>
-			<item value="BNode"/>
 			<item value="System.out.printf"/>
-			<item value="null"/>
-			<item value="ABNode"/>
-			<item value="BTNode"/>
-			<item value="n"/>
-			<item value="Node"/>
 		</list>
 	</section>
 </section>

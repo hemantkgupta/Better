@@ -1,11 +1,8 @@
 package maxsum.contiguous.subarray;
 public class Kadane {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
-		int maxSum = maxSumOfSubArray(new int[] { -2, 1, -3, 4, -1, 2, 1, -5, 4 });
+		int maxSum = maxSumOfSubArrayAllNegative(new int[] { -8, -3, -4, -2, -5, -4 });
 		System.out.println(maxSum);
 	}
 
@@ -14,6 +11,16 @@ public class Kadane {
 		int maxSumEndingHere = 0;
 		for (int i = 0; i < array.length; i++) {
 			maxSumEndingHere = Math.max(0, array[i] + maxSumEndingHere);
+			maxSoFar = Math.max(maxSoFar, maxSumEndingHere);
+		}
+		return maxSoFar;
+	}
+	
+	public static int maxSumOfSubArrayAllNegative(int[] ar) {
+		int maxSoFar = ar[0];
+		int maxSumEndingHere = ar[0];
+		for (int i = 0; i < ar.length; i++) {
+			maxSumEndingHere = Math.max(ar[i], ar[i] + maxSumEndingHere);
 			maxSoFar = Math.max(maxSoFar, maxSumEndingHere);
 		}
 		return maxSoFar;

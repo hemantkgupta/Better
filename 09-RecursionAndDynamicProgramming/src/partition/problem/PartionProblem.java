@@ -31,8 +31,7 @@ public class PartionProblem {
 	//sum of the elements is not too big.
 	public static boolean fixedSumDP(int[] arr, int len, int sum) {
 
-		// table[i][j] is true if a subset of {arr[0], arr[1], ..arr[j-1]} has
-		// sum equal to i, otherwise false
+		// table[i][j] is true if sum of {arr[0], arr[1], ..arr[j-1]} is i
 		table = new boolean[sum + 1][len + 1];
 
 		// Initialize top row for corresponding to sum=0
@@ -40,11 +39,11 @@ public class PartionProblem {
 			table[0][j] = true;
 		}
 
-		// Initialize leftmost column to false (except top one) corresponding to
-		// no element in array
+		// Initialize leftmost column to false (except top one) 
 		for (int i = 1; i <= sum; i++) {
 			table[i][0] = false;
 		}
+		
 		// Fill the partition table in bottom up manner
 		for (int i = 1; i <= sum; i++) {
 			for (int j = 1; j <= len; j++) {

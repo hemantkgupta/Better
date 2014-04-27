@@ -2,40 +2,34 @@ package longest.increasing.subsequence;
 
 public class MyMainTest {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		int[] arr = { 100, 220, 9, 33, 21, 50, 41, 60, 80 };
-		System.out.println(lis(arr));
+		printLIS(arr);
 
 	}
 
-	public static int lis(int[] arr) {
-
-		int n = arr.length;
-		int[] LIS = new int[n];
-		;
-
-		/* Initialize LIS values for all indexes */
-		for (int i = 0; i < n; i++)
-			LIS[i] = 1;
-
-		int max_ending_here = 1;
-		for (int i = 1; i < arr.length; i++) {
-			if (arr[i - 1] <= arr[i]) {
-				max_ending_here = max_ending_here + 1;
-				LIS[i] = max_ending_here;
+	public static void printLIS(int[] nums) {
+		int n = nums.length;
+		String[] paths = new String[n];
+		int[] sizes = new int[n];
+		for (int i = 0; i < n; i++) {
+			sizes[i] = 1;
+			paths[i] = nums[i] + " ";
+		}
+		int maxLength = 1;
+		for (int i = 1; i < n; i++) {
+			for (int j = 0; j < i; j++) {
+				if (nums[i] > nums[j] && sizes[i] < sizes[j] + 1) {
+					sizes[i] = sizes[j] + 1;
+					paths[i] = paths[j] + nums[i] + " ";
+					if (maxLength < sizes[i])
+						maxLength = sizes[i];
+				}
 			}
 		}
-
-		int max = 0;
-		/* Pick maximum of all LIS values */
-		for (int i = 0; i < n; i++)
-			if (max < LIS[i])
-				max = LIS[i];
-
-		return max;
+		for (int i = 1; i < n; i++) {
+			if (sizes[i] == maxLength)
+				System.out.println("LIS: " + paths[i]);
+		}
 	}
-
 }

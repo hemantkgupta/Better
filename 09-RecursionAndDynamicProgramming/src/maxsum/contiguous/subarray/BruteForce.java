@@ -2,9 +2,7 @@ package maxsum.contiguous.subarray;
 
 public class BruteForce {
 
-	/**
-	 * @param args
-	 */
+	
 	public static void main(String[] args) {
 				
 		int[] A =  { -2, 1, -3, 4, -1, 2, 1, -5, 4 };

@@ -2,11 +2,10 @@ package minimum.jumps;
 
 public class MinimumJumps {
 
-	
 	public static void main(String[] args) {
 		int arr[] = { 1, 3, 6, 3, 2, 3, 6, 8, 9, 5 };
-		// System.out.println("The no of jumps "+ minJumpsRecur(arr, 0,
-		// arr.length-1));
+		System.out.println("The no of jumps "
+				+ minJumpsRecur(arr, 0, arr.length - 1));
 		System.out.println("The no of jumps " + minJumpsDP(arr));
 	}
 
@@ -46,14 +45,12 @@ public class MinimumJumps {
 
 		// Find the minimum number of jumps to reach arr[i]
 		// from arr[0], and assign this value to jumps[i]
-		for (i = 1; i < n; i++) 
-		{
-			jumps[i] = Integer.MAX_VALUE; // initilaize unreachable
-											
-			for (j = 0; j < i; j++) // use all values with index less than i
-			{	// test if temp[j] is not unreachable and we can reach i from j
-				if (i <= j + arr[j] && jumps[j] != Integer.MAX_VALUE) 
-				{
+		for (i = 1; i < n; i++) {
+			jumps[i] = Integer.MAX_VALUE;
+
+			for (j = 0; j < i; j++) { 
+				// temp[j] is not unreachable and we can reach i from j						
+				if (j + arr[j] >= i && jumps[j] != Integer.MAX_VALUE) {
 					jumps[i] = jumps[j] + 1;
 					break;
 				}

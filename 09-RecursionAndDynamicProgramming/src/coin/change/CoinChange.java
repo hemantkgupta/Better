@@ -3,18 +3,14 @@ package coin.change;
 /**
  * Given a value N, if we want to make change for N cents, and we have
  * infinite supply of each of S = { S1, S2, .. , Sm} valued coins, how many
- * ways can we make the change? The order of coins doesn’t matter.
+ * ways can we make the change? The order of coins doesnï¿½t matter.
  * 
 */
 public class CoinChange {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		int arr[] = { 1, 2, 3 };
-		System.out.println(countDP(arr, 5));
-		//System.out.println(countRec(arr,3,100));
+		System.out.println(countDP(arr, 8));
 
 	}
 
@@ -26,7 +22,6 @@ public class CoinChange {
 	public static int countDP(int S[], int n) {
 		int i, j, x, y;
 		int m = S.length;
-		// We need n+1 rows as the table is consturcted in bottom up manner
 		int[][] table = new int[n + 1][m];
 
 		// Fill the enteries for 0 value case (n = 0)
@@ -53,16 +48,12 @@ public class CoinChange {
 	// and n is the sum for which solution is needed
 	// It Returns the count of ways we can sum S[0...m-1] coins to get sum n
 	public static int countRec(int S[], int m, int n) {
-		// If n is 0 then there is 1 solution (do not include any coin)
 		if (n == 0)
 			return 1;
-		// If n is less than 0 then no solution exists
 		if (n < 0)
 			return 0;
-		// If there are no coins and n is greater than 0, then no solution exist
 		if (m <= 0 && n >= 1)
 			return 0;
-		// count is sum of solutions (i) including S[m-1] (ii) excluding S[m-1]
 		return countRec(S, m - 1, n) + countRec(S, m, n - S[m - 1]);
 	}
 	

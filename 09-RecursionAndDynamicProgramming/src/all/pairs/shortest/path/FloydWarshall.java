@@ -3,9 +3,6 @@ package all.pairs.shortest.path;
 public class FloydWarshall {
 	public static int INF = 99999;
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		/* Let us create the following weighted graph
 		        10
@@ -26,8 +23,8 @@ public class FloydWarshall {
 		floydWarshell(graph);
 	}
 
-	// Solves the all-pairs shortest path problem using Floyd Warshall algorithm
-	public static void floydWarshell(int[][] graph) {
+	// All-pairs shortest path problem using Floyd Warshall algorithm
+	public static int[][] floydWarshell(int[][] graph) {
 		/*
 		 * dist[][] will be the output matrix that will finally have the
 		 * shortest distances between every pair of vertices
@@ -36,23 +33,13 @@ public class FloydWarshall {
 		int[][] dist = new int[V][V];
 		int i, j, k;
 
-		/*
-		 * Initialize the solution matrix same as input graph matrix. Or we can
-		 * say the initial values of shortest distances are based on shortest
-		 * paths considering no intermediate vertex.
-		 */
+		
 		for (i = 0; i < V; i++)
 			for (j = 0; j < V; j++)
 				dist[i][j] = graph[i][j];
 
-		/*
-		 * Add all vertices one by one to the set of intermediate vertices. --->
-		 * Before start of a iteration, we have shortest distances between all
-		 * pairs of vertices such that the shortest distances consider only the
-		 * vertices in set {0, 1, 2, .. k-1} as intermediate vertices. ---->
-		 * After the end of a iteration, vertex no. k is added to the set of
-		 * intermediate vertices and the set becomes {0, 1, 2, .. k}
-		 */
+		
+		//Add all vertices one by one to the set of intermediate vertices
 		for (k = 0; k < V; k++) {
 			// Pick all vertices as source one by one
 			for (i = 0; i < V; i++) {
@@ -66,8 +53,7 @@ public class FloydWarshall {
 				}
 			}
 		}
-		// Print the shortest distance matrix
-		printSolution(dist);
+		return dist;
 	}
 
 	/* A utility function to print solution */

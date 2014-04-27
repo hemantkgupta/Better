@@ -2,9 +2,7 @@ package optimal.binary.search.tree;
 
 public class OptimalBST {
 
-	/**
-	 * @param args
-	 */
+	
 	public static void main(String[] args) {
 		int keys[] = {10, 12, 20};
 	    int freq[] = {34, 8, 50};
