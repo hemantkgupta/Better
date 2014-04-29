@@ -1,0 +1,37 @@
+public class PairwiseSwap {
+
+	public static void main(String[] args) {
+		Node root = new Node(5);
+		Node n1 = new Node(4);
+		root.next = n1;
+		Node n2 = new Node(3);
+		n1.next = n2;
+		Node n3 = new Node(2);
+		n2.next = n3;
+		Node n4 = new Node(1);
+		n3.next = n4;
+		pairWiseSwap(root);
+	}
+
+	/* Function to pairwise swap elements of a linked list */
+	public static void pairWiseSwap(Node head) {
+		Node temp = head;
+
+		/* Traverse further only if there are at-least two nodes left */
+		while (temp != null && temp.next != null) {
+			/* Swap data of node with its next node's data */
+			swapData(temp, temp.next);
+
+			/* Move temp by 2 for the next pair */
+			temp = temp.next.next;
+		}
+	}
+
+	/* Function to swap two integers */
+	public static void swapData(Node a, Node b) {
+		int temp = a.data;
+		a.data = b.data;
+		b.data = temp;
+	}
+
+}

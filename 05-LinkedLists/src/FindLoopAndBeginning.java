@@ -12,7 +12,7 @@ public class FindLoopAndBeginning {
 		n3.next = n4;
 		n4.next = n2;
 		System.out.println(testLoopInList(root));
-		System.out.println(findBeginning(root).data);
+		System.out.println(getStartLoopNode(root).data);
 	}
 
 	public static boolean testLoopInList(Node root) {
@@ -29,7 +29,7 @@ public class FindLoopAndBeginning {
 		return false;
 	}
 
-	public static Node findBeginning(Node head) {
+	public static Node getStartLoopNode(Node head) {
 		Node slow = head;
 		Node fast = head;
 
@@ -42,7 +42,7 @@ public class FindLoopAndBeginning {
 			}
 		}
 
-		// Error check - there is no meeting point, and therefore no loop
+		//If there is no meeting point, then no loop
 		if (fast == null || fast.next == null) {
 			return null;
 		}
@@ -53,7 +53,7 @@ public class FindLoopAndBeginning {
 			fast = fast.next;
 		}
 
-		// Both now point to the start of the loop.
+		// Now slow and fast point to start of the loop.
 		return fast;
 	}
 

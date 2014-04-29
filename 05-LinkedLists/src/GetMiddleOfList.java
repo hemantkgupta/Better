@@ -11,7 +11,8 @@ public class GetMiddleOfList {
 		Node n4 = new Node(1);
 		n3.next = n4;
 		System.out.println(middleNode(root).data);
-
+		System.out.println(getMiddleNodeFromList(root).data);
+		
 	}
 
 	public static Node middleNode(Node root) {
@@ -28,6 +29,24 @@ public class GetMiddleOfList {
 
 		return tmp;
 
+	}
+	
+	static int myListLength = 0;
+	static int currentReverseIndex = 0;								
+	public static Node getMiddleNodeFromList(Node root) {
+			if (root != null) {
+				myListLength++;
+				Node mid = getMiddleNodeFromList(root.next);
+				if (mid != null) {
+					return mid;
+				}
+				currentReverseIndex++;
+			}
+			if (currentReverseIndex * 2 == myListLength
+					|| currentReverseIndex * 2 == myListLength + 1){
+				return root;
+			}
+			return null;
 	}
 
 }

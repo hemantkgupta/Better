@@ -1,0 +1,21 @@
+
+public class ReverseListPrint {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	private static void reversePrintRecursive(Node current) {
+		// if reached the end of the list, just print the tail
+		if (null == current.next) {
+			System.out.println("End Item is: " + current.item);
+			return;
+		} else {
+			// Store the current element and print next element recursively
+			int value = current.item;
+			reversePrintRecursive(current.next);
+			System.out.println("Item is: " + value);
+		}
+	}
+
+}

@@ -26,10 +26,8 @@ public class ReverseEveryKNodes {
 		printList(root);
 	}
 
-	/*
-	 * Reverses the linked list in groups of size k and returns the pointer to
-	 * the new head node.
-	 */
+	
+	// Reverses the linked list in groups of size k
 	public static Node reverse(Node head, int k) {
 		Node current = head;
 		Node next = null;
@@ -45,11 +43,9 @@ public class ReverseEveryKNodes {
 			count++;
 		}
 
-		/*
-		 * next is now a pointer to (k+1)th node Recursively call for the list
-		 * starting from current. And make rest of the list as next of first
-		 * node
-		 */
+		// next is now a pointer to (k+1)th node. 
+		// Make rest of the list as next of first node
+		
 		if (next != null) {
 			head.next = reverse(next, k);
 		}

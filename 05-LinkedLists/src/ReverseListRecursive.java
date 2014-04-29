@@ -12,17 +12,17 @@ public class ReverseListRecursive {
 		n3.next = n4;
 
 		printList(root);
-		root = reverseRecur(root);
+		root = reverseRecr(root);
 		printList(root);
 	}
 
-	public static Node reverseRecur(Node current) {
+	public static Node reverseRecr(Node current) {
 		if (current == null || current.next == null)
 			return current;
 
 		Node nextItem = current.next;
 		current.next = null;
-		Node reverseRest = reverseRecur(nextItem);
+		Node reverseRest = reverseRecr(nextItem);
 		nextItem.next = current;
 		return reverseRest;
 	}

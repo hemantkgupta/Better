@@ -11,32 +11,24 @@ public class PalindromeTest {
 		root.next = n1;
 		Node n2 = new Node(5);
 		n1.next = n2;
-		/*
-		 * Node n3 = new Node(2); n2.next = n3; Node n4 = new Node(1); n3.next =
-		 * n4; n4.next = n2;
-		 */
-		System.out.println(isPalindromeList(root));
-		
-		System.out.println(isPalindrome(root));
+		System.out.println(isPalindromeRecrQueue(root));
+		System.out.println(isPalindromeStack(root));
 	}
 
 	public static Queue<Integer> queue = new LinkedList<Integer>();
-
-	// Hold the node in queue and compare on tear down
-	public static boolean isPalindromeList(Node root) {
+	public static boolean isPalindromeRecrQueue(Node root) {
 		
 		if (root != null) {
 			queue.offer(root.data);
-			if (!isPalindromeList(root.next))
+			if (!isPalindromeRecrQueue(root.next))
 				return false;
 			if (root.data != queue.poll().intValue())
 				return false;
 		}
-		// base case
 		return true;
 	}
 	
-	public static boolean isPalindrome(Node head) {
+	public static boolean isPalindromeStack(Node head) {
 		Node fast = head;
 		Node slow = head;
 		

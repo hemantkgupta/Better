@@ -14,7 +14,7 @@ public class GetNthFromLast {
 		System.out.println(getNthNodeFromEnd(root, 2).data);
 		System.out.println(getNthNodeFromEndUsingWrapper(root, 2,
 				new IntWrapper()).data);
-		printNthNodeValueFromEnd(root, 2);
+		getNthNodeValueFromEndRecr(root, 2);
 	}
 
 	public static Node getNthNodeFromEnd(Node root, int n) {
@@ -28,22 +28,20 @@ public class GetNthFromLast {
 			}
 			ntmp = ntmp.next;
 		}
-
 		// run previous and temp both
 		while (ntmp != null) {
 			ntmp = ntmp.next;
 			tmp = tmp.next;
 		}
 		return tmp;
-
 	}
 
-	public static int printNthNodeValueFromEnd(Node root, int n) {
+	public static int getNthNodeValueFromEndRecr(Node root, int n) {
 		// base case
 		if (root == null)
 			return 0;
 		// get the return value of recursion
-		int i = printNthNodeValueFromEnd(root.next, n) + 1;
+		int i = getNthNodeValueFromEndRecr(root.next, n) + 1;
 
 		// compare to test
 		if (i == n) {
