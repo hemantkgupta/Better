@@ -7,7 +7,7 @@ public class TheGreatTreeListProblem {
 		// 			4
 		// 		2 		5
 		// 	1 		3
-		Node root = new Node(4);
+		BTNode root = new BTNode(4);
 		treeInsert(root, 2);
 		treeInsert(root, 1);
 		treeInsert(root, 3);
@@ -18,7 +18,7 @@ public class TheGreatTreeListProblem {
 		System.out.println();
 
 		System.out.println("list:");
-		Node head = treeToList(root);
+		BTNode head = treeToList(root);
 		printList(head); // 1 2 3 4 5 yay!
 	}
 
@@ -27,7 +27,7 @@ public class TheGreatTreeListProblem {
 	 * immediately follow the first. Sets the .next of the first and the
 	 * .previous of the second.
 	 */
-	public static void join(Node a, Node b) {
+	public static void join(BTNode a, BTNode b) {
 		a.large = b;
 		b.small = a;
 	}
@@ -36,7 +36,7 @@ public class TheGreatTreeListProblem {
 	 * helper function -- given two circular doubly linked lists, append them
 	 * and return the new list.
 	 */
-	public static Node append(Node a, Node b) {
+	public static BTNode append(BTNode a, BTNode b) {
 		// if either is null, return the other
 		if (a == null)
 			return (b);
@@ -44,8 +44,8 @@ public class TheGreatTreeListProblem {
 			return (a);
 
 		// find the last node in each using the .previous pointer
-		Node aLast = a.small;
-		Node bLast = b.small;
+		BTNode aLast = a.small;
+		BTNode bLast = b.small;
 
 		// join the two together to make it connected and circular
 		join(aLast, b);
@@ -58,14 +58,14 @@ public class TheGreatTreeListProblem {
 	 * --Recursion-- Given an ordered binary tree, recursively change it into a
 	 * circular doubly linked list which is returned.
 	 */
-	public static Node treeToList(Node root) {
+	public static BTNode treeToList(BTNode root) {
 		// base case: empty tree -> empty list
 		if (root == null)
 			return (null);
 
 		// Recursively do the subtrees (leap of faith!)
-		Node aList = treeToList(root.small);
-		Node bList = treeToList(root.large);
+		BTNode aList = treeToList(root.small);
+		BTNode bList = treeToList(root.large);
 
 		// Make the single root node into a list length-1
 		// in preparation for the appending
@@ -86,23 +86,23 @@ public class TheGreatTreeListProblem {
 	 * must be non-empty because Java's lack of reference variables makes that
 	 * case and this method messier than they should be.
 	 */
-	public static void treeInsert(Node root, int newData) {
+	public static void treeInsert(BTNode root, int newData) {
 		if (newData <= root.data) {
 			if (root.small != null)
 				treeInsert(root.small, newData);
 			else
-				root.small = new Node(newData);
+				root.small = new BTNode(newData);
 		} else {
 			if (root.large != null)
 				treeInsert(root.large, newData);
 			else
-				root.large = new Node(newData);
+				root.large = new BTNode(newData);
 		}
 	}
 
 	// Do an inorder traversal to print a tree
 	// Does not print the ending "\n"
-	public static void printTree(Node root) {
+	public static void printTree(BTNode root) {
 		if (root == null)
 			return;
 		printTree(root.small);
@@ -111,8 +111,8 @@ public class TheGreatTreeListProblem {
 	}
 
 	// Do a traversal of the list and print it out
-	public static void printList(Node head) {
-		Node current = head;
+	public static void printList(BTNode head) {
+		BTNode current = head;
 
 		while (current != null) {
 			System.out.print(Integer.toString(current.data) + " ");
@@ -126,12 +126,12 @@ public class TheGreatTreeListProblem {
 
 }
 
-class Node {
+class BTNode {
 	int data;
-	Node small;
-	Node large;
+	BTNode small;
+	BTNode large;
 
-	public Node(int data) {
+	public BTNode(int data) {
 		this.data = data;
 		small = null;
 		large = null;

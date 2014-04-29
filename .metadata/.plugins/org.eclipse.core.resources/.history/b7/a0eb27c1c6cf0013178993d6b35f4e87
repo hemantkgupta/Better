@@ -1,0 +1,39 @@
+
+public class BSTtoDLL {
+
+	public static void main(String[] args) {
+		
+
+	}
+	
+	// A function to convert given BST to Doubly Linked List. The function
+	// sets *head to point to first and *tail to point to last node of converted DLL
+	public static void convertBSTtoDLL(BNode root, BNode head, BNode tail)
+	{
+	    // Base case
+	    if (root == null)
+	        return;
+	 
+	    // First convert the left subtree
+	    if (root.left!=null)
+	        convertBSTtoDLL(root.left, head, tail);
+	 
+	    // Then change left of current root as last node of left subtree
+	    root.left = tail;
+	 
+	    // If tail is not NULL, then set right of tail as root, else current
+	    // node is head
+	    if (tail!=null)
+	        tail.right = root;
+	    else
+	        head = root;
+	 
+	    // Update tail
+	    tail = root;
+	 
+	    // Finally, convert right subtree
+	    if (root.right!=null)
+	        convertBSTtoDLL(root.right, head, tail);
+	}
+
+}
