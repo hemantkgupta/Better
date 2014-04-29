@@ -4,7 +4,6 @@ public class DeleteAList {
 
 	}
 
-	/* Function to delete the entire linked list */
 	public static void deleteList(Node root) {
 		Node current = root;
 		Node next;

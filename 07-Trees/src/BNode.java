@@ -9,5 +9,11 @@ class BNode {
 		this.left = null;
 		this.right = null;
 	}
+	
+	@Override
+	public String toString() {
+		String other = (right == null) ? "" : right.toString();
+		return data +" "+ other;
+	}
 
 }
