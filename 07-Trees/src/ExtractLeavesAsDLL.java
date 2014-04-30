@@ -33,18 +33,15 @@ public class ExtractLeavesAsDLL {
 	// returns new root of Binary Tree
 	// updates static head_ref DLL of leaves
 	public static BNode extractLeafList(BNode root) {
-		// Base cases
 		if (root == null)
 			return null;
 
 		if (root.left == null && root.right == null) {
-			
-			// This node will be added to doubly linked list
 			root.right = head_ref;
 
 			// Change left pointer of previous head
 			if (head_ref != null)
-				(head_ref).left = root;
+				head_ref.left = root;
 
 			// Change head of linked list
 			head_ref = root;
@@ -52,7 +49,6 @@ public class ExtractLeavesAsDLL {
 			return null; // Return new root
 		}
 
-		// Recur for right and left subtrees
 		root.right = extractLeafList(root.right);
 		root.left = extractLeafList(root.left);
 

@@ -12,11 +12,11 @@ public class CompleteBinaryTreeTest {
 		  /*
 		  root.left.right  = new BNode(5);
 		  root.right.right = new BNode(6);*/
-		  System.out.println(test(root));
+		  System.out.println(isBinaryTreeComplete(root));
 
 	}
 	
-	public static boolean test(BNode root){
+	public static boolean isBinaryTreeComplete(BNode root){
 		if (root == null)
 			return true;
 		Queue<BNode> queue =  new ArrayDeque<BNode>();

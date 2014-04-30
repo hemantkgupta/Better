@@ -35,14 +35,10 @@ public class ConnectNodeAtSameLevel {
 			}
 		}
 		connectNodes(root.left);
-		if(root.left != null ){
+		/*if(root.left != null ){
 			root.left.next = root.right;
-		}
-		
+		}*/
 	}
-	
-	
-
 }
 
 class TBNode {
@@ -52,7 +48,6 @@ class TBNode {
 	TBNode next;
 
 	public TBNode(int data) {
-		super();
 		this.data = data;
 		this.left = null;
 		this.right = null;

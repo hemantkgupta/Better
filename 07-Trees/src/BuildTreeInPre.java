@@ -21,8 +21,10 @@ public class BuildTreeInPre {
 		     return null;
 		System.out.println("preIndex is : "+ preIndex);
 		int rootData = pre[preIndex];
-		preIndex = preIndex + 1;
 		root = new BNode(rootData);
+		
+		preIndex = preIndex + 1;
+		
 		
 		if(inStart == inEnd)
 			return root;

@@ -1,0 +1,53 @@
+import java.util.List;
+
+public class BinaryToBST {
+
+	public static void main(String[] args) {
+
+	}
+	
+	// This function converts a given Binary Tree to BST
+	public static void binaryTreeToBST (BNode root)
+	{
+	    if(root == null)
+	       return;
+	 
+	    /* Count the number of nodes in Binary Tree so that
+	       we know the size of temporary array to be created */
+	    int n = countNodes (root);
+	 
+	    // Create a temp array arr[] and store inorder traversal of tree in arr[]
+	    int *arr = new int[n];
+	    int i = 0;
+	    storeInorder (root, arr, &i);
+	 
+	    // Sort the array using library function for quick sort
+	    qsort (arr, n, sizeof(arr[0]), compare);
+	 
+	    // Copy array elements back to Binary Tree
+	    i = 0;
+	    arrayToBST (arr, root, &i);
+	 
+	    // delete dynamically allocated memory to avoid meory leak
+	    delete [] arr;
+	}
+	
+	/* A helper function to count nodes in a Binary Tree */
+	public static int countNodes (BNode root)
+	{
+	    if (root == null)
+	     return 0;
+	    return countNodes (root.left) +
+	           countNodes (root.right) + 1;
+	}
+	 
+
+	public static void storeInorder(BNode node, List<Integer> list) {
+		if (node == null)
+			return;
+		storeInorder(node.left, list);
+		list.add(node.data);
+		storeInorder(node.right, list);
+	}
+
+}

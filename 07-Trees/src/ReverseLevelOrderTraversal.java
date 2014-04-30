@@ -14,17 +14,13 @@ public class ReverseLevelOrderTraversal {
 	
 	/* Function to print level order traversal a tree */
 	public static void printReverseLevelOrder(BNode root) {
-		
 		 int h = height(root);
 		 for (int i = h; i >= 1; i--){
 			 System.out.println("\nThe level "+ i+ " is : ");
 			 printGivenLevel(root, i);
 		 }
-		
-		 
 	}
 	
-	/* Print nodes at a given level */
 	private static void printGivenLevel(BNode root, int level) {
 		if (root == null)
 			return;
@@ -36,7 +32,6 @@ public class ReverseLevelOrderTraversal {
 		}
 	}
 	
-	/* Function to calculate height of a tree */
 	public static int height(BNode root) {
 
 		if (root == null) {

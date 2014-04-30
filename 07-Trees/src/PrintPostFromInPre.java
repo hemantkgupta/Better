@@ -20,11 +20,11 @@ public class PrintPostFromInPre {
 	 
 	   // If left subtree is not empty, print left subtree
 	   if (root != 0){
-	      printPostOrder(in, Arrays.copyOfRange(pre, 1, pre.length-1), root);
+	      printPostOrder(in, Arrays.copyOfRange(pre, 1, root), root);
 	   }
 	   // If right subtree is not empty, print right subtree
 	   if (root != n-1){
-	      printPostOrder(Arrays.copyOfRange(in, root+1, in.length-1), Arrays.copyOfRange(pre, root+1, pre.length-1), n-root-1);
+	      printPostOrder(Arrays.copyOfRange(in, root+1,n-root-1), Arrays.copyOfRange(pre, root+1, n-root-1), n-root-1);
 	   }
 	   // Print root
 	  System.out.println(pre[0]+" ");
