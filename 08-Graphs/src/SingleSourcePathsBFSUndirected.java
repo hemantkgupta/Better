@@ -12,12 +12,6 @@ public class SingleSourcePathsBFSUndirected {
 		edgeTo = new int[G.V()];
 		bfs(G,0);
 		
-		for (int x : bfs.pathTo(v)) {
-			if (x == s)
-				System.out.print(x);
-			else
-				System.out.print("-" + x);
-		}
 
 	}
 	

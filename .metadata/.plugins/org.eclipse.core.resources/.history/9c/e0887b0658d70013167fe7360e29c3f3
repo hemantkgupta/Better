@@ -1,0 +1,41 @@
+import java.util.ArrayDeque;
+
+
+public class DetectCycleDigraph {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	// check that algorithm computes either the topological order or finds a directed cycle
+    public static void dfs(Digraph G, int v) {
+        onStack[v] = true;
+        marked[v] = true;
+        for (int w : G.adj(v)) {
+
+            // short circuit if directed cycle found
+            if (cycle != null) return;
+
+            //found new vertex, so recur
+            else if (!marked[w]) {
+                edgeTo[w] = v;
+                dfs(G, w);
+            }
+
+            // trace back directed cycle
+            else if (onStack[w]) {
+                cycle = new ArrayDeque<Integer>();
+                for (int x = v; x != w; x = edgeTo[x]) {
+                    cycle.push(x);
+                }
+                cycle.push(w);
+                cycle.push(v);
+            }
+        }
+        // remember to change
+        onStack[v] = false;
+    }
+
+
+}

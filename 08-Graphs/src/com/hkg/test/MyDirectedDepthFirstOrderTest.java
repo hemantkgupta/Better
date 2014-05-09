@@ -21,7 +21,7 @@ public class MyDirectedDepthFirstOrderTest {
 	        preorder  = new LinkedList<Integer>();
 	        marked    = new boolean[G.v];
 	        for (int v = 0; v < G.v; v++)
-	            if (!marked[v]) connectedDFS(G, v);
+	            if (!marked[v]) dfs(G, v);
 	    }
 
 	    // depth-first search preorder and postorder in an edge-weighted digraph
@@ -42,7 +42,7 @@ public class MyDirectedDepthFirstOrderTest {
 	        preorder.add(v);
 	        for (int w : G.adj(v)) {
 	            if (!marked[w]) {
-	                connectedDFS(G, w);
+	                dfs(G, w);
 	            }
 	        }
 	        postorder.add(v);

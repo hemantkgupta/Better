@@ -1,0 +1,35 @@
+import java.util.LinkedList;
+import java.util.Queue;
+
+
+public class SingleSourceShortestPathBFSDigraph {
+
+	public static void main(String[] args) {
+		Digraph G = new Digraph("tinyDG.txt");
+		marked =  new boolean[G.V()];
+		bfs(G, 0);
+
+	}
+	private static final int INFINITY = Integer.MAX_VALUE;
+    private static boolean[] marked;  // marked[v] = is there an s->v path?
+    private static int[] edgeTo;      // edgeTo[v] = last edge on shortest s->v path
+    private static int[] distTo;      // distTo[v] = length of shortest s->v path
+	 // BFS from single source
+    public static void bfs(Digraph G, int s) {
+        Queue<Integer> q = new LinkedList<Integer>();
+        marked[s] = true;
+        System.out.println("visited :"+ s);
+        q.add(s);
+        while (!q.isEmpty()) {
+            int v = q.remove();
+            for (int w : G.adj(v)) {
+                if (!marked[w]) {
+                    marked[w] = true;
+                    System.out.println("visited :"+ w);
+                    q.add(w);
+                }
+            }
+        }
+    }
+
+}

@@ -10,3 +10,20 @@
 1399395880511	Rename method 'dfs'
 1399395924697	Rename type 'MyDFSPaths'
 1399396481595	Rename type 'MyDFSPaths2'
+1399618623151	Rename local variable 'u'
+1399618632797	Rename local variable 'v'
+1399618761302	Rename method 'dfs'
+1399618988988	Rename method 'detectCycle'
+1399620045743	Rename method 'dfs'
+1399620629135	Rename method 'dfs'
+1399621213863	Rename method 'bfs'
+1399621640836	Rename local variable 'path'
+1399621886880	Rename method 'bfs'
+1399626009843	Rename method 'dfs'
+1399626193633	Delete element
+1399626371796	Delete element
+1399626462580	Copy compilation unit
+1399626797163	Copy compilation units
+1399626823434	Delete elements
+1399626878984	Delete element
+1399626888177	Delete element

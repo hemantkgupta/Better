@@ -41,7 +41,7 @@ public class MyDepthFirstPathsTest {
         this.s = s;
         edgeTo = new int[G.v];
         marked = new boolean[G.v];
-        connectedDFS(G, s);
+        dfs(G, s);
     }
 
     // depth first search from v
@@ -50,7 +50,7 @@ public class MyDepthFirstPathsTest {
 	        for (int w : G.adj(v)) {
 	            if (!marked[w]) {
 	                edgeTo[w] = v;
-	                connectedDFS(G, w);
+	                dfs(G, w);
 	            }
 	        }
 	    }

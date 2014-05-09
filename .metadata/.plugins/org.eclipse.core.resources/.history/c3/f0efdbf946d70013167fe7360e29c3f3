@@ -1,0 +1,26 @@
+
+public class DetectCycleUndirected {
+
+	public static void main(String[] args) {
+
+	}
+	
+	
+	public static void dfs(Graph G, int u, int v) {
+        marked[v] = true;
+        for (int w : G.adj(v)) {
+
+            if (!marked[w]) {
+                edgeTo[w] = v;
+                dfs(G, v, w);
+            }
+
+            // check for cycle (but disregard reverse of edge leading to v)
+            else if (w != u) {
+               cycle=true;
+            }
+        }
+    }
+
+
+}

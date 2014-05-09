@@ -1,0 +1,17 @@
+
+public class SingleSourceReachabilityDFSDigraph {
+
+	public static void main(String[] args) {
+
+	}
+	
+	 private static boolean[] marked; 
+	
+	 public static void dfs(Digraph G, int v) { 
+	        marked[v] = true;
+	        for (int w : G.adj(v)) {
+	            if (!marked[w]) dfs(G, w);
+	        }
+	    }
+
+}

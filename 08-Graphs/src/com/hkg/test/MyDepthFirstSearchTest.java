@@ -24,7 +24,7 @@ public class MyDepthFirstSearchTest {
 	// single source
 	public MyDepthFirstSearchTest(Graph G, int s) {
 		marked = new boolean[G.v];
-		connectedDFS(G, s);
+		dfs(G, s);
 	}
 
 	// depth first search from v
@@ -33,7 +33,7 @@ public class MyDepthFirstSearchTest {
 		marked[v] = true;
 		for (int w : G.adj(v)) {
 			if (!marked[w]) {
-				connectedDFS(G, w);
+				dfs(G, w);
 			}
 		}
 	}

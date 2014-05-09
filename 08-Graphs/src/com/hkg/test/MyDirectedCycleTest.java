@@ -13,7 +13,7 @@ public class MyDirectedCycleTest {
         onStack = new boolean[G.v];
         edgeTo  = new int[G.v];
         for (int v = 0; v < G.v; v++)
-            if (!marked[v]) connectedDFS(G, v);
+            if (!marked[v]) dfs(G, v);
 
         // check that digraph has a cycle
         assert check(G);
@@ -32,7 +32,7 @@ public class MyDirectedCycleTest {
             //found new vertex, so recur
             else if (!marked[w]) {
                 edgeTo[w] = v;
-                connectedDFS(G, w);
+                dfs(G, w);
             }
 
             // trace back directed cycle
