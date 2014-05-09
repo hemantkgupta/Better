@@ -28,6 +28,8 @@ public class MedianTwoSortedArray {
 	 
 	    m1 = median(ar1,n); /* get the median of the first array */
 	    m2 = median(ar2,n); /* get the median of the second array */
+	    System.out.println("Median of first array is : "+ m1);
+	    System.out.println("Median of second array is : "+ m2);
 	 
 	    /* If medians are equal then return either m1 or m2 */
 	    if (m1 == m2)

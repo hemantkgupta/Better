@@ -2,33 +2,28 @@ import java.util.Arrays;
 
 public class SmallerElementsOnRight {
 
-	private static int[] countSmaller;
-
+	
 	public static void main(String[] args) {
 		int[] arr = {10, 6, 15, 20, 30, 5, 7};
 		constructLowerArray(arr);
 		System.out.println(Arrays.toString(countSmaller));
 		
 	}
+	
+	private static int[] countSmaller;
 
-	// The following function updates the countSmaller array to contain count of
+	// function updates the countSmaller array to contain count of
 	// smaller elements on right side.
 	public static void constructLowerArray(int[] arr) {
 		int i, j;
 		ABNode root = null;
 		int n = arr.length;
 		countSmaller = new int[n];
-		/*
-		 * // initialize all the counts in countSmaller array as 0 for (i = 0; i
-		 * < n; i++) countSmaller[i] = 0;
-		 */
-
 		// Starting from rightmost element, insert all elements one by one in
 		// an AVL tree and get the count of smaller elements
 		for (i = n - 1; i >= 0; i--) {
 			root = insert(root, arr[i], i);
 		}
-		printInorder(root);
 	}
 
 	// Inserts a new key to the tree rooted with node. Also, updates count

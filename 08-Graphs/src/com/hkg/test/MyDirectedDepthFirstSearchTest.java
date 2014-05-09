@@ -30,21 +30,21 @@ public class MyDirectedDepthFirstSearchTest {
 	// single-source reachability
 	public MyDirectedDepthFirstSearchTest(Digraph G, int s) {
 		marked = new boolean[G.v];
-		dfs(G, s);
+		connectedDFS(G, s);
 	}
 
 	// multiple-source reachability
 	public MyDirectedDepthFirstSearchTest(Digraph G, Iterable<Integer> sources) {
 		marked = new boolean[G.v];
 		for (int v : sources)
-			dfs(G, v);
+			connectedDFS(G, v);
 	}
 
 	private void dfs(Digraph G, int v) {
 		marked[v] = true;
 		for (int w : G.adj(v)) {
 			if (!marked[w])
-				dfs(G, w);
+				connectedDFS(G, w);
 		}
 	}
 

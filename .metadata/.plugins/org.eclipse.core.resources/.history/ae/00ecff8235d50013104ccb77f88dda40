@@ -1,0 +1,24 @@
+
+public class DFS {
+
+	
+	
+	public static void main(String[] args) {
+		Graph G = new Graph("tinyCG.txt");
+		dfs(G, 0);
+
+	}
+	
+	public static boolean[] marked; 
+	// depth first search from v
+	public static void dfs(Graph G, int v) {
+		
+			marked[v] = true;
+			for (int w : G.adj(v)) {
+				if (!marked[w]) {
+					dfs(G, w);
+				}
+			}
+		}
+
+}

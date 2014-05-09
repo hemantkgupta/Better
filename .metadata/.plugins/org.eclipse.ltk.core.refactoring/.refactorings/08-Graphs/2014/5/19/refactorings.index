@@ -1,0 +1,12 @@
+1399391430103	Rename type 'DFS'
+1399391674195	Rename method 'dfs'
+1399393659871	Rename type 'ConnectedComponentsUndirected'
+1399393674734	Rename method 'connectedComponentsDFS'
+1399393908152	Copy compilation unit
+1399393914293	Delete element
+1399394481693	Rename local variable 'M'
+1399394765667	Delete element
+1399394801510	Rename type 'MyConnectedComponentsTest'
+1399395880511	Rename method 'dfs'
+1399395924697	Rename type 'MyDFSPaths'
+1399396481595	Rename type 'MyDFSPaths2'

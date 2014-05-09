@@ -1,4 +1,4 @@
-package com.hkg.test;
+
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -16,7 +16,7 @@ public class MyConnectedComponentsTest {
 		size = new int[G.v];
 		for (int i = 0; i < G.v; i++) {
 			if (!marked[i]) {
-				dfs(G, i);
+				connectedDFS(G, i);
 				count++;
 			}
 		}
@@ -29,7 +29,7 @@ public class MyConnectedComponentsTest {
 		size[count]++;
 		for (int w : G.adj(v)) {
 			if (!marked[w]) {
-				dfs(G, w);
+				connectedDFS(G, w);
 			}
 		}
 	}

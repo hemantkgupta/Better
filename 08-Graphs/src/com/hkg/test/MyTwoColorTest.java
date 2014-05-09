@@ -19,7 +19,7 @@ public class MyTwoColorTest {
 	        for (int v = 0; v < G.v; v++) {
 	            if (!marked[v]) {
 //	                color[v] = false;
-	                dfs(G, v);
+	                connectedDFS(G, v);
 	            }
 	        }
 	        assert check(G);
@@ -36,7 +36,7 @@ public class MyTwoColorTest {
 	            if (!marked[w]) {
 	                edgeTo[w] = v;
 	                color[w] = !color[v];
-	                dfs(G, w);
+	                connectedDFS(G, w);
 	            } 
 
 	            // if v-w create an odd-length cycle, find it

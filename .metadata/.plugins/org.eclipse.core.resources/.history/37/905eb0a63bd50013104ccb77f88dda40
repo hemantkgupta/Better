@@ -1,0 +1,22 @@
+import com.hkg.test.Graph;
+
+
+public class ConnectedComponentsUndirected {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	// depth first search
+		public static void dfs(Graph G, int v) {
+			marked[v] = true;
+			id[v] = count;
+			size[count]++;
+			for (int w : G.adj(v)) {
+				if (!marked[w]) {
+					connectedDFS(G, w);
+				}
+			}
+		}
+
+}

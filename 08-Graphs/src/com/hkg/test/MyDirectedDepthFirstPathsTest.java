@@ -12,7 +12,7 @@ public class MyDirectedDepthFirstPathsTest {
 	        marked = new boolean[G.v];
 	        edgeTo = new int[G.v];
 	        this.s = s;
-	        dfs(G, s);
+	        connectedDFS(G, s);
 	    }
 
 
@@ -21,7 +21,7 @@ public class MyDirectedDepthFirstPathsTest {
 	        for (int w : G.adj(v)) {
 	            if (!marked[w]) {
 	                edgeTo[w] = v;
-	                dfs(G, w);
+	                connectedDFS(G, w);
 	            }
 	        }
 	    }

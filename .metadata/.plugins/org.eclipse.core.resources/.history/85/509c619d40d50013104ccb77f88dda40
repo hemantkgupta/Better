@@ -1,25 +1,28 @@
-import java.util.ArrayDeque;
-import java.util.Deque;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.ListIterator;
 
-public class MyDFSPaths2 {
+public class MyDFSPaths {
+	
 	private boolean[] marked; // marked[v] = is there an s-v path?
 	private int[] edgeTo; // edgeTo[v] = last edge on s-v path
 	private final int s; // source vertex
 
-	public MyDFSPaths2(Graph G, int s) {
+	public MyDFSPaths(Graph G, int s) {
 		this.s = s;
 		edgeTo = new int[G.V()];
 		marked = new boolean[G.V()];
-		dfs(G, s);
+		singleSourcePaths(G, s);
 	}
 
-	// depth first search from v
-	private void dfs(Graph G, int v) {
+	//DFS based
+	private void singleSourcePaths(Graph G, int v) {
 		marked[v] = true;
 		for (int w : G.adj(v)) {
 			if (!marked[w]) {
+				// w has path from v
 				edgeTo[w] = v;
-				dfs(G, w);
+				singleSourcePaths(G, w);
 			}
 		}
 	}
@@ -30,14 +33,13 @@ public class MyDFSPaths2 {
 	}
 
 	// return a path between s to v; null if no such path
-	public Iterable<Integer> pathTo(int v) {
+	public List<Integer> pathTo(int v) {
 		if (!hasPathTo(v))
 			return null;
-		// Stack<Integer> path = new Stack<Integer>();
-		Deque<Integer> path = new ArrayDeque<Integer>();
+		List<Integer> path = new LinkedList<Integer>();
 		for (int x = v; x != s; x = edgeTo[x])
-			path.push(x);
-		path.push(s);
+			path.add(x);
+		path.add(s);
 		return path;
 	}
 
@@ -45,12 +47,15 @@ public class MyDFSPaths2 {
 		Graph G = new Graph("tinyCG.txt");
 		System.out.println(G);
 		int s = 0;
-		MyDFSPaths2 dfs = new MyDFSPaths2(G, s);
+		SingleSourcePathsDFSUndirected dfs = new SingleSourcePathsDFSUndirected(G, s);
 
 		for (int v = 0; v < G.V(); v++) {
 			if (dfs.hasPathTo(v)) {
 				System.out.printf("%d to %d:  ", s, v);
-				for (int x : dfs.pathTo(v)) {
+				ListIterator<Integer> it = (ListIterator<Integer>) dfs
+						.pathTo(v).listIterator(dfs.pathTo(v).size());
+				while (it.hasPrevious()) {
+					int x = it.previous();
 					if (x == s)
 						System.out.print(x);
 					else

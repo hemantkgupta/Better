@@ -1,0 +1,35 @@
+import com.hkg.test.Graph;
+
+
+public class ConnectedComponentsUndirected {
+
+	public static void main(String[] args) {
+		marked = new boolean[G.v];
+		id = new int[G.v];
+		size = new int[G.v];
+		for (int i = 0; i < G.v; i++) {
+			if (!marked[i]) {
+				connectedDFS(G, i);
+				count++;
+			}
+		}
+
+	}
+	
+	private static boolean[] marked; // marked[v] = has vertex v been marked?
+	private static int[] id; // id[v] = id of connected component containing v
+	private static int[] size; // size[id] = number of vertices in given component
+	private static int count; // number of connected components
+	// depth first search
+		public static void dfs(Graph G, int v) {
+			marked[v] = true;
+			id[v] = count;
+			size[count]++;
+			for (int w : G.adj(v)) {
+				if (!marked[w]) {
+					connectedDFS(G, w);
+				}
+			}
+		}
+
+}

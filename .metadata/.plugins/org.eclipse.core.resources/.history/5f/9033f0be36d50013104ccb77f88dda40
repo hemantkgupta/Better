@@ -1,0 +1,23 @@
+
+public class ConnectedComponentsUndirected {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static boolean[] marked; // marked[v] = is there an s-v path?
+	public static int count; // number of vertices connected to s
+	
+	// depth first search from v
+	public static void dfs(Graph G, int v) {
+			count++;
+			marked[v] = true;
+			for (int w : G.adj(v)) {
+				if (!marked[w]) {
+					dfs(G, w);
+				}
+			}
+		}
+
+}

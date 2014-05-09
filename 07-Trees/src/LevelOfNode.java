@@ -10,7 +10,8 @@ public class LevelOfNode {
 		root.left.right.right = new BNode(14);
 		System.out.println(levelOfNode(root, root.left.right.left, 1));
 	}
-
+    
+	//returns level of node, pass level==1 representing root level
 	public static int levelOfNode(BNode root, BNode node, int level) {
 
 		if (root == null)

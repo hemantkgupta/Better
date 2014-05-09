@@ -19,7 +19,7 @@ public class MyKosarajuSCCTest {
         id = new int[G.v];
         for (int v : dfs.reversePost()) {
             if (!marked[v]) {
-                dfs(G, v);
+                connectedDFS(G, v);
                 count++;
             }
         }
@@ -33,7 +33,7 @@ public class MyKosarajuSCCTest {
         marked[v] = true;
         id[v] = count;
         for (int w : G.adj(v)) {
-            if (!marked[w]) dfs(G, w);
+            if (!marked[w]) connectedDFS(G, w);
         }
     }
 

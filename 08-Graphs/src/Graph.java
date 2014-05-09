@@ -6,9 +6,9 @@ import java.util.Scanner;
 import java.util.Set;
 
 public class Graph {
-    private int V;
-    private int E;
-    private Set<Integer>[] adj;
+    public int V;
+    public int E;
+    public Set<Integer>[] adj;
     
    /**
      * Create an empty graph with V vertices.
