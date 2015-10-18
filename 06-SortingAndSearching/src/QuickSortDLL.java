@@ -52,7 +52,7 @@ public class QuickSortDLL {
 		// Find last node
 		DNode h = lastNode(head);
 		System.out.println("last node"+h.data);
-		// Call the recursive QuickSort
+		// Call the recursive SRT06QuickSort
 		_quickSort(head, h);
 		
 	}

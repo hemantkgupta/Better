@@ -38,7 +38,6 @@ public class S013Interleaving {
 	}
 
 	// Returns true if C is an interleaving of A and B, otherwise
-	// returns false
 	public static boolean isInterleaved(char[] A, char[] B, char[] C) {
 		int clen = C.length;
 

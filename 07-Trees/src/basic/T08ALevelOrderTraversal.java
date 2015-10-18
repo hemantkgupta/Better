@@ -1,6 +1,9 @@
 package basic;
 
 
+import java.util.ArrayDeque;
+import java.util.Queue;
+
 public class T08ALevelOrderTraversal {
 
 	public static void main(String[] args) {
@@ -26,7 +29,6 @@ public class T08ALevelOrderTraversal {
 		 
 	}
 
-	/* Print nodes at a given level */
 	private static void printGivenLevel(BNode root, int level) {
 		if (root == null)
 			return;

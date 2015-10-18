@@ -1,25 +1,25 @@
 package advanced;
 
 
-import basic.*;
+
 
 public class T015ConvertToChildrenSumProperty {
 
 	public static void main(String[] args) {
-		basic.BNode root = new basic.BNode(10);
+		BNode root = new BNode(10);
 
-		root.left = new basic.BNode(8);
-		root.right = new basic.BNode(3);
+		root.left = new BNode(8);
+		root.right = new BNode(3);
 
-		root.left.left = new basic.BNode(3);
-		root.left.right = new basic.BNode(5);
-		root.right.left = new basic.BNode(2);
+		root.left.left = new BNode(3);
+		root.left.right = new BNode(5);
+		root.right.left = new BNode(2);
 		convertTree(root);
 		System.out.println(new T13ChildrenSumPropertyTest()
 				.childrenSumProperty(root));
 	}
 
-	public static void convertTree(basic.BNode BNode) {
+	public static void convertTree(BNode BNode) {
 		int left_data = 0, right_data = 0, diff;
 
 		if (BNode == null || (BNode.left == null && BNode.right == null)){
@@ -44,7 +44,7 @@ public class T015ConvertToChildrenSumProperty {
 	}
 
 	/* This function is used to increment subtree by diff */
-	public static void increment(basic.BNode BNode, int diff) {
+	public static void increment(BNode BNode, int diff) {
 		if (BNode.left != null) {
 			BNode.left.data = BNode.left.data + diff;
 			increment(BNode.left, diff);
