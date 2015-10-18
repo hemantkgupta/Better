@@ -1,0 +1,1668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="45693b8d-1913-4ab3-8401-0fd119dcb727" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/basic/A001FindTwoElementsWithFixedSum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/A002MajorityElement.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/A004FindInPivotedArray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/basic/A004PrintLeaders.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/basic/A006MaxDiffTwoElementsLargerAppearAfter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/basic/A007Segregate0And1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/basic/A008FindTwoDistinctSmallest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/basic/A012GetUnsortedSubArray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/ABNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/ABNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/AVLTree2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/AVLTreeTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-BitMagic/src/sort/advanced/Add.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/AddAllGreaterBST.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/AllInterpretationOfArray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/AllLeavesOnSameLevel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/AllNodesAtKDist.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/AllPermsRFromN.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/ArrayRotation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/04-StacksAndQueues/src/sort/basic/ArrayStackChar.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-BitMagic/src/sort/basic/B001BitUtility.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-BitMagic/src/sort/basic/B003GetNextPowerOf2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-BitMagic/src/sort/basic/B004PositionOfRightmostSetBit.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-BitMagic/src/sort/basic/B005MultipleOf3Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-BitMagic/src/sort/basic/B006ParityCount.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-BitMagic/src/sort/basic/B007ClosetIntWithSameSetBits.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-BitMagic/src/sort/basic/B009ReverseTheBits.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-BitMagic/src/sort/basic/B010OddEvenParityTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-BitMagic/src/sort/basic/B011NumberOfBitSwapsForAtoB.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-BitMagic/src/sort/basic/B012RotateBits.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-BitMagic/src/sort/basic/B013GetAbsWithoutBranching.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-BitMagic/src/sort/basic/B014PowerOf4Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-BitMagic/src/sort/basic/B016AddOneWithoutAO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-BitMagic/src/sort/basic/B017AdditionWithoutAO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-BitMagic/src/sort/advanced/B023SwapBitRange.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05-LinkedLists/src/sort/advanced/BNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/BNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/BSTInorderSuccessor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/BSTSimpleOperations.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/BSTtoDLL.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/BiggestNoFormation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/BinaryToBST.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/BinaryTreeToDLL.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-BitMagic/src/sort/advanced/BitOperationsTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/BoundryTraversal.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/BuildBSTFromPre.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/BuildBSTFromPre2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/BuildFBTPrePost.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/BuildSpecialTreeFromInorder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/BuildTreeInLevel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/BuildTreeInPost.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/BuildTreeInPre.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/CompleteBinaryTreeByLL.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/CompleteBinaryTreeTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/ConnectNodeAtSameLevel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/ConsecutiveElements.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/CountAllPathsMatrix.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-BitMagic/src/sort/advanced/CountSetBits.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/CountSort.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05-LinkedLists/src/sort/advanced/DNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/DeepestLeftLeaf.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/DeepestOddLeftLeaf.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05-LinkedLists/src/sort/advanced/DeleteAList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05-LinkedLists/src/sort/advanced/DeleteGreaterNodes.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/DiagonalMatrixPrint.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/DiameterBinaryTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/ExtractLeavesAsDLL.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/FirstMissing.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-BitMagic/src/sort/advanced/FirstSetBit.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/FixedPointInArray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05-LinkedLists/src/sort/advanced/FlattenMultilevelList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/IdenticalBST.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/InorderPrintArrayBST.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/InsertInBST.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/IsomorphicTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/KDistFromLeaf.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/KthLargest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/KthSmallest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/KthSmallestinSorted2D.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05-LinkedLists/src/sort/basic/LL001GetNthNodeFromStart.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05-LinkedLists/src/sort/basic/LL002GetMiddleNodeOfList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05-LinkedLists/src/sort/basic/LL003GetNthNodeFromLast.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05-LinkedLists/src/sort/basic/LL013ReverseDLL.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05-LinkedLists/src/sort/basic/LL014SwapNodePairwise.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05-LinkedLists/src/sort/basic/LL015MergeTwoSortedListsRecursive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05-LinkedLists/src/sort/basic/LL016ReverseEveryKNodesOfList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05-LinkedLists/src/sort/basic/LL017ReverseAlternateKNodesOfList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05-LinkedLists/src/sort/advanced/LL027SegregateEvensAndOddsInList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05-LinkedLists/src/sort/advanced/LL028AddTwoNumbersRepresentedByLists.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05-LinkedLists/src/sort/advanced/LL04InsertionInSortedCircularList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/LargestBSTSize.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/LeastCommonAncestorBinaryTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/LinkedListToCompleteBTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05-LinkedLists/src/sort/advanced/MNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/MatrixMark1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/MatrixSpiralPrint.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/MaxIndexDiff.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/MaxMin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/MaxRepeatingElement.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/MaximumOfAllSubarray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/MaxinBitonic.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/MedianTwoSortedArray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/MedianTwoSortedArray2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/MergeOverlappingIntervals.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06-SortingAndSearching/src/sort/advanced/MergeSortBottomUp.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/MergeTwoBST.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/MergeTwoBST2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/MinJumps.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/MissingAndRepeating.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-BitMagic/src/sort/advanced/MultiplyBy3Andhalf.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/04-StacksAndQueues/src/sort/basic/MyArrayQueueTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/04-StacksAndQueues/src/sort/basic/MyArrayStackTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/MyCountSort.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/04-StacksAndQueues/src/sort/basic/MyLinkedListQueueTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/04-StacksAndQueues/src/sort/basic/MyLinkedListStackTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05-LinkedLists/src/sort/advanced/MyLinkedListTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/MyRadixSort.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05-LinkedLists/src/sort/advanced/NextRightNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/NextRightNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05-LinkedLists/src/sort/advanced/Node.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/Node.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/NodesWithoutSiblings.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/NumberOfLeafNodes.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/OddTimesNumber.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/PairSumBST.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/PancakeSorting.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/PathSumTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06-SortingAndSearching/src/search/basic/PatternSearch01.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/PeakElements.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/PossibleTriangles.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/PostorderIterative1Stack.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/PrintAllPathsMatrix.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/PrintPostFromInPre.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/PrintRepetitiveNo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/PrintRightView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/RadixBase10Sort.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/RadixSort.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/RearrangeElements.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/ReverseAnArray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/RootToLeafPathSum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/RootToLeafPaths.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05-LinkedLists/src/sort/advanced/RotateList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02-Strings/src/sort/basic/S001MaxOccurringChar.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02-Strings/src/sort/basic/S002PrintAndRemoveDuplicateChars.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02-Strings/src/sort/basic/S003ReverseStringUsingRecursion.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02-Strings/src/sort/basic/S004PrintAllPermutations.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02-Strings/src/sort/basic/S007PrintAllPermutationsWithRepetition.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02-Strings/src/S013Interleaving.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/04-StacksAndQueues/src/sort/basic/SAQ001StackUsingArray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/04-StacksAndQueues/src/sort/basic/SAQ002StackUsingLinkedList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/04-StacksAndQueues/src/sort/basic/SAQ003QueueUsingArray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/04-StacksAndQueues/src/sort/basic/SAQ004QueueUsingLinkedList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/04-StacksAndQueues/src/sort/basic/SAQ005NextGreaterElement.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/04-StacksAndQueues/src/sort/basic/SAQ006ReverseStackByRecursion.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/04-StacksAndQueues/src/sort/basic/SAQ007StackUsingQueue.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/04-StacksAndQueues/src/sort/basic/SAQ008QueueUsingTwoStack.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/04-StacksAndQueues/src/sort/basic/SAQ009QueueUsingOneStack.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/04-StacksAndQueues/src/sort/basic/SAQ010InfixToPostfixTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06-SortingAndSearching/src/sort/basic/SRT01BubbleSort.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06-SortingAndSearching/src/sort/basic/SRT02SelectionSort.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06-SortingAndSearching/src/sort/basic/SRT03InsertionSort.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06-SortingAndSearching/src/sort/basic/SRT04ShellSort.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06-SortingAndSearching/src/sort/basic/SRT05MergeSortTopDown.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06-SortingAndSearching/src/sort/basic/SRT06QuickSort.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06-SortingAndSearching/src/sort/basic/SRT07HeapSort.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/SearchSortedMatrix.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/ShuffleArray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-BitMagic/src/sort/advanced/SimpleExamples.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05-LinkedLists/src/sort/advanced/SimpleOperations.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/SmallerElementsOnRight.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/SmallestMissingPositive.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/Solution.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/SortByFrequency.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05-LinkedLists/src/sort/advanced/SortedLinkedListToBST.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/SortedSubsequence3.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/StableMarriageProblem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/04-StacksAndQueues/src/sort/advanced/StackSpanProblem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/StockBuySellTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/SubarraySumZero.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/SubsetArrayTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/SumClosestZero.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/SumLessKDeleteNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05-LinkedLists/src/sort/advanced/SumRootToLeafPathNo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05-LinkedLists/src/sort/advanced/SwapKthNodeStartEnd.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/SwapWrongNodeBST.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/basic/T001TreeSimpleOperations.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/basic/T012ABSTTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/basic/T012BBSTTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/T015ConvertToChildrenSumProperty.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/T019MorrisInorderTraversal.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/T029KthSmallestBST.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/basic/T08ALevelOrderTraversal.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/basic/T08BLevelOrderTraversalUsingQ.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/basic/T09LeastCommonAncestorBST.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/basic/T12LevelOrderTraversalSpiralUsingRecursion.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/basic/T13ChildrenSumPropertyTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/basic/T15HeightBalanceTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/basic/T16InorderTraversalIterative.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/basic/T18DoubleTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/basic/T19WidthOfTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/basic/T20FoldableBinaryTreeTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/basic/T21CountAndPrintNodesKDistanceFromRoot.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/basic/T22InorderSuccessorBST.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/basic/T23LevelOfNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/basic/T24PrintAncestorOfNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/basic/T25KeysInRangeBST.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/basic/T26SubTreeTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/basic/T27BalancedBSTFromSortedArray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/basic/T28PopulateInorderSuccessorAllNodes.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/basic/T29PreorderIterative.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/basic/T30PostorderIterativeUsing2Stack.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/basic/T31AReverseLevelOrderTraversal.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/basic/T31BReverseLevelOrderUsingQ.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/basic/T32TrieTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/basic/T33HeightIterative.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/TheGreatTreeListProblem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/TripletAddToZero.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05-LinkedLists/src/sort/advanced/TripletSum.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/TugOfWar.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-BitMagic/src/sort/advanced/TwoNonRepeating.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/UniqueRowInBooleanMatrix.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/VerticalOrderPrinting.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/VisitAllPetrolPumps.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-Trees/src/advanced/keysOutRangeDeleteBST.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/ABNode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/AllPermsRFromN.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/ArrayRotation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/BiggestNoFormation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/ConsecutiveElements.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/CountAllPathsMatrix.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/CountInversions.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/CountSort.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/DiagonalMatrixPrint.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/FindInPivotedArray.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/FindTwoElementsWithFixedSum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/FirstMissing.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/FixedPointInArray.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/GivenSumSubarray.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/KthLargest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/KthSmallest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/KthSmallestinSorted2D.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/MajorityElement.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/MatrixMark1.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/MatrixSpiralPrint.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/MaxDiffTwoElements.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/MaxIndexDiff.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/MaxMin.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/MaxRepeatingElement.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/MaximumOfAllSubarray.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/MaxinBitonic.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/MedianTwoSortedArray.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/MedianTwoSortedArray2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/MergeOverlappingIntervals.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/MergeTwoSorted.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/MinJumps.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/MissingAndRepeating.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/MyCountSort.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/MyRadixSort.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/OddTimesNumber.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/PancakeSorting.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/PeakElements.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/PossibleTriangles.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/PrintAllPathsMatrix.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/PrintLeaders.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/PrintRepetitiveNo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/RadixBase10Sort.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/RadixSort.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/RearrangeElements.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/ReverseAnArray.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/SearchSortedMatrix.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/Segregate0And1.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/ShuffleArray.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/SmallerElementsOnRight.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/SmallestMissingPositive.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/Solution.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/SortByFrequency.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/SortedSubsequence3.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/StableMarriageProblem.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/StockBuySellTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/SubarraySumZero.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/SubsetArrayTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/SumClosestZero.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/TugOfWar.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/TwoSmallest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/UniqueRowInBooleanMatrix.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/UnsortedSubarrayToSorted.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/VisitAllPetrolPumps.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/01-Arrays/src/ZerosToEnd.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/02-Strings/src/AllpermsWithRepitition.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/02-Strings/src/FirstNonRepeating.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/02-Strings/src/Interleavings.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/02-Strings/src/MaxOccuringChar.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/02-Strings/src/PrintAllPerms.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/02-Strings/src/RemoveDuplicatesChars.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/02-Strings/src/StringReverseRecursion.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-BitMagic/src/AbsTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-BitMagic/src/Add.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-BitMagic/src/AddOne.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-BitMagic/src/AddTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-BitMagic/src/BitOperationsTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-BitMagic/src/BitUtility.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-BitMagic/src/BitsForAtoB.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-BitMagic/src/ClosetIntWithSameSetBits.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-BitMagic/src/CountSetBits.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-BitMagic/src/FirstSetBit.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-BitMagic/src/MaxMinTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-BitMagic/src/MultiplyBy3Andhalf.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-BitMagic/src/NextPowerOf2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-BitMagic/src/NumberMultipleOf3.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-BitMagic/src/ParityCount.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-BitMagic/src/ParityOddEven.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-BitMagic/src/PowerOf4Test.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-BitMagic/src/ReverseBits.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-BitMagic/src/RightMostSetBitFindAndTurnOff.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-BitMagic/src/RotateBits.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-BitMagic/src/SimpleExamples.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-BitMagic/src/SwapBitRange.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/03-BitMagic/src/TwoNonRepeating.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/04-StacksAndQueues/src/ArrayQueue.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/04-StacksAndQueues/src/ArrayStackChar.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/04-StacksAndQueues/src/ArrayStackInt.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/04-StacksAndQueues/src/InfixToPostfixTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/04-StacksAndQueues/src/LinkedListQueue.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/04-StacksAndQueues/src/LinkedListStack.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/04-StacksAndQueues/src/MinO1Test.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/04-StacksAndQueues/src/MyArrayQueueTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/04-StacksAndQueues/src/MyArrayStackTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/04-StacksAndQueues/src/MyLinkedListQueueTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/04-StacksAndQueues/src/MyLinkedListStackTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/04-StacksAndQueues/src/NextGreaterElement.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/04-StacksAndQueues/src/QueueUsing1Stack.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/04-StacksAndQueues/src/QueueUsingStack.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/04-StacksAndQueues/src/ReverseStackRecursion.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/04-StacksAndQueues/src/StackOperationOnMiddle.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/04-StacksAndQueues/src/StackSpanProblem.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/04-StacksAndQueues/src/StackUsingQueue.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/05-LinkedLists/src/AddTwoNumbers.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/05-LinkedLists/src/BNode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/05-LinkedLists/src/DNode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/05-LinkedLists/src/DeleteAList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/05-LinkedLists/src/DeleteDuplicateSorted.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/05-LinkedLists/src/DeleteDuplicatesUnsorted.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/05-LinkedLists/src/DeleteGreaterNodes.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/05-LinkedLists/src/FindLoopAndBeginning.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/05-LinkedLists/src/FlattenMultilevelList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/05-LinkedLists/src/GetMiddleOfList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/05-LinkedLists/src/GetNthFromLast.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/05-LinkedLists/src/GetNthNode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/05-LinkedLists/src/InsertSortedCircularList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/05-LinkedLists/src/IntersectionOfTwoList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/05-LinkedLists/src/MNode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/05-LinkedLists/src/MergeTwoSortedLists.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/05-LinkedLists/src/MyLinkedListTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/05-LinkedLists/src/NextRightNode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/05-LinkedLists/src/Node.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/05-LinkedLists/src/PairwiseSwap.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/05-LinkedLists/src/PalindromeRecursive.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/05-LinkedLists/src/PalindromeTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/05-LinkedLists/src/ReverseAltKNodes.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/05-LinkedLists/src/ReverseDLL.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/05-LinkedLists/src/ReverseEveryKNodes.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/05-LinkedLists/src/ReverseListIterative.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/05-LinkedLists/src/ReverseListPrint.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/05-LinkedLists/src/ReverseListRecursive.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/05-LinkedLists/src/RotateList.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/05-LinkedLists/src/SegregateEvenAndOdds.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/05-LinkedLists/src/SimpleOperations.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/05-LinkedLists/src/SortedLinkedListToBST.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/05-LinkedLists/src/SumRootToLeafPathNo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/05-LinkedLists/src/SwapKthNodeStartEnd.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/05-LinkedLists/src/TripletSum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/06-SortingAndSearching/src/BubbleSort.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/06-SortingAndSearching/src/HeapSort.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/06-SortingAndSearching/src/InsertionSort.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/06-SortingAndSearching/src/MergeSortBottomUp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/06-SortingAndSearching/src/MergeSortTopDown.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/06-SortingAndSearching/src/PatternSearch01.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/06-SortingAndSearching/src/QuickSort.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/06-SortingAndSearching/src/SelectionSort.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/06-SortingAndSearching/src/ShellSort.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/ABNode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/AVLTree2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/AVLTreeTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/AddAllGreaterBST.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/AllInterpretationOfArray.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/AllLeavesOnSameLevel.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/AllNodesAtKDist.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/BNode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/BSTInorderSuccessor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/BSTSimpleOperations.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/BSTTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/BSTTest2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/BSTtoDLL.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/BinaryToBST.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/BinaryTreeToDLL.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/BoundryTraversal.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/BuildBSTFromPre.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/BuildBSTFromPre2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/BuildFBTPrePost.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/BuildSpecialTreeFromInorder.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/BuildTreeInLevel.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/BuildTreeInPost.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/BuildTreeInPre.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/ChildrenSumPropertyTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/CompleteBinaryTreeByLL.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/CompleteBinaryTreeTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/ConnectNodeAtSameLevel.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/ConvertToChildrenSum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/DeepestLeftLeaf.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/DeepestOddLeftLeaf.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/DiameterBinaryTree.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/DoubleTree.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/ExtractLeavesAsDLL.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/FoldableBinaryTree.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/HeightBalanceTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/HeightIterative.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/IdenticalBST.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/InorderPrintArrayBST.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/InorderSuccessorAllNodes.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/InorderSuccessorBST.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/InorderTraversalIterative.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/InsertInBST.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/IsomorphicTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/KDistFromLeaf.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/KeysInRangeBST.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/KthSmallestBST.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/LargestBSTSize.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/LeastCommonAncestorBST.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/LeastCommonAncestorBinaryTree.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/LevelOfNode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/LevelOrderTraversal.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/LevelOrderTraversalSpiral.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/LevelOrderTraversalUsingQ.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/LinkedListToCompleteBTree.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/MergeTwoBST.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/MergeTwoBST2.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/MorrisInorderTraversal.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/NextRightNode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/Node.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/NodesWithoutSiblings.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/NumberOfLeafNodes.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/PairSumBST.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/PathSumTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/PostorderIterative1Stack.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/PostorderIterative2Stack.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/PreorderIterative.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/PrintAncestor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/PrintPostFromInPre.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/PrintRightView.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/ReverseLevelOrderTraversal.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/ReverseLevelOrderUsingQ.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/RootToLeafPathSum.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/RootToLeafPaths.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/RootToNodeKdist.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/SortedArrayToBST.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/SubTreeTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/SumLessKDeleteNode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/SwapWrongNodeBST.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/TheGreatTreeListProblem.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/TreeSimpleOperations.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/TrieTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/TripletAddToZero.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/VerticalOrderPrinting.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/WidthOfTree.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/07-Trees/src/keysOutRangeDeleteBST.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/01-Arrays/src/TheCelebrityProblem.java" afterPath="$PROJECT_DIR$/01-Arrays/src/sort/advanced/TheCelebrityProblem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04-StacksAndQueues/bin/.gitignore" afterPath="$PROJECT_DIR$/04-StacksAndQueues/bin/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/06-SortingAndSearching/src/QuickSortDLL.java" afterPath="$PROJECT_DIR$/06-SortingAndSearching/src/QuickSortDLL.java" />
+    </list>
+    <ignored path="Job.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Job" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="T14DiameterOfTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/07-Trees/src/basic/T14DiameterOfTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="T21CountAndPrintNodesKDistanceFromRoot.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/07-Trees/src/basic/T21CountAndPrintNodesKDistanceFromRoot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NextRightNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/07-Trees/src/advanced/NextRightNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="T28PopulateInorderSuccessorAllNodes.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/07-Trees/src/basic/T28PopulateInorderSuccessorAllNodes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="T32TrieTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/07-Trees/src/basic/T32TrieTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.531401">
+              <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+              <folding>
+                <element signature="e#1389#1390#0" expanded="true" />
+                <element signature="e#1433#1434#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConnectNodeAtSameLevel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/07-Trees/src/advanced/ConnectNodeAtSameLevel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="57" column="1" selection-start-line="43" selection-start-column="0" selection-end-line="57" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TBNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/07-Trees/src/basic/TBNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="T015ConvertToChildrenSumProperty.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/07-Trees/src/advanced/T015ConvertToChildrenSumProperty.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="T13ChildrenSumPropertyTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/07-Trees/src/advanced/T13ChildrenSumPropertyTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/07-Trees/src/basic/BNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/05-LinkedLists/src/basic/LL021MergeTwoSortedListsRecursive.java" />
+        <option value="$PROJECT_DIR$/06-SortingAndSearching/src/basic/SRT01BubbleSort.java" />
+        <option value="$PROJECT_DIR$/06-SortingAndSearching/src/advanced/MergeSortBottomUp.java" />
+        <option value="$PROJECT_DIR$/06-SortingAndSearching/src/HeapSort.java" />
+        <option value="$PROJECT_DIR$/06-SortingAndSearching/src/basic/HeapSort.java" />
+        <option value="$PROJECT_DIR$/06-SortingAndSearching/src/basic/SRT07HeapSort.java" />
+        <option value="$PROJECT_DIR$/06-SortingAndSearching/src/search/basic/PatternSearch01.java" />
+        <option value="$PROJECT_DIR$/07-Trees/src/basic/BNode.java" />
+        <option value="$PROJECT_DIR$/07-Trees/src/basic/T001TreeSimpleOperations.java" />
+        <option value="$PROJECT_DIR$/07-Trees/src/basic/T01TreeTraversalRecursive.java" />
+        <option value="$PROJECT_DIR$/07-Trees/src/basic/T029KthSmallestBST.java" />
+        <option value="$PROJECT_DIR$/07-Trees/src/basic/T005MirrorTree.java" />
+        <option value="$PROJECT_DIR$/07-Trees/src/basic/T008ALevelOrderTraversal.java" />
+        <option value="$PROJECT_DIR$/07-Trees/src/basic/T009LeastCommonAncestorBST.java" />
+        <option value="$PROJECT_DIR$/07-Trees/src/basic/T012ABSTTest.java" />
+        <option value="$PROJECT_DIR$/07-Trees/src/basic/T012BBSTTest.java" />
+        <option value="$PROJECT_DIR$/07-Trees/src/basic/T013LevelOrderTraversalSpiral.java" />
+        <option value="$PROJECT_DIR$/07-Trees/src/basic/T014ChildrenSumPropertyTest.java" />
+        <option value="$PROJECT_DIR$/07-Trees/src/basic/T015ConvertToChildrenSumProperty.java" />
+        <option value="$PROJECT_DIR$/07-Trees/src/basic/T017HeightBalanceTest.java" />
+        <option value="$PROJECT_DIR$/07-Trees/src/basic/T018InorderTraversalIterative.java" />
+        <option value="$PROJECT_DIR$/07-Trees/src/basic/T019MorrisInorderTraversal.java" />
+        <option value="$PROJECT_DIR$/07-Trees/src/basic/T020PathSumToGivenNumberTest.java" />
+        <option value="$PROJECT_DIR$/07-Trees/src/basic/T022DoubleTree.java" />
+        <option value="$PROJECT_DIR$/07-Trees/src/basic/T025FoldableBinaryTreeTest.java" />
+        <option value="$PROJECT_DIR$/07-Trees/src/basic/T024WidthOfTree.java" />
+        <option value="$PROJECT_DIR$/07-Trees/src/basic/T028InorderSuccessorBST.java" />
+        <option value="$PROJECT_DIR$/07-Trees/src/basic/T030LevelOfNode.java" />
+        <option value="$PROJECT_DIR$/07-Trees/src/basic/T031PrintAncestorOfNode.java" />
+        <option value="$PROJECT_DIR$/07-Trees/src/basic/T032KeysInRangeBST.java" />
+        <option value="$PROJECT_DIR$/07-Trees/src/basic/T033SubTreeTest.java" />
+        <option value="$PROJECT_DIR$/07-Trees/src/basic/T02SizeOfTree.java" />
+        <option value="$PROJECT_DIR$/07-Trees/src/basic/T03IdenticalTreeTest.java" />
+        <option value="$PROJECT_DIR$/07-Trees/src/basic/T04MaxDepthOrHeightOfTree.java" />
+        <option value="$PROJECT_DIR$/07-Trees/src/basic/T07PrintRootToLeafPaths.java" />
+        <option value="$PROJECT_DIR$/07-Trees/src/basic/T008BLevelOrderTraversalUsingQ.java" />
+        <option value="$PROJECT_DIR$/07-Trees/src/basic/T08ALevelOrderTraversal.java" />
+        <option value="$PROJECT_DIR$/07-Trees/src/basic/T09LeastCommonAncestorBST.java" />
+        <option value="$PROJECT_DIR$/07-Trees/src/basic/T10CountLeafNodes.java" />
+        <option value="$PROJECT_DIR$/07-Trees/src/basic/T015DiameterOfTree.java" />
+        <option value="$PROJECT_DIR$/07-Trees/src/advanced/T13ChildrenSumPropertyTest.java" />
+        <option value="$PROJECT_DIR$/07-Trees/src/advanced/T015ConvertToChildrenSumProperty.java" />
+        <option value="$PROJECT_DIR$/07-Trees/src/basic/T14DiameterOfTree.java" />
+        <option value="$PROJECT_DIR$/07-Trees/src/basic/T026NodesKDistanceFromRoot.java" />
+        <option value="$PROJECT_DIR$/07-Trees/src/basic/T21CountAndPrintNodesKDistanceFromRoot.java" />
+        <option value="$PROJECT_DIR$/07-Trees/src/basic/InorderSuccessorAllNodes.java" />
+        <option value="$PROJECT_DIR$/07-Trees/src/basic/TBNode.java" />
+        <option value="$PROJECT_DIR$/07-Trees/src/basic/T028PopulateInorderSuccessorAllNodes.java" />
+        <option value="$PROJECT_DIR$/07-Trees/src/basic/T28PopulateInorderSuccessorAllNodes.java" />
+        <option value="$PROJECT_DIR$/07-Trees/src/basic/TrieTest.java" />
+        <option value="$PROJECT_DIR$/07-Trees/src/basic/T32TrieTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1280" />
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="1053" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="1" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Job" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Job" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="07-Trees" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Job" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="07-Trees" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Job" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="07-Trees" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="advanced" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Frontend" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="advanced" />
+      <recent name="basic" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/06-SortingAndSearching/src" />
+      <recent name="$PROJECT_DIR$/11-Misc/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/01-Arrays/src/advanced" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="basic" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.T14DiameterOfTree">
+    <configuration default="false" name="T04MaxDepthOrHeightOfTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="basic.T04MaxDepthOrHeightOfTree" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="07-Trees" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="T07PrintRootToLeafPaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="basic.T07PrintRootToLeafPaths" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="07-Trees" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="T08ALevelOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="basic.T08ALevelOrderTraversal" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="07-Trees" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="T10CountLeafNodes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="basic.T10CountLeafNodes" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="07-Trees" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="T14DiameterOfTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="basic.T14DiameterOfTree" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="07-Trees" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Application.T04MaxDepthOrHeightOfTree" />
+      <item index="1" class="java.lang.String" itemvalue="Application.T07PrintRootToLeafPaths" />
+      <item index="2" class="java.lang.String" itemvalue="Application.T08ALevelOrderTraversal" />
+      <item index="3" class="java.lang.String" itemvalue="Application.T10CountLeafNodes" />
+      <item index="4" class="java.lang.String" itemvalue="Application.T14DiameterOfTree" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.T14DiameterOfTree" />
+        <item index="1" class="java.lang.String" itemvalue="Application.T10CountLeafNodes" />
+        <item index="2" class="java.lang.String" itemvalue="Application.T08ALevelOrderTraversal" />
+        <item index="3" class="java.lang.String" itemvalue="Application.T07PrintRootToLeafPaths" />
+        <item index="4" class="java.lang.String" itemvalue="Application.T04MaxDepthOrHeightOfTree" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>$USER_HOME$/.subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="45693b8d-1913-4ab3-8401-0fd119dcb727" name="Default" comment="" />
+      <created>1444833430187</created>
+      <option name="number" value="Default" />
+      <updated>1444833430187</updated>
+      <workItem from="1444833435760" duration="3768000" />
+      <workItem from="1444969710246" duration="8234000" />
+      <workItem from="1444984973393" duration="10026000" />
+      <workItem from="1445055274274" duration="3223000" />
+      <workItem from="1445064757936" duration="20156000" />
+      <workItem from="1445154252198" duration="298000" />
+      <workItem from="1445165813375" duration="13657000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="59362000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1280" y="23" width="1920" height="1053" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3272727" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.399361" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22790202" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30588236" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/05-LinkedLists/src/sort/basic/LL002GetMiddleNodeOfList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-SortingAndSearching/src/QuickSortLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-SortingAndSearching/src/MyHeapSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-SortingAndSearching/src/sort/basic/SRT01BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-SortingAndSearching/src/sort/basic/SRT02SelectionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-SortingAndSearching/src/sort/basic/SRT04ShellSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-SortingAndSearching/src/sort/basic/SRT05MergeSortTopDown.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-SortingAndSearching/src/sort/advanced/MergeSortBottomUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-SortingAndSearching/src/sort/basic/SRT06QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-SortingAndSearching/src/sort/basic/SRT07HeapSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-SortingAndSearching/src/MaxHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-SortingAndSearching/src/search/basic/PatternSearch01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06-SortingAndSearching/src/PatternSearch02_KMP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-Trees/src/advanced/T029KthSmallestBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-Trees/src/basic/T05MirrorTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-Trees/src/basic/T012ABSTTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-Trees/src/basic/T012BBSTTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-Trees/src/basic/T12LevelOrderTraversalSpiralUsingRecursion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-Trees/src/basic/T13ChildrenSumPropertyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-Trees/src/basic/T15HeightBalanceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-Trees/src/basic/T16InorderTraversalIterative.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-Trees/src/advanced/T019MorrisInorderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-Trees/src/basic/T17PathSumToGivenNumberTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-Trees/src/basic/T18DoubleTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-Trees/src/basic/T20FoldableBinaryTreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-Trees/src/basic/T19WidthOfTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-Trees/src/basic/T22InorderSuccessorBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-Trees/src/basic/T23LevelOfNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-Trees/src/basic/T24PrintAncestorOfNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-Trees/src/basic/T25KeysInRangeBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-Trees/src/basic/T26SubTreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-Trees/src/basic/T01TreeTraversalRecursive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="5" selection-start-line="7" selection-start-column="4" selection-end-line="18" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-Trees/src/basic/T03IdenticalTreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-Trees/src/basic/T02SizeOfTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="0" selection-start-line="7" selection-start-column="4" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-Trees/src/basic/T04MaxDepthOrHeightOfTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-Trees/src/basic/T07PrintRootToLeafPaths.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-Trees/src/basic/T08BLevelOrderTraversalUsingQ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#526#533#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-Trees/src/basic/T08ALevelOrderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-Trees/src/basic/T09LeastCommonAncestorBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-Trees/src/basic/T10CountLeafNodes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-Trees/src/basic/T001TreeSimpleOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="127" column="5" selection-start-line="115" selection-start-column="4" selection-end-line="127" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-Trees/src/basic/BNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-Trees/src/advanced/T13ChildrenSumPropertyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-Trees/src/advanced/T015ConvertToChildrenSumProperty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-Trees/src/basic/T14DiameterOfTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-Trees/src/basic/T21CountAndPrintNodesKDistanceFromRoot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-Trees/src/advanced/NextRightNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-Trees/src/advanced/ConnectNodeAtSameLevel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="57" column="1" selection-start-line="43" selection-start-column="0" selection-end-line="57" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-Trees/src/basic/TBNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-Trees/src/basic/T28PopulateInorderSuccessorAllNodes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-Trees/src/basic/T32TrieTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.531401">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+          <folding>
+            <element signature="e#1389#1390#0" expanded="true" />
+            <element signature="e#1433#1434#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01-Arrays/01-Arrays.iml" filepath="$PROJECT_DIR$/01-Arrays/01-Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-Strings/02-Strings.iml" filepath="$PROJECT_DIR$/02-Strings/02-Strings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-BitMagic/03-BitMagic.iml" filepath="$PROJECT_DIR$/03-BitMagic/03-BitMagic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-StacksAndQueues/04-StacksAndQueues.iml" filepath="$PROJECT_DIR$/04-StacksAndQueues/04-StacksAndQueues.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-LinkedLists/05-LinkedLists.iml" filepath="$PROJECT_DIR$/05-LinkedLists/05-LinkedLists.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-SortingAndSearching/06-SortingAndSearching.iml" filepath="$PROJECT_DIR$/06-SortingAndSearching/06-SortingAndSearching.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07-Trees/07-Trees.iml" filepath="$PROJECT_DIR$/07-Trees/07-Trees.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08-Graphs/08-Graphs.iml" filepath="$PROJECT_DIR$/08-Graphs/08-Graphs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09-RecursionAndDynamicProgramming/09-RecursionAndDynamicProgramming.iml" filepath="$PROJECT_DIR$/09-RecursionAndDynamicProgramming/09-RecursionAndDynamicProgramming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10-BacktrackingAndGreedyAlgorithms/10-BacktrackingAndGreedyAlgorithms.iml" filepath="$PROJECT_DIR$/10-BacktrackingAndGreedyAlgorithms/10-BacktrackingAndGreedyAlgorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11-Misc/11-Misc.iml" filepath="$PROJECT_DIR$/11-Misc/11-Misc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CodilityTest/CodilityTest.iml" filepath="$PROJECT_DIR$/CodilityTest/CodilityTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ElementsOfPIBook/ElementsOfPIBook.iml" filepath="$PROJECT_DIR$/ElementsOfPIBook/ElementsOfPIBook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HackerEarthTest/HackerEarthTest.iml" filepath="$PROJECT_DIR$/HackerEarthTest/HackerEarthTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaSolutions/JavaSolutions.iml" filepath="$PROJECT_DIR$/JavaSolutions/JavaSolutions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestProject/TestProject.iml" filepath="$PROJECT_DIR$/TestProject/TestProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ctci java/ctci java.iml" filepath="$PROJECT_DIR$/ctci java/ctci java.iml" />
+    </modules>
+  </component>
+</project>
