@@ -7,12 +7,14 @@ public class ConnectedComponentsUndirected {
 	
 	
 		public static void main(String[] args) {
-			Graph G = new Graph(5, 3);
+			Graph G = new Graph(21, 11);
+
 			ConnectedComponentsUndirected cc = new ConnectedComponentsUndirected(G);
 
 			// number of connected components
 			int n = cc.count();
-			System.out.println(n + " components");
+			System.out.println("The graph has " + n + " components");
+            System.out.println("Components details: ");
 
 			// initialize components
 			Queue<Integer>[] components = (LinkedList<Integer>[]) new LinkedList[n];
@@ -27,8 +29,9 @@ public class ConnectedComponentsUndirected {
 
 			// print results
 			for (int i = 0; i < n; i++) {
+                System.out.println("The component id "+ i +" has following vertex : ");
 				for (int v : components[i]) {
-					System.out.print(v + " ");
+                    System.out.print(v + " ");
 				}
 				System.out.println();
 			}
@@ -45,8 +48,11 @@ public class ConnectedComponentsUndirected {
 		id = new int[G.V];
 		size = new int[G.V];
 		for (int i = 0; i < G.V; i++) {
+            // Take first unvisited vertex and mark
+            // all the connected vertex
 			if (!marked[i]) {
 				connectedComponentsDFS(G, i);
+                // Now start working for new component
 				count++;
 			}
 		}
