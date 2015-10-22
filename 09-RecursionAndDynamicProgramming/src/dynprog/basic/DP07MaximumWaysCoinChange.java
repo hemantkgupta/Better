@@ -60,9 +60,7 @@ public class DP07MaximumWaysCoinChange {
 		if (m <= 0 && n >= 1)
 			return 0;
         int r1 = countRec(S, m - 1, n);
-        System.out.println("The result for "+(m-1)+" and " + n +" is "+ r1);
         int r2 = countRec(S, m, n - S[m - 1]);
-        System.out.println("The result for "+(m)+" and " + (n-S[m-1]) +" is "+ r2);
         return countRec(S, m - 1, n) + countRec(S, m, n - S[m - 1]);
 	}
 	
