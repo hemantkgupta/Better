@@ -27,6 +27,7 @@ public class SRT06QuickSort {
     private static int partition(Comparable[] a, int lo, int hi) {
         int i = lo;
         int j = hi + 1;
+        //Get right place for lo
         Comparable v = a[lo];
         while (true) { 
             while (less(a[++i], v))

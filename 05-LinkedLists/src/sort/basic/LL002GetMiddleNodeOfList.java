@@ -12,7 +12,7 @@ public class LL002GetMiddleNodeOfList {
 		n2.next = n3;
 		Node n4 = new Node(1);
 		n3.next = n4;
-		System.out.println(middleNode(root).data);
+		//System.out.println(middleNode(root).data);
 		System.out.println(getMiddleNodeFromList(root).data);
 		
 	}

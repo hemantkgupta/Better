@@ -17,7 +17,7 @@ public class LL014SwapNodePairwise {
 
 	}
 
-	/* Function to pairwise swap elements of a linked list */
+	/* Function to pairwise swap data of a linked list */
 	public static void pairWiseSwap(Node head) {
 		Node temp = head;
 		while (temp != null && temp.next != null) {

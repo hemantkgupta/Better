@@ -6,12 +6,7 @@ public class LL004ReverseListRecursive {
 		Node root = new Node(5);
 		Node n1 = new Node(4);
 		root.next = n1;
-		Node n2 = new Node(3);
-		n1.next = n2;
-		Node n3 = new Node(2);
-		n2.next = n3;
-		Node n4 = new Node(1);
-		n3.next = n4;
+
 
 		printList(root);
 		root = reverseRecr(root);
@@ -19,18 +14,20 @@ public class LL004ReverseListRecursive {
 	}
 
 	public static Node reverseRecr(Node current) {
-        // base case
+        // Base case if node is null
+		// Or if node is last node
 		if (current == null || current.next == null)
 			return current;
 
-        // Save next to current
+        //Going down save node next to current
 		Node nextItem = current.next;
+		// Disconnect the link
 		current.next = null;
 
         // Do recursion
 		Node reverseRest = reverseRecr(nextItem);
 
-        // Update next of saved
+        //Coming up, connect the link using saved node
 		nextItem.next = current;
 
 		return reverseRest;

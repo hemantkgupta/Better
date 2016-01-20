@@ -1,25 +1,27 @@
 package sort.basic;
 
+import java.util.Arrays;
+
 public class SRT02SelectionSort {
 
 	public static void main(String[] args) {
-		Integer [] ar = {1,2,4,8,5,6,9};
+		Integer [] ar = {1,2,4,1,8,5,8,6,9};
 		System.out.println("Array before sort is:");
-		printArray(ar);
+		System.out.println(Arrays.toString(ar));
 		sort(ar);
 		System.out.println("\nArray after sort is:");
-		printArray(ar);
-		
+		System.out.println(Arrays.toString(ar));
+
 
 	}
 	public static void sort(Comparable[] a) {
-        int N = a.length;
-        for (int i = 0; i < N; i++) {
-            int min = i;
-            for (int j = i+1; j < N; j++) {
-                if (less(a[j], a[min])) min = j;
+        for (int i = 0; i < a.length; i++) {
+            int minIndex = i;
+            for (int j = i+1; j < a.length; j++) {
+                if (less(a[j], a[minIndex]))
+					minIndex = j;
             }
-            exch(a, i, min);
+            exch(a, i, minIndex);
         }
     }
 	

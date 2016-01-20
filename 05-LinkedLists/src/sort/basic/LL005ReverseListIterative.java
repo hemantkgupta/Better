@@ -22,14 +22,17 @@ public class LL005ReverseListIterative {
 		if (head == null)
 			return head;
 
-		Node current = head;
 		Node previous = null;
-
+		Node current = head;
+		// Go till end of list
 		while (current != null) {
+			//while going to last node save the next node
 			Node nextNode = current.next;
-
+            // For current node, make the previous as next node
 			current.next = previous;
+			// Now new update the previous
 			previous = current;
+			// update the current for future process
 			current = nextNode;
 		}
 

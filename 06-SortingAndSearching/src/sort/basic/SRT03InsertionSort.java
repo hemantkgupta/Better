@@ -1,25 +1,43 @@
 package sort.basic;
 
+import java.util.Arrays;
+
 public class SRT03InsertionSort {
 
 	public static void main(String[] args) {
-		Integer [] ar = {1,2,4,8,5,6,9};
+
+		//Integer [] ar = {1,2,4,1,8,5,6,9,8};
+		Integer [] ar = {10,2};
 		System.out.println("Array before sort is:");
-		printArray(ar);
-		sort(ar);
+		System.out.println(Arrays.toString(ar));
+		//sort(ar);
+		insertionSort(ar);
 		System.out.println("\nArray after sort is:");
-		printArray(ar);
-		
+		System.out.println(Arrays.toString(ar));
+
 	}
 	
 	public static void sort(Comparable[] a) {
-        int N = a.length;
-        for (int i = 0; i < N; i++) {
+        for (int i = 0; i < a.length; i++) {
             for (int j = i; j > 0 && less(a[j], a[j-1]); j--) {
                 exch(a, j, j-1);
             }
         }	
     }
+
+	public static void insertionSort(Integer[] a){
+		if (a == null || a.length < 2)
+			return;
+		for (int i = 1; i < a.length ; i++) {
+			int temp = a[i];
+			int j= i-1;
+			while (j >= 0 && temp < a[j]){
+				a[j+1] = a [j];
+				j--;
+			}
+			a[j+1]= temp;
+		}
+	}
 	
 	private static boolean less(Comparable v, Comparable w) {
         return (v.compareTo(w) < 0);
@@ -30,13 +48,5 @@ public class SRT03InsertionSort {
         a[i] = a[j];
         a[j] = swap;
     }
-	
-	public static void printArray(Integer[] arr){
-		//System.out.println("");
-		for (int i = 0; i < arr.length; i++) {
-			System.out.print(" "+arr[i]);
-		}
-		
-	}
 
 }

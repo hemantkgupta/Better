@@ -38,9 +38,13 @@ public class LL016ReverseEveryKNodesOfList {
 
 		/* reverse first k nodes of the linked list */
 		while (current != null && count < k) {
+			// save the current's next to reference
+			// And now make it point to previous
 			next = current.next;
 			current.next = prev;
+			// The new previous is current
 			prev = current;
+			// The new current is next
 			current = next;
 			count++;
 		}
