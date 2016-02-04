@@ -12,15 +12,11 @@ class BNode {
 		this.right = null;
 	}
 	
-/*	@Override
+	@Override
 	public String toString() {
 		String other = (right == null) ? "" : right.toString();
 		return data +" "+ other;
-	}*/
-    @Override
-    public String toString() {
-        String val = "    "+data+"    "+"\n" + this.left.data+"      "+this.right.data+"\n";
-        return val;
-    }
+	}
+
 
 }

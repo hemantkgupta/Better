@@ -41,7 +41,6 @@ public class BuildTreeInPost {
 		
 		root.right = buildTree(inorder, k + 1, inEnd, postorder, postStart + k
 				- inStart, postEnd - 1);
-		// postStart+k-inStart = postStart+k-(inStart+1) +1
 
 		return root;
 	}

@@ -11,9 +11,6 @@ public class CompleteBinaryTreeTest {
 		  root.left         = new BNode(2);
 		  root.right        = new BNode(3);
 		  root.left.left   = new BNode(4);
-		  /*
-		  root.left.right  = new advanced.BNode(5);
-		  root.right.right = new advanced.BNode(6);*/
 		  System.out.println(isBinaryTreeComplete(root));
 
 	}

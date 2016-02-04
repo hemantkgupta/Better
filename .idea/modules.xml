@@ -13,12 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/09-RecursionAndDynamicProgramming/09-RecursionAndDynamicProgramming.iml" filepath="$PROJECT_DIR$/09-RecursionAndDynamicProgramming/09-RecursionAndDynamicProgramming.iml" />
       <module fileurl="file://$PROJECT_DIR$/10-BacktrackingAndGreedyAlgorithms/10-BacktrackingAndGreedyAlgorithms.iml" filepath="$PROJECT_DIR$/10-BacktrackingAndGreedyAlgorithms/10-BacktrackingAndGreedyAlgorithms.iml" />
       <module fileurl="file://$PROJECT_DIR$/11-Misc/11-Misc.iml" filepath="$PROJECT_DIR$/11-Misc/11-Misc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/CodilityTest/CodilityTest.iml" filepath="$PROJECT_DIR$/CodilityTest/CodilityTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ElementsOfPIBook/ElementsOfPIBook.iml" filepath="$PROJECT_DIR$/ElementsOfPIBook/ElementsOfPIBook.iml" />
-      <module fileurl="file://$PROJECT_DIR$/HackerEarthTest/HackerEarthTest.iml" filepath="$PROJECT_DIR$/HackerEarthTest/HackerEarthTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JavaSolutions/JavaSolutions.iml" filepath="$PROJECT_DIR$/JavaSolutions/JavaSolutions.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestProject/TestProject.iml" filepath="$PROJECT_DIR$/TestProject/TestProject.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ctci java/ctci java.iml" filepath="$PROJECT_DIR$/ctci java/ctci java.iml" />
     </modules>
   </component>
 </project>

@@ -21,19 +21,16 @@ public class TA02BinaryTreeToBST {
 	{
 	    if(root == null)
 	       return;
-	 
-	   
-	    int n = countNodes (root);
-	 
+
 	    //Store inorder traversal of tree in arr[]
+	    int n = countNodes (root);
 	    int[] arr = new int[n];
-	    int i = 0;
 	    storeInorder (root, arr);
-	 
+
+		// Sort the array
 	    Arrays.sort(arr);
 	 
-	    // Copy array elements back to Binary Tree
-	    i = 0;
+	    // Create BST from sorted array
 	    BNode bst = sortedArrayToBST (arr, 0, arr.length-1);
 	    printInorder(bst);
 	 

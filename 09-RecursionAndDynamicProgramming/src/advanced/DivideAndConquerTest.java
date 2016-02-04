@@ -6,7 +6,7 @@ public class DivideAndConquerTest {
 		   int arr[] = {2, 3, 4, 5, 7};
 		   System.out.println(maxSubArraySum(arr, 0, arr.length-1));
 	}
-	// Find the maximum possible sum in arr[] auch that arr[m] is part of it
+	// Find the maximum possible sum in prices[] auch that prices[m] is part of it
 	public static int maxCrossingSum(int arr[], int l, int m, int h)
 	{
 	    // Include elements on left of mid.
