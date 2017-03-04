@@ -13,7 +13,7 @@ class Horse extends Cattle {
         System.out.println("Horse eats hay");
     }
 }
-public class Test {
+public class backtracking.Test {
     public static void main(String[] args) {
         Mammal h = new Horse();
         Cattle c = new Horse();

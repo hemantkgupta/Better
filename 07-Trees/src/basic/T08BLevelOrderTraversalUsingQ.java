@@ -11,25 +11,30 @@ public class T08BLevelOrderTraversalUsingQ {
 		BNode root = new BNode(10);
 		root.left = new BNode(9);
 		root.right = new BNode(2);
+
 		root.left.left = new BNode(7);
 		root.left.right = new BNode(6);
+
 		root.left.left.left = new BNode(5);
 		root.left.right.right = new BNode(4);
 		levelOrderTraversal(root);
 
 	}
 
+    /**
+     * The level order traversal of a tree is equivalent to
+     * Breadth-First-Traversal of a graph. The next level node to visit has
+     *  to be saved in the FIFO order.
+     * @param root
+     */
+
     public static void levelOrderTraversal(BNode root){
         Queue<BNode> queue =  new ArrayDeque<BNode>();
-        // Add the root to queue
         queue.add(root);
 
         while(!queue.isEmpty()){
-            // Get top of the queue and print
             BNode temp = queue.remove();
             System.out.println(temp.data+" ");
-
-            // Add children if any in the queue
             if(temp.left!= null)
                 queue.add(temp.left);
             if(temp.right!= null)

@@ -63,22 +63,22 @@ public class SRT07AMaxHeapSort {
      * Value of a node is greater or equal to value of its both child nodes.
      * The property is applicable to each node.
      */
-    public static void maxHeapify(int[] a, int nodeIndex, int heapSize){
+    public static void maxHeapify(int[] a, int parentNodeIndex, int heapSize){
 
-            int left = 2 * nodeIndex + 1;
+            int left = 2 * parentNodeIndex + 1;
 
             int right = left + 1;
 
-            int largest = nodeIndex;
+            int largest = parentNodeIndex;
 
-            if (left < heapSize && a[left] > a[nodeIndex] )
+            if (left < heapSize && a[left] > a[parentNodeIndex] )
                 largest = left;
 
             if (right < heapSize && a[right] > a[largest] )
                 largest = right;
 
-            if (largest != nodeIndex){
-                swap(a, nodeIndex, largest);
+            if (largest != parentNodeIndex){
+                swap(a, parentNodeIndex, largest);
                 maxHeapify(a,largest, heapSize);
             }
 

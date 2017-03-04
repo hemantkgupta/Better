@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/00-Math/00-Math.iml" filepath="$PROJECT_DIR$/00-Math/00-Math.iml" />
       <module fileurl="file://$PROJECT_DIR$/01-Arrays/01-Arrays.iml" filepath="$PROJECT_DIR$/01-Arrays/01-Arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/02-Strings/02-Strings.iml" filepath="$PROJECT_DIR$/02-Strings/02-Strings.iml" />
       <module fileurl="file://$PROJECT_DIR$/03-BitMagic/03-BitMagic.iml" filepath="$PROJECT_DIR$/03-BitMagic/03-BitMagic.iml" />
@@ -10,9 +11,15 @@
       <module fileurl="file://$PROJECT_DIR$/06-SortingAndSearching/06-SortingAndSearching.iml" filepath="$PROJECT_DIR$/06-SortingAndSearching/06-SortingAndSearching.iml" />
       <module fileurl="file://$PROJECT_DIR$/07-Trees/07-Trees.iml" filepath="$PROJECT_DIR$/07-Trees/07-Trees.iml" />
       <module fileurl="file://$PROJECT_DIR$/08-Graphs/08-Graphs.iml" filepath="$PROJECT_DIR$/08-Graphs/08-Graphs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08-Heaps and Hashs/08-Heaps and Hashs.iml" filepath="$PROJECT_DIR$/08-Heaps and Hashs/08-Heaps and Hashs.iml" />
       <module fileurl="file://$PROJECT_DIR$/09-RecursionAndDynamicProgramming/09-RecursionAndDynamicProgramming.iml" filepath="$PROJECT_DIR$/09-RecursionAndDynamicProgramming/09-RecursionAndDynamicProgramming.iml" />
       <module fileurl="file://$PROJECT_DIR$/10-BacktrackingAndGreedyAlgorithms/10-BacktrackingAndGreedyAlgorithms.iml" filepath="$PROJECT_DIR$/10-BacktrackingAndGreedyAlgorithms/10-BacktrackingAndGreedyAlgorithms.iml" />
       <module fileurl="file://$PROJECT_DIR$/11-Misc/11-Misc.iml" filepath="$PROJECT_DIR$/11-Misc/11-Misc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Better.iml" filepath="$PROJECT_DIR$/Better.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Examples/Examples.iml" filepath="$PROJECT_DIR$/Examples/Examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HackerEarth/HackerEarth.iml" filepath="$PROJECT_DIR$/HackerEarth/HackerEarth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InterviewBit/InterviewBit.iml" filepath="$PROJECT_DIR$/InterviewBit/InterviewBit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RemoteSystemsTempFiles/RemoteSystemsTempFiles.iml" filepath="$PROJECT_DIR$/RemoteSystemsTempFiles/RemoteSystemsTempFiles.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestProject/TestProject.iml" filepath="$PROJECT_DIR$/TestProject/TestProject.iml" />
     </modules>
   </component>

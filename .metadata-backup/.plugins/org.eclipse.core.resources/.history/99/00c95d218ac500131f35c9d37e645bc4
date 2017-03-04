@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Test {
+public class backtracking.Test {
 	public static void main(String[] args) {
 		Arrays.sort(arr);
         for (int i = arr.length; i > 2 ; i--) {

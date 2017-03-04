@@ -8,7 +8,7 @@ class A implements Serializable {
     transient int a = 7;
     static int b = 9;
 }
-public class Test {
+public class backtracking.Test {
     public static void main(String[] args) {
     	A a = new A();
         try 

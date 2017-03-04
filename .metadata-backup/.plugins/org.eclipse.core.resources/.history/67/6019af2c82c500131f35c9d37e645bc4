@@ -18,7 +18,7 @@ class MyRunnable implements Runnable {
         System.out.print(" Inside Runnable");
     }
 }
-public class Test {
+public class backtracking.Test {
     public static void main(String[] args) {
     	Set<Integer> set = new TreeSet<Integer>();
         List<Integer> list = new ArrayList<Integer>();

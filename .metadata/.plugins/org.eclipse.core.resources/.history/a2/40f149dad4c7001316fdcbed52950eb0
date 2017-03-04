@@ -17,7 +17,7 @@ public class MergeOverlappingIntervals {
 	// overlapping intervals and prints the result
 	public static void mergeIntervals(List<Interval> intervals)
 	{
-	    // Test if the given set has at least one interval
+	    // backtracking.Test if the given set has at least one interval
 	    if (intervals.size() <= 0)
 	        return;
 	 

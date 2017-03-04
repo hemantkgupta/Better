@@ -8,7 +8,7 @@ class C extends A {
         return "Name-C";
     }
 }
-public class Test {
+public class backtracking.Test {
     public static void main(String[] args) {
         A a = new C();
         System.out.println(a.getName());

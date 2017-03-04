@@ -16,14 +16,14 @@ class Horse extends Cattle {
         System.out.println("Horse eats hay");
     }
 }
-public class Test {
+public class backtracking.Test {
     public static void main(String[] args) {
-    	 System.out.println(new Test().print());
+    	 System.out.println(new backtracking.Test().print());
     }
     protected StringBuilder print() {
         StringBuilder builder = new StringBuilder();
         try {
-            builder.append("Test ");
+            builder.append("backtracking.Test ");
             return builder.append("Passed!!!");
         } finally {
             builder = null; 
