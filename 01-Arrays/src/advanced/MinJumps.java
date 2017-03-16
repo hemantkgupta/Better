@@ -21,6 +21,8 @@ public class MinJumps {
 		// from arr[0], and assign this value to jumps[i]
 		for (i = 1; i < n; i++) {
 			jumps[i] = Integer.MAX_VALUE;
+			// Check with all jumps less than i and
+			// find from where i can be reached
 			for (j = 0; j < i; j++) {
 				// j is reachable and not marked
 				if (j + arr[j] >= i && jumps[j] != Integer.MAX_VALUE) {

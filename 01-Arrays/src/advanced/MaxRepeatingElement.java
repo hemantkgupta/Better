@@ -1,5 +1,7 @@
 package advanced;
 
+import java.util.Arrays;
+
 public class MaxRepeatingElement {
 
 	public static void main(String[] args) {
@@ -16,6 +18,7 @@ public class MaxRepeatingElement {
 		for (int i = 0; i < n; i++)
 			arr[arr[i] % k] += k;
 
+		System.out.println(Arrays.toString(arr));
 		// Find index of the maximum repeating element
 		int max = arr[0], result = 0;
 		for (int i = 1; i < n; i++) {

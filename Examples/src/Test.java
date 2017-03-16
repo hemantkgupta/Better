@@ -1,5 +1,4 @@
-import java.util.ArrayList;
-import java.util.Collections;
+import java.util.*;
 
 /**
  * Created by ghemant on 3/2/17.
@@ -12,6 +11,43 @@ public class Test {
     static int size = 3;
     public static void main(String[] args) {
         //System.out.println(test(20, 0));
+        Deque<Character> stack = new ArrayDeque<Character>();
+        String input = "{[()]}";
+        boolean match = true;
+        for (int i = 0; i < input.length() ; i++) {
+            char achar = input.charAt(i);
+            System.out.println("the char is "+ achar);
+            if (achar == '[' || achar == '{' || achar == '('){
+                stack.push(achar);
+            }else {
+                if (stack.isEmpty()){
+                    match = false;
+                    break;
+                } else {
+                    char topchar = stack.peek();
+                    System.out.println("the peak is "+ topchar);
+                    if (achar == ']' && topchar == '['){
+                        stack.pop();
+                        continue;
+                    } else if (achar == '}' && topchar == '{'){
+                        stack.pop();
+                    } else if (achar == ')' && topchar == '('){
+                        stack.pop();
+                        continue;
+                    } else {
+                        match = false;
+                        break;
+                    }
+                }
+            }
+        }
+
+        if (!stack.isEmpty()){
+            match = false;
+        }
+
+        System.out.println("the match is "+ match);
+
 
     }
 

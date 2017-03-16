@@ -25,7 +25,7 @@ public class BT07Sudoku {
 	
 	/* Takes a partially filled-in grid and attempts to assign values to
 	  all unassigned locations in such a way to meet the requirements
-	  for backtracking.adv.BT07Sudoku solution (non-duplication across rows, columns, and boxes) */
+	  for backtracking.advanced.BT07Sudoku solution (non-duplication across rows, columns, and boxes) */
 	public static boolean solveSudoku(int[][] grid)
 	{
 	 

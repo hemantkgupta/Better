@@ -81,18 +81,18 @@ public class KthSmallestinSorted2D {
 	    }
 	}
 
-}
+	static class HeapNode {
+		int val;  // value to be stored
+		int r;    // Row number of value in 2D array
+		int c;    // Column number of value in 2D array
 
-class HeapNode {
-    int val;  // value to be stored
-    int r;    // Row number of value in 2D array
-    int c;    // Column number of value in 2D array
-    
-	public HeapNode(int val, int r, int c) {
-		this.val = val;
-		this.r = r;
-		this.c = c;
+		public HeapNode(int val, int r, int c) {
+			this.val = val;
+			this.r = r;
+			this.c = c;
+		}
+
+
 	}
-    
-    
+
 }

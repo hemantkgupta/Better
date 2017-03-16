@@ -1,14 +1,14 @@
 package sort.basic;
 
+import java.util.Arrays;
+
 public class SRT06QuickSort {
 
 	public static void main(String[] args) {
 		Integer[] ar = { 1, 2, 4, 8, 5, 6, 9 };
-		System.out.println("Array before sort is:");
-		printArray(ar);
-		sort(ar);
-		System.out.println("\nArray after sort is:");
-		printArray(ar);
+        System.out.println(Arrays.toString(ar));
+        sort(ar);
+        System.out.println(Arrays.toString(ar));
 	}
 	
 	public static void sort(Comparable[] a) {

@@ -1,5 +1,9 @@
 package advanced;
 
+/**
+ * The problem is to count all the possible paths from top left to bottom right of a mXn matrix with the constraints
+ * that from each cell you can either move only to right or down
+ */
 public class CountAllPathsMatrix {
 
 	public static void main(String[] args) {
@@ -23,7 +27,7 @@ public class CountAllPathsMatrix {
 	public static int numberOfPathsDP(int m, int n) {
 		int[][] count = new int[m][n];
 
-		// Count of paths to reach any cell in first column is 1
+		// Count of paths to reach any cell in first row is 1
 		for (int i = 0; i < m; i++)
 			count[i][0] = 1;
 

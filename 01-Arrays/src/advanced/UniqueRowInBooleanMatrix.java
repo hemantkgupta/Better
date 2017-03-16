@@ -32,9 +32,9 @@ public class UniqueRowInBooleanMatrix {
 			}
 		}
 	}
-}
+	static class TrieNode {
+		boolean isEnd = false;
+		TrieNode[] child = new TrieNode[2];
+	}
 
-class TrieNode {
-	boolean isEnd = false;
-	TrieNode[] child = new TrieNode[2];
 }

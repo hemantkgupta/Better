@@ -1,12 +1,18 @@
 package sort.basic;
 
 import java.util.Arrays;
+/** Counting sort is a sorting technique based on keys between a specific range.
+ * It works by counting the number of objects having distinct key values (kind of hashing).
+ * Then doing some arithmetic to calculate the position of each object in the output sequence.
+ * Time Complexity: O(n+k) where n is the number of elements in input array and k is the range of input.
+ * Auxiliary Space: O(n+k)
+ */
 
 public class SRT09CountSort {
 
 	public static void main(String[] args) {
 		int[] arr = { 2, 2, 2, 1, 4 };
-		System.out.println("\nAfter sorting elemnets are: ");
+		System.out.println("\nAfter sorting elements are: ");
 		printArray(countSort(arr));
 	}
 
@@ -19,13 +25,13 @@ public class SRT09CountSort {
 		for (int i = 0; i < n; i++)
 			++count[arrs[i]];
 
-		System.out.println(Arrays.toString(count));
+		System.out.println("Count is : "+Arrays.toString(count));
 
 		// Cumulative count
 		for (int i = 1; i < n; i++)
 			count[i] += count[i - 1];
 
-		System.out.println(Arrays.toString(count));
+		System.out.println("Cumulative count is : "+Arrays.toString(count));
 
 		for (int i = 0; i < n; ++i) {
 			int element = arrs[i];

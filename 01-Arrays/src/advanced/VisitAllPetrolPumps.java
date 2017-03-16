@@ -42,16 +42,16 @@ public class VisitAllPetrolPumps {
 		return start;
 	}
 
-}
+	static class PetrolPump {
+		int petrol;
+		int distance;
 
-class PetrolPump {
-	int petrol;
-	int distance;
+		public PetrolPump(int petrol, int distance) {
+			super();
+			this.petrol = petrol;
+			this.distance = distance;
+		}
 
-	public PetrolPump(int petrol, int distance) {
-		super();
-		this.petrol = petrol;
-		this.distance = distance;
 	}
 
 }

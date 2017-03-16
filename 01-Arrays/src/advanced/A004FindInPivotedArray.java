@@ -46,17 +46,14 @@ public class A004FindInPivotedArray {
 
 	/* Standard Binary Search function */
 	public static int binarySearch(int arr[], int low, int high, int no) {
-		// base case
 		if (high < low)
 			return -1;
 
 		int mid = (low + high) / 2;
 
-		// check if we got number at mid
 		if (no == arr[mid])
 			return mid;
 
-		// recursive call
 		if (no > arr[mid])
 			return binarySearch(arr, (mid + 1), high, no);
 		else

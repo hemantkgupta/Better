@@ -51,12 +51,12 @@ public class StockBuySellTest {
 		return;
 	}
 
-}
+	static class Range {
+		int buy;
+		int sell;
 
-class Range {
-	int buy;
-	int sell;
-
-	public Range() {
+		public Range() {
+		}
 	}
+
 }
