@@ -3,7 +3,11 @@ package basic;
 /**
  * Created by hemant on 17/10/15.
  */
+<<<<<<< Updated upstream:01-Arrays/src/basic/AB10ShuffleAnArray.java
 public class AB10ShuffleAnArray {
+=======
+public class AB10ShuffleTheArray {
+>>>>>>> Stashed changes:01-Arrays/src/basic/AB10ShuffleTheArray.java
     public static void main(String[] args) {
         int[] arr = {23,1,25,78,9,34,56,7,0,2,45,63};
     }

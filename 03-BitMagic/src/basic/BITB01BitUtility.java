@@ -12,8 +12,8 @@ public class BITB01BitUtility {
 	}
 
 
-	public static boolean isBitSet(int num, int i) {
-		return (num & (1 << i)) != 0;
+	public static boolean isBitSet(int num, int position) {
+		return (num & (1 << position)) != 0;
 	}
 
 	/**

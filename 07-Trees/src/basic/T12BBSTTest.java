@@ -1,7 +1,7 @@
 package basic;
 
 
-public class T012BBSTTest {
+public class T12BBSTTest {
 
 	public static void main(String[] args) {
 		

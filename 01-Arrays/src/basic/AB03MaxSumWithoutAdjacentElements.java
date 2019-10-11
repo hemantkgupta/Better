@@ -1,7 +1,15 @@
 package basic;
 
 /**
+ * Maximum sum such that no two elements are adjacent
+ * https://www.geeksforgeeks.org/maximum-sum-such-that-no-two-elements-are-adjacent/
+ *
+ * Given an array of positive numbers,
+ * find the maximum sum of a subsequence with the constraint that no 2 numbers
+ * in the sequence should be adjacent in the array.
+ *
  * Created by hemant on 17/10/15.
+ *
  */
 public class AB03MaxSumWithoutAdjacentElements {
 
@@ -19,15 +27,22 @@ public class AB03MaxSumWithoutAdjacentElements {
      * @return
      */
     public static int FindMaxSum(int arr[]){
-        int incl = arr[0];
-        int excl = 0;
+
+        // Initialize inclusive with first element
+        // and exclusive with 0
+        int incl = arr[0]; // Max sum including the previous element
+        int excl = 0; // Max sum excluding the previous element
+
         int excl_new;
         int i;
 
+        // Start with first element
         for (i = 1; i < arr.length; i++){
 
+            // Assign new exclusive based on which is big
             excl_new = (incl > excl)? incl: excl;
 
+            // Update inclusive and exclusive
             incl = excl + arr[i];
             excl = excl_new;
         }

@@ -8,10 +8,10 @@ import java.util.Scanner;
 public class SRT01BubbleSort2 {
 
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        int t = in.nextInt();
+       // Scanner in = new Scanner(System.in);
+        //int t = in.nextInt();
         //int[] input = {3, 2, 1};
-        int[] input = {1, 2, 3};
+        int[] input = {1, 2, 3, 6, 5, 4};
         int[] result = sort(input);
         System.out.println("Array is sorted in "+result[0]+" swaps.");
         System.out.println("First Element: "+result[1]);
@@ -23,11 +23,11 @@ public class SRT01BubbleSort2 {
         int[] result = new int[3];
         int n = a.length;
         int totalSwaps =0;
-        for (int i = 0; i < n; i++) {
+        for (int i = n-1; i > 0 ; i--) {
             // Track number of elements swapped during a single array traversal
             int numberOfSwaps = 0;
 
-            for (int j = 0; j < n - 1; j++) {
+            for (int j = 0; j < i; j++) {
                 // Swap adjacent elements if they are in decreasing order
                 if (a[j] > a[j + 1]) {
                     swap(a, j, j + 1);

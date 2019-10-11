@@ -16,7 +16,7 @@ public class BITB10OddEvenParityTest {
 	    while (n != 0)
 	    {
 	        parity = !parity;
-	        n      = n & (n - 1);
+	        n  = n & (n - 1);
 	    }        
 	    return parity;
 	}

@@ -16,9 +16,9 @@ public class T01TreeSimpleOperations {
 		root.left.right.right = new BNode(4);
 
 		System.out.println("The height of tree is: " + height(root));
-		// System.out.println("The leaf nodes in tree is: " +
-		// countLeafNodes(root));
-		// printAllRootToLeafPaths(root);
+		System.out.println("The leaf nodes in tree is: " +
+		countLeafNodes(root));
+		printAllRootToLeafPaths(root);
 
 	}
 
@@ -35,14 +35,15 @@ public class T01TreeSimpleOperations {
 			System.out.println(path);
 		}
 		if (root.left != null) {
-			paths(path + root.left.data, root.left);
+			paths(path + " "+root.left.data, root.left);
 		}
 		if (root.right != null) {
-			paths(path + root.right.data, root.right);
+			paths(path + " "+root.right.data, root.right);
 		}
 	}
 
-	/* Function to calculate height of a tree */
+	/* Function to calculate height of a tree
+	 * The height of root only node is 1 */
 	public static int height(BNode root) {
 
 		if (root == null) {

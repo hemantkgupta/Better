@@ -1,7 +1,7 @@
 package basic;
 
 
-public class T12LevelOrderTraversalSpiralUsingRecursion {
+public class T11LevelOrderTraversalSpiralUsingRecursion {
 
 	public static void main(String[] args) {
 		BNode root = new BNode(1);

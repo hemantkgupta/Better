@@ -8,13 +8,16 @@ public class T01TreeTraversalRecursive {
     public static void main(String[] args) {
         BNode root = new BNode(10);
         root.left = new BNode(9);
-        root.right = new BNode(8);
+        root.right = new BNode(11);
         root.left.left = new BNode(7);
         root.left.right = new BNode(6);
         root.left.left.left = new BNode(5);
         root.left.right.right = new BNode(4);
+        System.out.println("Postorder");
         printPostorder(root);
+        System.out.println("\nInorder");
         printInorder(root);
+        System.out.println("\nPreorder");
         printPreorder(root);
     }
 

@@ -5,7 +5,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Find a pair of elements in an array whose sum is a given number
+ * Given an array A[] and a number x, check for pair in A[] with sum as x
+ * https://www.geeksforgeeks.org/write-a-c-program-that-given-a-set-a-of-n-numbers-and-another-number-x-determines-whether-or-not-there-exist-two-elements-in-s-whose-sum-is-exactly-x/
+ *
  */
 public class AB01FindTwoElementsWithFixedSum {
 
@@ -20,7 +22,8 @@ public class AB01FindTwoElementsWithFixedSum {
 	}
 	
 	/**
-	 * First sort the array. Now create two variables to hold start index and end index of the array.
+	 * First sort the array.
+	 * Now create two variables to hold start index and end index of the array.
 	 * Calculate the sum of elements at these indexes
 	 * and move them until they cross each other or sum is found.
 	 * @param A
@@ -50,7 +53,7 @@ public class AB01FindTwoElementsWithFixedSum {
 	 * The lower index is returned first
 	 * @param numbers
 	 * @param target
-	 * @return
+	 * @return the array containing index of elements
 	 */
 	public static int[] twoSum(int[] numbers, int target) {
         int[] result = new int[2];
