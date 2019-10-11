@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Copy element &apos;NextRightNode.java&apos; to &apos;07-Trees/src/(default package)&apos;&#x0A;- Original project: &apos;05-LinkedLists&apos;&#x0A;- Destination element: &apos;07-Trees/src/(default package)&apos;&#x0A;- Original element: &apos;NextRightNode.java&apos;" description="Copy compilation unit" destination="=07-Trees/src&lt;" element1="/src&lt;{NextRightNode.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1398840590516" units="1" version="1.0"/>
-</session>

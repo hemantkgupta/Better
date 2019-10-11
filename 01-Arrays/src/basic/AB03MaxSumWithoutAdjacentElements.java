@@ -34,10 +34,10 @@ public class AB03MaxSumWithoutAdjacentElements {
         int excl = 0; // Max sum excluding the previous element
 
         int excl_new;
-        int i;
+
 
         // Start with first element
-        for (i = 1; i < arr.length; i++){
+        for (int i = 1; i < arr.length; i++){
 
             // Assign new exclusive based on which is big
             excl_new = (incl > excl)? incl: excl;

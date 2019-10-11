@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Copy element &apos;HeapSort.java&apos; to &apos;06-SortingAndSearching/src/(default package)&apos;&#x0A;- Original project: &apos;08-Heaps and Hashs&apos;&#x0A;- Destination element: &apos;06-SortingAndSearching/src/(default package)&apos;&#x0A;- Original element: &apos;HeapSort.java&apos;" description="Copy compilation unit" destination="=06-SortingAndSearching/src&lt;" element1="/src&lt;{HeapSort.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1398239555440" units="1" version="1.0"/>
-</session>

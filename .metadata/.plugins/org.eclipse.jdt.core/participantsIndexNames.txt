@@ -1,9 +1,0 @@
-INDEX VERSION 1.126
-/media/Hemant/GitRepos/Job/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3805889565.index
-/testwepapp2/src/main/java
-/media/Hemant/GitRepos/Job/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2824691213.index
-/test-webapp/src/main/java
-/media/Hemant/GitRepos/Job/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1160329364.index
-/mywebapp/src/main/java
-/media/Hemant/GitRepos/Job/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1078165327.index
-/test-webapp/src/main/java
