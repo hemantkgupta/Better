@@ -42,10 +42,6 @@ import java.util.Scanner;
  Also, all the elements of right side of 7 (at index 3) are smaller than 7.
  And, the last element 3 is itself a leader since no elements are on its right.
  */
-<<<<<<< Updated upstream
-public class AB04PrintLeaders {
-=======
->>>>>>> Stashed changes
 
 public class AB04PrintLeaders {
 

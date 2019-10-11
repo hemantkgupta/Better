@@ -3,11 +3,8 @@ package basic;
 /**
  * Created by hemant on 17/10/15.
  */
-<<<<<<< Updated upstream:01-Arrays/src/basic/AB09FindSubArrayWithGivenSumInSortedArray.java
+
 public class AB09FindSubArrayWithGivenSumInSortedArray {
-=======
-public class AB09FindGivenSumSubArrayInSortedArray {
->>>>>>> Stashed changes:01-Arrays/src/basic/AB09FindGivenSumSubArrayInSortedArray.java
     public static void main(String[] args) {
         int[] arr = {1,2,3,4,5,6,7,8,9};
         System.out.println(subArraySum(arr, arr.length, 24));
