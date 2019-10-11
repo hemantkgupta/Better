@@ -1,6 +1,6 @@
 package basic;
 
-public class B15AddOneWithoutAO {
+public class BITB15AddOneWithoutAO {
 
 	public static void main(String[] args) {
 

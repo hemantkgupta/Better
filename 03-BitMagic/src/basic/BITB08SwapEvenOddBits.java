@@ -3,7 +3,7 @@ package basic;
 /**
  * Created by hemant on 16/10/15.
  */
-public class B08SwapEvenOddBits {
+public class BITB08SwapEvenOddBits {
     public static void main(String[] args) {
         int x = 50;
         System.out.println(Integer.toBinaryString(x));

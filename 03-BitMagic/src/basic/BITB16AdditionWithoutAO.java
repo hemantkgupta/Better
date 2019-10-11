@@ -1,6 +1,6 @@
 package basic;
 
-public class B16AdditionWithoutAO {
+public class BITB16AdditionWithoutAO {
 
 	public static void main(String[] args) {
 		System.out.println(Add(23, 14));

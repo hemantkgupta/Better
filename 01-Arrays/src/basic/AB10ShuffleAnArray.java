@@ -3,7 +3,7 @@ package basic;
 /**
  * Created by hemant on 17/10/15.
  */
-public class A10ShuffleTheArray {
+public class AB10ShuffleAnArray {
     public static void main(String[] args) {
         int[] arr = {23,1,25,78,9,34,56,7,0,2,45,63};
     }

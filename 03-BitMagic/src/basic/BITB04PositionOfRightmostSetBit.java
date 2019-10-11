@@ -1,6 +1,6 @@
 package basic;
 
-public class B04PositionOfRightmostSetBit {
+public class BITB04PositionOfRightmostSetBit {
 
 	public static void main(String[] args) {
 		System.out.println(getRightMostSetBit(1));

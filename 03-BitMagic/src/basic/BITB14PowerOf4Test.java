@@ -1,6 +1,6 @@
 package basic;
 
-public class B14PowerOf4Test {
+public class BITB14PowerOf4Test {
 
 	public static void main(String[] args) {
 		System.out.println(isPowerOfFour(8));

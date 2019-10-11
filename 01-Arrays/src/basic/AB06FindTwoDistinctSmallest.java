@@ -1,6 +1,6 @@
 package basic;
 
-public class A06FindTwoDistinctSmallest {
+public class AB06FindTwoDistinctSmallest {
 
 	public static void main(String[] args) {
 		int arr[] = { 1, -80, -10, 70, -80, 85 };

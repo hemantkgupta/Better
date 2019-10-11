@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * Created by hemant on 17/10/15.
  */
-public class A02MergeTwoSortedArrays {
+public class AB02MergeTwoSortedArrays {
     public static void main(String[] args) {
         int[] arr1 = { 1, 3, 5, 7, 9 };
         int[] arr2 = { 2, 4, 6 };

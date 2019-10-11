@@ -1,6 +1,6 @@
 package basic;
 
-public class B12RotateBits {
+public class BITB12RotateBits {
 
 	public static void main(String[] args) {
 		System.out.println(leftRotate(8, 2));

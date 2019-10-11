@@ -7,7 +7,7 @@ import java.util.Map;
 /**
  * Find a pair of elements in an array whose sum is a given number
  */
-public class A01FindTwoElementsWithFixedSum {
+public class AB01FindTwoElementsWithFixedSum {
 
 	/**
 	 * @param args

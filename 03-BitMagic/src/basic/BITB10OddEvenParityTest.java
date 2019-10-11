@@ -1,6 +1,6 @@
 package basic;
 
-public class B10OddEvenParityTest {
+public class BITB10OddEvenParityTest {
 
 	public static void main(String[] args) {
 		System.out.println(getParity(7));

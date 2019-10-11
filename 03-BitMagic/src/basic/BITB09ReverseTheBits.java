@@ -1,6 +1,6 @@
 package basic;
 
-public class B09ReverseTheBits {
+public class BITB09ReverseTheBits {
 
 	public static void main(String[] args) {
 		System.out.println(Integer.toBinaryString(12345678));

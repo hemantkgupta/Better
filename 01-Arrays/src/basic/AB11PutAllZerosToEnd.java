@@ -2,7 +2,7 @@ package basic;
 
 import java.util.Arrays;
 
-public class A11PutAllZerosToEnd {
+public class AB11PutAllZerosToEnd {
 
 	public static void main(String[] args) {
 		int arr[] = { 1, 9, 8, 4, 0, 0, 2, 7, 0, 6, 0, 9 };

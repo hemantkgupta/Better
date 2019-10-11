@@ -1,6 +1,6 @@
 package basic;
 
-public class B007ClosetIntWithSameSetBits {
+public class BITB07ClosetIntWithSameSetBits {
 
 	public static void main(String[] args) {
 		System.out.println(Integer.toBinaryString(15));

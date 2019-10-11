@@ -2,7 +2,7 @@ package basic;
 
 import java.util.Arrays;
 
-public class A08Segregate0And1 {
+public class AB08Segregate0And1 {
 
 	public static void main(String[] args) {
 		int arr[] = { 0, 1, 0, 1, 1, 1 };

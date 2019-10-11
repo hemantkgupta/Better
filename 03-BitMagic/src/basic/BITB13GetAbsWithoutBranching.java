@@ -1,6 +1,6 @@
 package basic;
 
-public class B13GetAbsWithoutBranching {
+public class BITB13GetAbsWithoutBranching {
 
 	public static void main(String[] args) {
 		System.out.println(Integer.toBinaryString(-7));

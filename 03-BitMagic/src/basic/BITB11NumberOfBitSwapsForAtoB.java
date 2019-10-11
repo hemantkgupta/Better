@@ -1,6 +1,6 @@
 package basic;
 
-public class B11NumberOfBitSwapsForAtoB {
+public class BITB11NumberOfBitSwapsForAtoB {
 
 	public static void main(String[] args) {
 		System.out.println(Integer.toBinaryString(55));

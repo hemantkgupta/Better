@@ -1,6 +1,6 @@
 package basic;
 
-public class A07MaxDiffTwoElementsLargerAppearAfter {
+public class AB07MaxDiffTwoElementsLargerAppearAfter {
 
 	public static void main(String[] args) {
 		int arr[] = { 100, 2, 6, 80, 1 };

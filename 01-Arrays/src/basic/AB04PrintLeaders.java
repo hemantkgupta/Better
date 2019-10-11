@@ -4,7 +4,7 @@ package basic;
  * An element is a leader if it is greater than all the elements to its right side in an array.
  * The rightmost element is always a leader.
  */
-public class A04PrintLeaders {
+public class AB04PrintLeaders {
 
 	public static void main(String[] args) {
 		int[] ar = { 1, 4, 5, 9, 5, 6, 3, 4, 8, 3, 4 };

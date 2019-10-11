@@ -1,6 +1,6 @@
-package backtracking.basic;
+package basic;
 
-public class B01BitUtility {
+public class BITB01BitUtility {
 
 	/**
 	 * @param args

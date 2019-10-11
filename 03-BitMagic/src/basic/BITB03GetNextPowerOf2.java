@@ -1,6 +1,6 @@
 package basic;
 
-public class B03GetNextPowerOf2 {
+public class BITB03GetNextPowerOf2 {
 
 	/**
 	 * @param args

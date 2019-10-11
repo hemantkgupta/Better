@@ -1,6 +1,6 @@
 package basic;
 
-public class B06ParityCount {
+public class BITB06ParityCount {
 
 	public static void main(String[] args) {
 		System.out.println(Integer.toBinaryString(50));

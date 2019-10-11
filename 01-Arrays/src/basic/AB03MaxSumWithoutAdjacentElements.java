@@ -3,7 +3,7 @@ package basic;
 /**
  * Created by hemant on 17/10/15.
  */
-public class A03MaxSumWithoutAdjacentElements {
+public class AB03MaxSumWithoutAdjacentElements {
 
     public static void main(String[] args) {
 

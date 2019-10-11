@@ -1,6 +1,6 @@
 package basic;
 
-public class B05MultipleOf3Test {
+public class BITB05MultipleOf3Test {
 
 	public static void main(String[] args) {
 		System.out.println(isMultipleOf3(72));

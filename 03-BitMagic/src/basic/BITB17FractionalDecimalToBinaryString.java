@@ -3,7 +3,7 @@ package basic;
 /**
  * Created by hemant on 16/10/15.
  */
-public class B17FractionalDecimalToBinaryString {
+public class BITB17FractionalDecimalToBinaryString {
     public static void main(String[] args) {
         double num = .125;
         System.out.println(printBinary(num));
