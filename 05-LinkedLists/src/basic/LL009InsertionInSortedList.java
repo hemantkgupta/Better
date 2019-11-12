@@ -1,4 +1,4 @@
-package backtracking.basic;
+package basic;
 
 /**
  * Created by hemant on 16/10/15.

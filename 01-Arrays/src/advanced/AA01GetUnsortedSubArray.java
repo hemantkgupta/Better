@@ -26,7 +26,7 @@ public class AA01GetUnsortedSubArray {
 	 */
 
 	public static void printUnsorted(int arr[], int n) {
-		int start, end , i, max, min;
+		int start, end ;
 
         //  Get the first inversion index
 		for (start = 0; start < n - 1; start++) {
@@ -44,6 +44,7 @@ public class AA01GetUnsortedSubArray {
 				break;
 		}
 
+		int  i, max, min;
 		max = arr[start];
 		min = arr[start];
 
@@ -69,7 +70,7 @@ public class AA01GetUnsortedSubArray {
 			}
 		}
 
-		System.out.printf(" indx %d and %d", start, end);
+		System.out.printf("Largest Unsorted array index %d and %d", start, end);
 		return;
 	}
 

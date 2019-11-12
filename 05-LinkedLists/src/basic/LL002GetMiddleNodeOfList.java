@@ -1,4 +1,4 @@
-package backtracking.basic;
+package basic;
 
 public class LL002GetMiddleNodeOfList {
 

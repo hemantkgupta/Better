@@ -1,4 +1,4 @@
-package backtracking.basic;
+package basic;
 
 class Node {
 	int data;

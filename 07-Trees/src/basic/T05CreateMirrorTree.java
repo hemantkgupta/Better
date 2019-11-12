@@ -4,7 +4,7 @@ package basic;
 /**
  * Created by hemant on 17/10/15.
  */
-public class T05MirrorTree {
+public class T05CreateMirrorTree {
     public static void main(String[] args) {
         
         BNode root = new BNode(4);

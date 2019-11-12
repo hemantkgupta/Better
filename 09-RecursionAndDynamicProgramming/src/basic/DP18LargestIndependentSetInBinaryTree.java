@@ -1,6 +1,6 @@
 package basic;
 
-public class D18LargestIndependentSetInBinaryTree {
+public class DP18LargestIndependentSetInBinaryTree {
 
 	public static void main(String[] args) {
 		BNode root = new BNode(10);

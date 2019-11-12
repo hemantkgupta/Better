@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 /**
  * Ugly numbers are numbers whose only prime factors are 2, 3 or 5.
- * The sequence 1, 2, 3, 4, 5, 6, 8, 9, 10, 12, 15, shows the first 11 ugly numbers.
+ * The sequence  1, 2, 3, 4, 5, 6, 8, 9, 10, 12, 15, shows the first 11 ugly numbers.
  * By convention, 1 is included.
  * The next ugly number will be minimum of there numbers obtained after increasing power of 2, 3 or 5 by one.
  */

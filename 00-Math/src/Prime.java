@@ -7,10 +7,17 @@ import java.util.List;
 public class Prime {
 
     public static void main(String[] args) {
-        //System.out.println(isPrime(25));
+        System.out.println(isPrime(25));
         findPrimeSieveOfEratosthenes(10);
         findPrimeFactors(36);
     }
+
+    /**
+     * If the number N is divisible by any number
+     * between 2 and the sqrt(N) then the N is not prime
+     * @param n the input number
+     * @return true if n is prime
+     */
     public static boolean isPrime(int n){
         if (n==1 || n==2){
             return false;
@@ -23,21 +30,31 @@ public class Prime {
         return true;
     }
 
+    /**
+     * Prints all prime numbers from one to n
+     * @param n the input number
+     */
+
     public static void findPrimeSieveOfEratosthenes(int n){
+
+        // Add all numbers from 2 to n in a list
         List<Integer> numbers = new ArrayList<>();
         for (int i = 2; i <= n; i++) {
             numbers.add(i);
         }
 
+        // For each number in the list, check if rest
+        // of the numbers are divisible or not, if yes
+        // remove it from the list
         for (int i = 0; i < numbers.size() ; i++) {
-            int dividor = numbers.get(i);
+            int divider = numbers.get(i);
+
             for (int j = i+1; j < numbers.size() ; j++) {
-                if(numbers.get(j)%dividor ==0 ){
+                if(numbers.get(j)%divider ==0 ){
                     numbers.remove(j);
                 }
             }
         }
-
         System.out.println(numbers);
     }
 

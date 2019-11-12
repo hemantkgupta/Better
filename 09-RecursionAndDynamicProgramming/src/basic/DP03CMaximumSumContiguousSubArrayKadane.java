@@ -30,7 +30,7 @@ public class DP03CMaximumSumContiguousSubArrayKadane {
 	public static int maxSumContiguousSubarrayAllNegative(int[] ar) {
 		int maxSoFar = ar[0];
 		int maxSumEndingHere = ar[0];
-		for (int i = 0; i < ar.length; i++) {
+		for (int i = 1; i < ar.length; i++) {
 			//Get the contiguous segment
 			maxSumEndingHere = Math.max(ar[i], ar[i] + maxSumEndingHere);
 			//Compare it with max

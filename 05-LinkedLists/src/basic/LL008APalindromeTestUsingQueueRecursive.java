@@ -1,4 +1,4 @@
-package backtracking.basic;
+package basic;
 
 import java.util.LinkedList;
 import java.util.Queue;

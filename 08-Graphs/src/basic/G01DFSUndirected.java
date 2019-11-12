@@ -19,10 +19,13 @@ public class G01DFSUndirected {
 
 	// Depth first search starting from v
 	public static void dfs(Graph G, int v) {
-		    // First mark the vertex visited
-			marked[v] = true;
-			System.out.println("Visited : "+ v);
-			for (int w : G.adj(v)) {
+
+	    // First visit the vertex
+		System.out.println("Visited : "+ v);
+		// Mark the vertex visited
+		marked[v] = true;
+
+		for (int w : G.adj(v)) {
 				// Check if vertex is not visited
 				if (!marked[w]) {
 					dfs(G, w);

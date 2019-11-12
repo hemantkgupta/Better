@@ -1,6 +1,10 @@
 package basic;
 
-public class S03ReverseStringUsingRecursion {
+/**
+ * The program reverse a given string using
+ * recursion
+ */
+public class STRB04ReverseStringUsingRecursion {
 
 	public static void main(String[] args) {
 		System.out.println(reverseString("hkg"));

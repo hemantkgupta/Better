@@ -1,14 +1,26 @@
 package basic;
 
+import java.util.Arrays;
+import java.util.Collections;
+
 /**
  * Created by hemant on 17/10/15.
+ *
+ * The program to count inversions in an array (based on merge sort)
+ * The no of inversion for an element is defined as the
+ * no of larger elements present before it
  */
 public class AB05InversionCount {
 
     public static void main(String[] args) {
-        int[] arr = {1, 20, 6, 4, 5};
+        //int[] arr = {1, 1, 1, 2, 2,};
+        int[] arr = {2, 1, 3, 1, 2};
+        //int[] arr = {1, 2, 5, 3, 7, 8, 6, 4,};
+        //int arr[] = {4, 3, 1, 2};
+        //int [] arr = {1, 3, 5, 2, 4, 6, 8};
         System.out.println(mergeSort(arr,0, arr.length-1));
     }
+
 
     /**
      * The driver method for merge sort
@@ -19,12 +31,12 @@ public class AB05InversionCount {
      */
 
     public static int mergeSort(int arr[], int left, int right) {
-        int mid, inversionCount = 0;
-        // If more than one element are in array
-        if (right > left) {
-            mid = (right + left) / 2;
+        int inversionCount = 0;
 
-            // Call merge sort for both part
+        // If strictly more than one element are in array
+        if (right > left) {
+            int mid = (right + left) / 2;
+            // Call recursively merge sort for both part
             inversionCount = mergeSort(arr, left, mid);
             inversionCount += mergeSort(arr, mid + 1, right);
 
@@ -61,11 +73,14 @@ public class AB05InversionCount {
                 inversionCount = inversionCount + (mid - i);
             }
         }
+        // If first half is not finished
         while (i <= mid - 1)
             temp[k++] = arr[i++];
+        // If second half is not finished
         while (j <= right)
             temp[k++] = arr[j++];
 
+        // copy in the original array
         for (i = left; i <= right; i++)
             arr[i] = temp[i];
 

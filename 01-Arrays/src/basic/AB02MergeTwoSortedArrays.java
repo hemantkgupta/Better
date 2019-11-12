@@ -3,6 +3,8 @@ package basic;
 import java.util.Arrays;
 
 /**
+ *Merge two sorted arrays
+ * https://www.geeksforgeeks.org/merge-two-sorted-arrays/
  * Created by hemant on 17/10/15.
  */
 public class AB02MergeTwoSortedArrays {
@@ -13,7 +15,8 @@ public class AB02MergeTwoSortedArrays {
     }
 
     /**
-     * Program to merge two given sorted arrays and return the result array
+     * It merge two given sorted arrays by using a temp array
+     * and return the result array
      * @param arr1
      * @param arr2
      * @return
@@ -24,6 +27,7 @@ public class AB02MergeTwoSortedArrays {
         int[] mergedArr = new int[m + n];
         int i = 0, j = 0, k = 0;
 
+        // Copy the minimum value
         while (i < m && j < n) {
             if (arr1[i] < arr2[j]) {
                 mergedArr[k] = arr1[i];
@@ -34,11 +38,13 @@ public class AB02MergeTwoSortedArrays {
             }
             k++;
         }
+        // If first array is not over
         while (i < m) {
             mergedArr[k] = arr1[i];
             i++;
             k++;
         }
+        // If seconcd array is not over
         while (j < n) {
             mergedArr[k] = arr2[j];
             j++;

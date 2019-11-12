@@ -13,7 +13,7 @@ public class BITB04PositionOfRightmostSetBit {
 
 	/**
 	 * @param n
-	 * @return the postion of RMS bit 0-31
+	 * @return the position of RMS bit 0-31
 	 */
 	public static int getRightMostSetBit(int n) {
 		if (n == 0)

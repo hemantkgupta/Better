@@ -3,7 +3,7 @@ package advanced;
 /**
  * Created by root on 09/12/15.
  */
-public class S01FirstNonRepeatingCharacterInStream {
+public class STRA01FirstNonRepeatingCharacterInStream {
 
 
 
@@ -11,7 +11,7 @@ public class S01FirstNonRepeatingCharacterInStream {
 
         public static void main(String[] args) {
             char[] arr="geeksforgeeksandgeeksquizfor".toCharArray();
-            S01FirstNonRepeatingCharacterInStream test = new S01FirstNonRepeatingCharacterInStream();
+            STRA01FirstNonRepeatingCharacterInStream test = new STRA01FirstNonRepeatingCharacterInStream();
             boolean[] visited = new boolean[Size];
             SingleNode root = null;
 

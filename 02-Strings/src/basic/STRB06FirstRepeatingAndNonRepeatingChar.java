@@ -1,6 +1,6 @@
 package basic;
 
-public class S05FirstRepeatingAndNonRepeatingChar {
+public class STRB06FirstRepeatingAndNonRepeatingChar {
 
 	public static void main(String[] args) {
 		System.out.println(firstRepeatingChar("abcaaccc"));

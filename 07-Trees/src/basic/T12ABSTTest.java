@@ -1,7 +1,7 @@
 package basic;
 
 
-public class T012ABSTTest {
+public class T12ABSTTest {
 
 	public static void main(String[] args) {
 		BNode root = new BNode(5);
@@ -23,7 +23,7 @@ public class T012ABSTTest {
 	 */
 	public static boolean isBSTUtil(BNode node, int min, int max) {
 
-		//base case
+		//true base case
 		if (node == null)
 			return true;
 
