@@ -1,9 +1,0 @@
-
-public class BuildFBTPrePost {
-
-	public static void main(String[] args) {
-		int[] pre = {1, 2, 4, 8, 9, 5, 3, 6, 7};
-		
-	}
-
-}

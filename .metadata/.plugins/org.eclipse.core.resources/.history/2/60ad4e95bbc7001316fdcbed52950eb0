@@ -1,9 +1,0 @@
-package partition.problem;
-
-public class PartitionProblemRecr {
-
-	public static void main(String[] args) {
-
-	}
-
-}

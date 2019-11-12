@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename type &apos;SimpleOperations&apos; to &apos;TreeSimpleOperations&apos;&#x0A;- Original project: &apos;06-Trees&apos;&#x0A;- Original element: &apos;SimpleOperations&apos;&#x0A;- Renamed element: &apos;TreeSimpleOperations&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;SimpleOperations&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{SimpleOperations.java[SimpleOperations" matchStrategy="1" name="TreeSimpleOperations" qualified="false" references="true" similarDeclarations="false" stamp="1395414544379" textual="false" version="1.0"/>
-</session>
